@@ -1,0 +1,173 @@
+{
+ "pacientes": 25,
+ "controles": 11,
+ "permutaciones": 5000,
+ "omega_1": {
+  "reordenamiento": {
+   "regiones_excluidas_por_sd_cero": 0,
+   "rho_distancia_z_media": 0.025769374954747536,
+   "rho_distancia_z_mediana": -0.01754034374572891,
+   "pacientes_rho_negativo": 13,
+   "p_permutacion_bilateral": 0.45090981803639274,
+   "nulo_media": 0.04145105300769652,
+   "nulo_p2.5_p97.5": [
+    0.0017754866077863505,
+    0.08114531875913313
+   ],
+   "z_5_mas_cercanas_mediana": -0.2151365243950229,
+   "z_resto_mediana": -0.08286109884469837,
+   "wilcoxon_cercanas_vs_resto_p": 0.12664812803268433,
+   "por_tipo": {
+    "glioma": {
+     "n": 11,
+     "rho_mediana": -0.022598007405428104,
+     "z_cercanas_menos_resto_mediana": -0.12041933330860057
+    },
+    "meningioma": {
+     "n": 14,
+     "rho_mediana": 0.03951826085476791,
+     "z_cercanas_menos_resto_mediana": -0.180500585563384
+    }
+   }
+  },
+  "fraccion_estructural": {
+   "regiones_excluidas_por_sd_cero": 0,
+   "rho_distancia_z_media": -0.004493644310417221,
+   "rho_distancia_z_mediana": 0.007901668129938543,
+   "pacientes_rho_negativo": 11,
+   "p_permutacion_bilateral": 0.5354929014197161,
+   "nulo_media": -0.016907338092147957,
+   "nulo_p2.5_p97.5": [
+    -0.05430064511203573,
+    0.0212633889376646
+   ],
+   "z_5_mas_cercanas_mediana": -0.004358995054214632,
+   "z_resto_mediana": 0.03597497297528497,
+   "wilcoxon_cercanas_vs_resto_p": 0.5782062411308289,
+   "por_tipo": {
+    "glioma": {
+     "n": 11,
+     "rho_mediana": 0.04905141810130931,
+     "z_cercanas_menos_resto_mediana": -0.17805371416923021
+    },
+    "meningioma": {
+     "n": 14,
+     "rho_mediana": -0.00788258197503531,
+     "z_cercanas_menos_resto_mediana": 0.10003578446258396
+    }
+   }
+  }
+ },
+ "omega_adim_0.1": {
+  "reordenamiento": {
+   "regiones_excluidas_por_sd_cero": 0,
+   "rho_distancia_z_media": 0.04720387830667634,
+   "rho_distancia_z_mediana": 0.045730427148146735,
+   "pacientes_rho_negativo": 8,
+   "p_permutacion_bilateral": 0.6472705458908218,
+   "nulo_media": 0.05655287918463946,
+   "nulo_p2.5_p97.5": [
+    0.016334084055426194,
+    0.0951979997709661
+   ],
+   "z_5_mas_cercanas_mediana": -0.33431071705319104,
+   "z_resto_mediana": -0.2411465246129167,
+   "wilcoxon_cercanas_vs_resto_p": 0.16449612379074097,
+   "por_tipo": {
+    "glioma": {
+     "n": 11,
+     "rho_mediana": 0.017597434820781004,
+     "z_cercanas_menos_resto_mediana": -0.0026911533082024652
+    },
+    "meningioma": {
+     "n": 14,
+     "rho_mediana": 0.07628736114822307,
+     "z_cercanas_menos_resto_mediana": -0.3990713612670206
+    }
+   }
+  },
+  "fraccion_estructural": {
+   "regiones_excluidas_por_sd_cero": 0,
+   "rho_distancia_z_media": -0.03187845936557622,
+   "rho_distancia_z_mediana": -0.007787151200519144,
+   "pacientes_rho_negativo": 14,
+   "p_permutacion_bilateral": 0.9556088782243551,
+   "nulo_media": -0.03352221521548269,
+   "nulo_p2.5_p97.5": [
+    -0.08746268656716417,
+    0.01963098828110083
+   ],
+   "z_5_mas_cercanas_mediana": 0.14895408054000941,
+   "z_resto_mediana": 0.025754042951966753,
+   "wilcoxon_cercanas_vs_resto_p": 0.6915188431739807,
+   "por_tipo": {
+    "glioma": {
+     "n": 11,
+     "rho_mediana": 0.021529182730847043,
+     "z_cercanas_menos_resto_mediana": -0.16167359811215265
+    },
+    "meningioma": {
+     "n": 14,
+     "rho_mediana": -0.03800053441233729,
+     "z_cercanas_menos_resto_mediana": 0.13231637324125145
+    }
+   }
+  }
+ },
+ "omega_adim_0.28": {
+  "reordenamiento": {
+   "regiones_excluidas_por_sd_cero": 0,
+   "rho_distancia_z_media": 0.03990008137579901,
+   "rho_distancia_z_mediana": 0.03740886361033706,
+   "pacientes_rho_negativo": 11,
+   "p_permutacion_bilateral": 0.46010797840431916,
+   "nulo_media": 0.05502816658690343,
+   "nulo_p2.5_p97.5": [
+    0.015556535194399264,
+    0.0955155006724446
+   ],
+   "z_5_mas_cercanas_mediana": -0.1971978116250222,
+   "z_resto_mediana": -0.08555616701799562,
+   "wilcoxon_cercanas_vs_resto_p": 0.11993378400802612,
+   "por_tipo": {
+    "glioma": {
+     "n": 11,
+     "rho_mediana": 0.008168874298583807,
+     "z_cercanas_menos_resto_mediana": -0.0986460931018189
+    },
+    "meningioma": {
+     "n": 14,
+     "rho_mediana": 0.06351872351796006,
+     "z_cercanas_menos_resto_mediana": -0.2909441185173681
+    }
+   }
+  },
+  "fraccion_estructural": {
+   "regiones_excluidas_por_sd_cero": 0,
+   "rho_distancia_z_media": -0.009042256746955756,
+   "rho_distancia_z_mediana": 0.007443600412260946,
+   "pacientes_rho_negativo": 11,
+   "p_permutacion_bilateral": 0.7114577084583084,
+   "nulo_media": -0.017100888804061534,
+   "nulo_p2.5_p97.5": [
+    -0.05694991792953391,
+    0.023494369584303544
+   ],
+   "z_5_mas_cercanas_mediana": -0.018432389228429536,
+   "z_resto_mediana": 0.04022434480032283,
+   "wilcoxon_cercanas_vs_resto_p": 0.6528410911560059,
+   "por_tipo": {
+    "glioma": {
+     "n": 11,
+     "rho_mediana": 0.04324922701072642,
+     "z_cercanas_menos_resto_mediana": -0.19525454451722152
+    },
+    "meningioma": {
+     "n": 14,
+     "rho_mediana": -0.002786578615872046,
+     "z_cercanas_menos_resto_mediana": 0.12410448820129488
+    }
+   }
+  }
+ }
+}

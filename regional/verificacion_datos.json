@@ -1,0 +1,582 @@
+{
+ "orden_y_pesos": {
+  "sujetos": 36,
+  "mismo_orden_que_parcellation": 36,
+  "rho_pesos_zip_vs_scthran_min": 0.9999999999999998,
+  "mismos_ceros": 36
+ },
+ "mascaras": {
+  "pacientes": 25,
+  "rho_volumen_mascara_vs_registro": 0.9861538461538462,
+  "razon_volumen_mediana": 0.9171137176444852,
+  "lobulo_evaluables": 24,
+  "lobulo_coincide_region_mas_cercana": 19,
+  "lobulo_coincide_alguna_de_3": 22,
+  "lobulo_coincide_con_centroides_de_otros_sujetos_media": 17.314285714285713,
+  "desviacion_centro_cerebral_entre_sujetos_mm": [
+   1.5,
+   5.7,
+   10.4
+  ],
+  "por_paciente": [
+   {
+    "sujeto": "sub-PAT01",
+    "tipo": "Meningioma I",
+    "lugar_registro": "Frontal",
+    "volumen_registro_cm3": 1.69,
+    "volumen_mascara_cm3": 1.37,
+    "voxeles_sobre_umbral": 1385,
+    "centroide_mm": [
+     -40.5,
+     20.4,
+     40.7
+    ],
+    "regiones_mas_cercanas": [
+     "ctx-lh-parstriangularis",
+     "ctx-lh-rostralmiddlefrontal",
+     "ctx-lh-parsorbitalis"
+    ],
+    "distancia_region_mas_cercana_mm": 8.2,
+    "coincide_region_mas_cercana": true,
+    "coincide_alguna_de_3": true,
+    "sform_code": 2
+   },
+   {
+    "sujeto": "sub-PAT02",
+    "tipo": "Meningioma I",
+    "lugar_registro": "Frontal",
+    "volumen_registro_cm3": 0.75,
+    "volumen_mascara_cm3": 0.64,
+    "voxeles_sobre_umbral": 640,
+    "centroide_mm": [
+     22.5,
+     49.9,
+     50.8
+    ],
+    "regiones_mas_cercanas": [
+     "ctx-rh-rostralmiddlefrontal",
+     "ctx-rh-frontalpole",
+     "ctx-rh-parsorbitalis"
+    ],
+    "distancia_region_mas_cercana_mm": 21.0,
+    "coincide_region_mas_cercana": true,
+    "coincide_alguna_de_3": true,
+    "sform_code": 2
+   },
+   {
+    "sujeto": "sub-PAT03",
+    "tipo": "Meningioma I",
+    "lugar_registro": "Parietal",
+    "volumen_registro_cm3": 78.44,
+    "volumen_mascara_cm3": 85.65,
+    "voxeles_sobre_umbral": 85196,
+    "centroide_mm": [
+     18.1,
+     -14.9,
+     62.8
+    ],
+    "regiones_mas_cercanas": [
+     "ctx-rh-posteriorcingulate",
+     "ctx-rh-paracentral",
+     "ctx-rh-postcentral"
+    ],
+    "distancia_region_mas_cercana_mm": 20.0,
+    "coincide_region_mas_cercana": false,
+    "coincide_alguna_de_3": true,
+    "sform_code": 2
+   },
+   {
+    "sujeto": "sub-PAT05",
+    "tipo": "Oligo-astrocytoma II",
+    "lugar_registro": "Frontal",
+    "volumen_registro_cm3": 12.95,
+    "volumen_mascara_cm3": 11.48,
+    "voxeles_sobre_umbral": 11437,
+    "centroide_mm": [
+     -29.2,
+     25.7,
+     8.8
+    ],
+    "regiones_mas_cercanas": [
+     "ctx-lh-temporalpole",
+     "ctx-lh-lateralorbitofrontal",
+     "ctx-lh-parsorbitalis"
+    ],
+    "distancia_region_mas_cercana_mm": 11.6,
+    "coincide_region_mas_cercana": false,
+    "coincide_alguna_de_3": true,
+    "sform_code": 2
+   },
+   {
+    "sujeto": "sub-PAT06",
+    "tipo": "Meningioma I",
+    "lugar_registro": "Frontal",
+    "volumen_registro_cm3": 12.81,
+    "volumen_mascara_cm3": 14.25,
+    "voxeles_sobre_umbral": 14249,
+    "centroide_mm": [
+     -0.1,
+     20.2,
+     67.6
+    ],
+    "regiones_mas_cercanas": [
+     "ctx-lh-superiorfrontal",
+     "ctx-rh-caudalanteriorcingulate",
+     "ctx-rh-superiorfrontal"
+    ],
+    "distancia_region_mas_cercana_mm": 8.3,
+    "coincide_region_mas_cercana": true,
+    "coincide_alguna_de_3": true,
+    "sform_code": 2
+   },
+   {
+    "sujeto": "sub-PAT07",
+    "tipo": "Ependymoma II",
+    "lugar_registro": "Temporal",
+    "volumen_registro_cm3": 33.94,
+    "volumen_mascara_cm3": 29.99,
+    "voxeles_sobre_umbral": 29683,
+    "centroide_mm": [
+     -47.4,
+     2.9,
+     -10.2
+    ],
+    "regiones_mas_cercanas": [
+     "ctx-lh-temporalpole",
+     "ctx-lh-entorhinal",
+     "ctx-lh-insula"
+    ],
+    "distancia_region_mas_cercana_mm": 18.2,
+    "coincide_region_mas_cercana": true,
+    "coincide_alguna_de_3": true,
+    "sform_code": 2
+   },
+   {
+    "sujeto": "sub-PAT08",
+    "tipo": "Meningioma I",
+    "lugar_registro": "Frontal",
+    "volumen_registro_cm3": 16.81,
+    "volumen_mascara_cm3": 17.71,
+    "voxeles_sobre_umbral": 17699,
+    "centroide_mm": [
+     -0.3,
+     47.1,
+     65.8
+    ],
+    "regiones_mas_cercanas": [
+     "ctx-lh-rostralmiddlefrontal",
+     "ctx-lh-rostralanteriorcingulate",
+     "ctx-rh-rostralanteriorcingulate"
+    ],
+    "distancia_region_mas_cercana_mm": 34.3,
+    "coincide_region_mas_cercana": true,
+    "coincide_alguna_de_3": true,
+    "sform_code": 2
+   },
+   {
+    "sujeto": "sub-PAT10",
+    "tipo": "Meningioma I",
+    "lugar_registro": "Frontal",
+    "volumen_registro_cm3": 0.59,
+    "volumen_mascara_cm3": 0.29,
+    "voxeles_sobre_umbral": 290,
+    "centroide_mm": [
+     -10.6,
+     -5.3,
+     48.1
+    ],
+    "regiones_mas_cercanas": [
+     "ctx-lh-caudalanteriorcingulate",
+     "ctx-lh-superiorfrontal",
+     "ctx-rh-caudalanteriorcingulate"
+    ],
+    "distancia_region_mas_cercana_mm": 13.6,
+    "coincide_region_mas_cercana": false,
+    "coincide_alguna_de_3": true,
+    "sform_code": 2
+   },
+   {
+    "sujeto": "sub-PAT11",
+    "tipo": "Meningioma II",
+    "lugar_registro": "Frontal",
+    "volumen_registro_cm3": 20.73,
+    "volumen_mascara_cm3": 22.14,
+    "voxeles_sobre_umbral": 22142,
+    "centroide_mm": [
+     -1.5,
+     40.1,
+     58.5
+    ],
+    "regiones_mas_cercanas": [
+     "ctx-lh-rostralmiddlefrontal",
+     "ctx-lh-frontalpole",
+     "ctx-lh-superiorfrontal"
+    ],
+    "distancia_region_mas_cercana_mm": 29.2,
+    "coincide_region_mas_cercana": true,
+    "coincide_alguna_de_3": true,
+    "sform_code": 2
+   },
+   {
+    "sujeto": "sub-PAT13",
+    "tipo": "Meningioma I",
+    "lugar_registro": "Skullbase",
+    "volumen_registro_cm3": 2.09,
+    "volumen_mascara_cm3": 1.69,
+    "voxeles_sobre_umbral": 1685,
+    "centroide_mm": [
+     4.1,
+     55.4,
+     30.1
+    ],
+    "regiones_mas_cercanas": [
+     "ctx-rh-medialorbitofrontal",
+     "ctx-lh-medialorbitofrontal",
+     "ctx-lh-frontalpole"
+    ],
+    "distancia_region_mas_cercana_mm": 19.2,
+    "coincide_region_mas_cercana": null,
+    "coincide_alguna_de_3": null,
+    "sform_code": 2
+   },
+   {
+    "sujeto": "sub-PAT14",
+    "tipo": "Meningioma I",
+    "lugar_registro": "Parietal",
+    "volumen_registro_cm3": 3.45,
+    "volumen_mascara_cm3": 3.44,
+    "voxeles_sobre_umbral": 3471,
+    "centroide_mm": [
+     -46.2,
+     26.3,
+     15.5
+    ],
+    "regiones_mas_cercanas": [
+     "ctx-lh-parsorbitalis",
+     "ctx-lh-parstriangularis",
+     "ctx-lh-parsopercularis"
+    ],
+    "distancia_region_mas_cercana_mm": 17.1,
+    "coincide_region_mas_cercana": false,
+    "coincide_alguna_de_3": false,
+    "sform_code": 2
+   },
+   {
+    "sujeto": "sub-PAT15",
+    "tipo": "Meningioma I",
+    "lugar_registro": "Frontal",
+    "volumen_registro_cm3": 2.13,
+    "volumen_mascara_cm3": 2.08,
+    "voxeles_sobre_umbral": 2106,
+    "centroide_mm": [
+     46.2,
+     18.9,
+     43.0
+    ],
+    "regiones_mas_cercanas": [
+     "ctx-rh-parsopercularis",
+     "ctx-rh-parstriangularis",
+     "ctx-rh-insula"
+    ],
+    "distancia_region_mas_cercana_mm": 12.4,
+    "coincide_region_mas_cercana": true,
+    "coincide_alguna_de_3": true,
+    "sform_code": 2
+   },
+   {
+    "sujeto": "sub-PAT16",
+    "tipo": "Anaplastic astrocytoma II-III",
+    "lugar_registro": "Fronto-temporal",
+    "volumen_registro_cm3": 50.24,
+    "volumen_mascara_cm3": 45.37,
+    "voxeles_sobre_umbral": 45400,
+    "centroide_mm": [
+     30.8,
+     36.2,
+     -13.2
+    ],
+    "regiones_mas_cercanas": [
+     "ctx-rh-temporalpole",
+     "ctx-rh-lateralorbitofrontal",
+     "ctx-rh-parsorbitalis"
+    ],
+    "distancia_region_mas_cercana_mm": 15.7,
+    "coincide_region_mas_cercana": true,
+    "coincide_alguna_de_3": true,
+    "sform_code": 2
+   },
+   {
+    "sujeto": "sub-PAT17",
+    "tipo": "Meningioma I",
+    "lugar_registro": "Frontal",
+    "volumen_registro_cm3": 0.58,
+    "volumen_mascara_cm3": 0.22,
+    "voxeles_sobre_umbral": 204,
+    "centroide_mm": [
+     31.1,
+     42.2,
+     17.2
+    ],
+    "regiones_mas_cercanas": [
+     "ctx-rh-lateralorbitofrontal",
+     "ctx-rh-parsorbitalis",
+     "ctx-rh-temporalpole"
+    ],
+    "distancia_region_mas_cercana_mm": 16.7,
+    "coincide_region_mas_cercana": true,
+    "coincide_alguna_de_3": true,
+    "sform_code": 2
+   },
+   {
+    "sujeto": "sub-PAT19",
+    "tipo": "Meningioma I",
+    "lugar_registro": "Frontal skullbase",
+    "volumen_registro_cm3": 2.64,
+    "volumen_mascara_cm3": 2.81,
+    "voxeles_sobre_umbral": 2797,
+    "centroide_mm": [
+     12.1,
+     82.2,
+     29.7
+    ],
+    "regiones_mas_cercanas": [
+     "ctx-rh-frontalpole",
+     "ctx-lh-frontalpole",
+     "ctx-rh-medialorbitofrontal"
+    ],
+    "distancia_region_mas_cercana_mm": 16.7,
+    "coincide_region_mas_cercana": true,
+    "coincide_alguna_de_3": true,
+    "sform_code": 2
+   },
+   {
+    "sujeto": "sub-PAT20",
+    "tipo": "Anaplastic astrocytoma III",
+    "lugar_registro": "Parietal",
+    "volumen_registro_cm3": 15.24,
+    "volumen_mascara_cm3": 12.55,
+    "voxeles_sobre_umbral": 12451,
+    "centroide_mm": [
+     48.6,
+     -27.4,
+     28.3
+    ],
+    "regiones_mas_cercanas": [
+     "ctx-rh-supramarginal",
+     "ctx-rh-bankssts",
+     "ctx-rh-transversetemporal"
+    ],
+    "distancia_region_mas_cercana_mm": 10.2,
+    "coincide_region_mas_cercana": true,
+    "coincide_alguna_de_3": true,
+    "sform_code": 2
+   },
+   {
+    "sujeto": "sub-PAT22",
+    "tipo": "Oligodendroglioma II",
+    "lugar_registro": "Parietal",
+    "volumen_registro_cm3": 15.16,
+    "volumen_mascara_cm3": 13.9,
+    "voxeles_sobre_umbral": 13915,
+    "centroide_mm": [
+     15.6,
+     -7.6,
+     82.6
+    ],
+    "regiones_mas_cercanas": [
+     "ctx-rh-superiorfrontal",
+     "ctx-rh-caudalanteriorcingulate",
+     "ctx-rh-caudalmiddlefrontal"
+    ],
+    "distancia_region_mas_cercana_mm": 16.6,
+    "coincide_region_mas_cercana": false,
+    "coincide_alguna_de_3": false,
+    "sform_code": 2
+   },
+   {
+    "sujeto": "sub-PAT23",
+    "tipo": "Meningioma I",
+    "lugar_registro": "Frontal",
+    "volumen_registro_cm3": 89.56,
+    "volumen_mascara_cm3": 105.22,
+    "voxeles_sobre_umbral": 103505,
+    "centroide_mm": [
+     -1.9,
+     54.0,
+     14.6
+    ],
+    "regiones_mas_cercanas": [
+     "ctx-lh-frontalpole",
+     "ctx-rh-frontalpole",
+     "ctx-lh-rostralanteriorcingulate"
+    ],
+    "distancia_region_mas_cercana_mm": 32.2,
+    "coincide_region_mas_cercana": true,
+    "coincide_alguna_de_3": true,
+    "sform_code": 2
+   },
+   {
+    "sujeto": "sub-PAT24",
+    "tipo": "Meningioma I",
+    "lugar_registro": "Frontal",
+    "volumen_registro_cm3": 5.91,
+    "volumen_mascara_cm3": 2.61,
+    "voxeles_sobre_umbral": 2595,
+    "centroide_mm": [
+     -13.2,
+     32.4,
+     75.4
+    ],
+    "regiones_mas_cercanas": [
+     "ctx-lh-superiorfrontal",
+     "ctx-lh-caudalmiddlefrontal",
+     "ctx-lh-rostralmiddlefrontal"
+    ],
+    "distancia_region_mas_cercana_mm": 25.6,
+    "coincide_region_mas_cercana": true,
+    "coincide_alguna_de_3": true,
+    "sform_code": 2
+   },
+   {
+    "sujeto": "sub-PAT25",
+    "tipo": "Glioma II",
+    "lugar_registro": "Temporal",
+    "volumen_registro_cm3": 18.56,
+    "volumen_mascara_cm3": 16.52,
+    "voxeles_sobre_umbral": 16526,
+    "centroide_mm": [
+     27.9,
+     32.2,
+     -17.6
+    ],
+    "regiones_mas_cercanas": [
+     "ctx-rh-temporalpole",
+     "ctx-rh-entorhinal",
+     "ctx-rh-lateralorbitofrontal"
+    ],
+    "distancia_region_mas_cercana_mm": 8.0,
+    "coincide_region_mas_cercana": true,
+    "coincide_alguna_de_3": true,
+    "sform_code": 2
+   },
+   {
+    "sujeto": "sub-PAT26",
+    "tipo": "Anaplastic astrocytoma III",
+    "lugar_registro": "Temporal",
+    "volumen_registro_cm3": 59.21,
+    "volumen_mascara_cm3": 55.95,
+    "voxeles_sobre_umbral": 55312,
+    "centroide_mm": [
+     46.8,
+     4.2,
+     -7.3
+    ],
+    "regiones_mas_cercanas": [
+     "ctx-rh-superiortemporal",
+     "ctx-rh-insula",
+     "ctx-rh-parsopercularis"
+    ],
+    "distancia_region_mas_cercana_mm": 11.0,
+    "coincide_region_mas_cercana": true,
+    "coincide_alguna_de_3": true,
+    "sform_code": 2
+   },
+   {
+    "sujeto": "sub-PAT27",
+    "tipo": "Astrocytoma II",
+    "lugar_registro": "Frontal",
+    "volumen_registro_cm3": 13.24,
+    "volumen_mascara_cm3": 12.53,
+    "voxeles_sobre_umbral": 11983,
+    "centroide_mm": [
+     -36.3,
+     71.7,
+     17.5
+    ],
+    "regiones_mas_cercanas": [
+     "ctx-lh-parsorbitalis",
+     "ctx-lh-frontalpole",
+     "ctx-lh-lateralorbitofrontal"
+    ],
+    "distancia_region_mas_cercana_mm": 31.0,
+    "coincide_region_mas_cercana": true,
+    "coincide_alguna_de_3": true,
+    "sform_code": 2
+   },
+   {
+    "sujeto": "sub-PAT28",
+    "tipo": "Oligodendroglioma II",
+    "lugar_registro": "Frontal",
+    "volumen_registro_cm3": 11.49,
+    "volumen_mascara_cm3": 10.25,
+    "voxeles_sobre_umbral": 10269,
+    "centroide_mm": [
+     -6.7,
+     8.7,
+     51.5
+    ],
+    "regiones_mas_cercanas": [
+     "ctx-lh-superiorfrontal",
+     "ctx-lh-caudalanteriorcingulate",
+     "ctx-rh-caudalanteriorcingulate"
+    ],
+    "distancia_region_mas_cercana_mm": 7.5,
+    "coincide_region_mas_cercana": true,
+    "coincide_alguna_de_3": true,
+    "sform_code": 2
+   },
+   {
+    "sujeto": "sub-PAT29",
+    "tipo": "Oligo-astrocytoma III",
+    "lugar_registro": "Frontal",
+    "volumen_registro_cm3": 36.2,
+    "volumen_mascara_cm3": 33.86,
+    "voxeles_sobre_umbral": 33775,
+    "centroide_mm": [
+     -8.0,
+     61.6,
+     30.5
+    ],
+    "regiones_mas_cercanas": [
+     "ctx-lh-frontalpole",
+     "ctx-lh-rostralanteriorcingulate",
+     "ctx-rh-frontalpole"
+    ],
+    "distancia_region_mas_cercana_mm": 14.2,
+    "coincide_region_mas_cercana": true,
+    "coincide_alguna_de_3": true,
+    "sform_code": 2
+   },
+   {
+    "sujeto": "sub-PAT31",
+    "tipo": "Oligodendroglioma II",
+    "lugar_registro": "Frontal",
+    "volumen_registro_cm3": 4.24,
+    "volumen_mascara_cm3": 3.89,
+    "voxeles_sobre_umbral": 3891,
+    "centroide_mm": [
+     0.4,
+     25.2,
+     73.6
+    ],
+    "regiones_mas_cercanas": [
+     "ctx-lh-superiorfrontal",
+     "ctx-rh-superiorfrontal",
+     "ctx-rh-caudalanteriorcingulate"
+    ],
+    "distancia_region_mas_cercana_mm": 12.7,
+    "coincide_region_mas_cercana": true,
+    "coincide_alguna_de_3": true,
+    "sform_code": 2
+   }
+  ]
+ },
+ "sub_PAT26": {
+  "region_sin_conexiones": [
+   "ctx-rh-transversetemporal"
+  ],
+  "distancia_al_borde_tumoral_mm": 3.817698053511176,
+  "centroide_dentro_del_tumor": false,
+  "puesto_por_cercania_al_tumor": 5
+ }
+}

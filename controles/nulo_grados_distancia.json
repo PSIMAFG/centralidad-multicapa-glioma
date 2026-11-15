@@ -1,0 +1,2992 @@
+{
+ "sujetos": 36,
+ "parametros": {
+  "adaptacion": 60000,
+  "refinamiento": 40000,
+  "calentamiento": 20000,
+  "calentamiento_desde_azar": 100000,
+  "muestreo": 800000,
+  "muestreo_desde_azar": 400000,
+  "cada": 10,
+  "pares_cruce": 100,
+  "semilla": 20261123
+ },
+ "aristas_compartidas": {
+  "reales_media": 11.25,
+  "nulo_grados_distancia_media": 9.651823669787326,
+  "razon_real_sobre_nulo_mediana": 1.1292075484198438,
+  "sujetos_real_mayor": 25,
+  "wilcoxon_p": 0.00127711845561862,
+  "nulo_homotopicas_fijas_media": 9.844314198706599,
+  "razon_real_sobre_nulo_homotopicas_fijas_mediana": 1.1312901217637732,
+  "sujetos_real_mayor_homotopicas_fijas": 25,
+  "wilcoxon_homotopicas_fijas_p": 0.005692560313036665,
+  "dmri_nulo_fmri_real_media": 11.629423263888889,
+  "dmri_real_fmri_nulo_media": 9.440645486111114
+ },
+ "cruce": {
+  "real_mediana": 0.2850431851387861,
+  "nulo_grados_distancia_mediana": 0.455357560421795,
+  "sujetos_real_antes": 32,
+  "wilcoxon_p": 6.024492904543877e-09,
+  "nulo_homotopicas_fijas_mediana": 0.36574746643416467,
+  "sujetos_real_antes_homotopicas_fijas": 30,
+  "wilcoxon_homotopicas_fijas_p": 8.995091775432229e-06,
+  "P_real_mediana": 1.2230761528633145,
+  "P_nulo_mediana": 1.6801496071472357,
+  "modelo_en_estos_nulos": {
+   "pendiente": 1.155018237172228,
+   "intercepto": -1.380118884396343,
+   "rho_log_P_log_cruce": 0.7903066402041915,
+   "residuo_real_mediana": -0.07712717354897186,
+   "residuo_real_wilcoxon_p": 0.24508141286787577
+  }
+ },
+ "comprobaciones": {
+  "arboles_validos_en_todos_los_sujetos": true,
+  "diferencia_cadenas_esperadas_mediana_abs": 0.07424682960937545,
+  "diferencia_cadenas_esperadas_max_abs": 0.2353065976562494,
+  "longitud_obtenida_menos_objetivo_mm_max_abs": {
+   "dmri": 1.9289813104295064,
+   "fmri": 1.6132708663328614,
+   "fmri_homotopicas": 1.0705054769873925
+  },
+  "longitud_objetivo_media_mm": {
+   "dmri": 28.942995297473438,
+   "fmri": 46.25486829757236,
+   "fmri_homotopicas": 46.09890745724287
+  },
+  "tasa_aceptacion_mediana": {
+   "dmri": 0.0149675,
+   "fmri": 0.138528125,
+   "fmri_homotopicas": 0.127978125
+  },
+  "segundos_por_sujeto_mediana": 13.907481074333191
+ },
+ "distribucion_longitudes": {
+  "dmri": {
+   "ks": 0.06618152985074599,
+   "q10_real": 14.826145185079918,
+   "q10_nulo": 14.411826508011236,
+   "q25_real": 18.455644476822876,
+   "q25_nulo": 18.455235927649536,
+   "q50_real": 26.223985228432074,
+   "q50_nulo": 27.056975096683132,
+   "q75_real": 37.73378920618461,
+   "q75_nulo": 37.463895359680485,
+   "q90_real": 46.27196732591747,
+   "q90_nulo": 45.754381179464644,
+   "mismo_lobulo_real": 45.5,
+   "mismo_lobulo_nulo": 37.26024375,
+   "distinto_lobulo_real": 20.5,
+   "distinto_lobulo_nulo": 19.57668125,
+   "homotopica_real": 1.0,
+   "homotopica_nulo": 3.11285625,
+   "otra_interhemisferica_real": 0.0,
+   "otra_interhemisferica_nulo": 6.9625125
+  },
+  "fmri": {
+   "ks": 0.14595251865671652,
+   "q10_real": 13.305984385894476,
+   "q10_nulo": 18.73221155027331,
+   "q25_real": 20.75438628806024,
+   "q25_nulo": 29.17429866933796,
+   "q50_real": 40.272100506799944,
+   "q50_nulo": 42.56261434265488,
+   "q75_real": 70.00046345446012,
+   "q75_nulo": 60.66759422884638,
+   "q90_real": 90.03103727596718,
+   "q90_nulo": 79.45752118864331,
+   "mismo_lobulo_real": 17.0,
+   "mismo_lobulo_nulo": 18.852575,
+   "distinto_lobulo_real": 15.0,
+   "distinto_lobulo_nulo": 26.968543750000002,
+   "homotopica_real": 21.5,
+   "homotopica_nulo": 2.27581875,
+   "otra_interhemisferica_real": 13.0,
+   "otra_interhemisferica_nulo": 18.70019375
+  }
+ },
+ "por_sujeto": [
+  {
+   "sujeto": "sub-CON01",
+   "reales": 11,
+   "esperadas": 8.79975352015625,
+   "esperadas_cadena_desde_azar": 8.8148835575,
+   "esperadas_homotopicas_fijas": 9.53743859125,
+   "esperadas_dmri_nulo_fmri_real": 10.9535,
+   "esperadas_dmri_real_fmri_nulo": 8.7402,
+   "cruce_real": 0.20064307394478417,
+   "P_real": 0.911160698496332,
+   "cruce_nulo_mediana": 0.36236006530784354,
+   "cruce_nulo_homotopicas_mediana": 0.27952726401821765,
+   "P_nulo_mediana": 1.4995747207739532,
+   "beta": {
+    "dmri": 0.1392718242358656,
+    "fmri": 0.04476273344077081,
+    "fmri_homotopicas": 0.04635212612707399
+   },
+   "longitud_objetivo": {
+    "dmri": 28.500248537619843,
+    "fmri": 48.24488511523692,
+    "fmri_homotopicas": 48.579324212585256
+   },
+   "longitud_obtenida": {
+    "dmri": 28.408667767005564,
+    "fmri": 47.395458939016464,
+    "fmri_homotopicas": 48.68424112253196
+   },
+   "tasa_aceptacion": {
+    "dmri": 0.01243875,
+    "fmri": 0.13770125,
+    "fmri_homotopicas": 0.13571375
+   },
+   "arboles_validos": true,
+   "longitudes": {
+    "dmri": {
+     "ks": 0.07146548507462691,
+     "q10_real": 15.614701691101198,
+     "q10_nulo": 13.293857413733045,
+     "q25_real": 18.740358660643047,
+     "q25_nulo": 18.92540225328872,
+     "q50_real": 23.62763098365979,
+     "q50_nulo": 25.137008405873512,
+     "q75_real": 38.604429272445046,
+     "q75_nulo": 36.27102930982041,
+     "q90_real": 46.80587950310894,
+     "q90_nulo": 44.00203032934799,
+     "mismo_lobulo_real": 48,
+     "mismo_lobulo_nulo": 38.3789625,
+     "distinto_lobulo_real": 18,
+     "distinto_lobulo_nulo": 18.5526125,
+     "homotopica_real": 1,
+     "homotopica_nulo": 3.0880875000000003,
+     "otra_interhemisferica_real": 0,
+     "otra_interhemisferica_nulo": 6.9803375
+    },
+    "fmri": {
+     "ks": 0.1220824626865672,
+     "q10_real": 14.417314497134921,
+     "q10_nulo": 18.7302326546136,
+     "q25_real": 21.71247184286679,
+     "q25_nulo": 29.23513004068029,
+     "q50_real": 38.18561404979629,
+     "q50_nulo": 43.89517725669065,
+     "q75_real": 72.6624546280703,
+     "q75_nulo": 61.82918301797527,
+     "q90_real": 97.36912967954561,
+     "q90_nulo": 81.17597340157158,
+     "mismo_lobulo_real": 15,
+     "mismo_lobulo_nulo": 17.154825,
+     "distinto_lobulo_real": 15,
+     "distinto_lobulo_nulo": 28.05715,
+     "homotopica_real": 16,
+     "homotopica_nulo": 2.4066375,
+     "otra_interhemisferica_real": 21,
+     "otra_interhemisferica_nulo": 19.381387500000002
+    }
+   },
+   "segundos": 13.308663129806519
+  },
+  {
+   "sujeto": "sub-CON02",
+   "reales": 8,
+   "esperadas": 9.472597861718748,
+   "esperadas_cadena_desde_azar": 9.573756913125,
+   "esperadas_homotopicas_fijas": 10.92051811640625,
+   "esperadas_dmri_nulo_fmri_real": 12.34225,
+   "esperadas_dmri_real_fmri_nulo": 9.70335,
+   "cruce_real": 0.23098337842601127,
+   "P_real": 0.9235971759629336,
+   "cruce_nulo_mediana": 0.26502450294976565,
+   "cruce_nulo_homotopicas_mediana": 0.23127728980362233,
+   "P_nulo_mediana": 1.2492332394259735,
+   "beta": {
+    "dmri": 0.10887043872884537,
+    "fmri": 0.04941771831372023,
+    "fmri_homotopicas": 0.05155188434803543
+   },
+   "longitud_objetivo": {
+    "dmri": 29.29677646081625,
+    "fmri": 45.252019879569104,
+    "fmri_homotopicas": 44.53347341889897
+   },
+   "longitud_obtenida": {
+    "dmri": 30.134966212455208,
+    "fmri": 44.867783258221,
+    "fmri_homotopicas": 44.44477235953375
+   },
+   "tasa_aceptacion": {
+    "dmri": 0.0207125,
+    "fmri": 0.11887625,
+    "fmri_homotopicas": 0.110775
+   },
+   "arboles_validos": true,
+   "longitudes": {
+    "dmri": {
+     "ks": 0.08952779850746267,
+     "q10_real": 14.771268350918088,
+     "q10_nulo": 14.573961407320592,
+     "q25_real": 19.234526056816016,
+     "q25_nulo": 19.43913182035862,
+     "q50_real": 25.495628822996302,
+     "q50_nulo": 27.065791557067183,
+     "q75_real": 39.01858839333471,
+     "q75_nulo": 38.763948551774696,
+     "q90_real": 45.951352813742254,
+     "q90_nulo": 48.86038140613693,
+     "mismo_lobulo_real": 43,
+     "mismo_lobulo_nulo": 34.712825,
+     "distinto_lobulo_real": 23,
+     "distinto_lobulo_nulo": 21.006,
+     "homotopica_real": 1,
+     "homotopica_nulo": 3.65205,
+     "otra_interhemisferica_real": 0,
+     "otra_interhemisferica_nulo": 7.629124999999999
+    },
+    "fmri": {
+     "ks": 0.13164888059701452,
+     "q10_real": 12.783443885882095,
+     "q10_nulo": 16.249784090572195,
+     "q25_real": 20.77799069766867,
+     "q25_nulo": 27.152294325691635,
+     "q50_real": 38.594607066402425,
+     "q50_nulo": 41.19827096936076,
+     "q75_real": 69.96260068118652,
+     "q75_nulo": 59.022841390804075,
+     "q90_real": 90.14294826409606,
+     "q90_nulo": 78.60181052442594,
+     "mismo_lobulo_real": 18,
+     "mismo_lobulo_nulo": 19.8203125,
+     "distinto_lobulo_real": 16,
+     "distinto_lobulo_nulo": 27.298637499999998,
+     "homotopica_real": 19,
+     "homotopica_nulo": 2.375325,
+     "otra_interhemisferica_real": 14,
+     "otra_interhemisferica_nulo": 17.505724999999998
+    }
+   },
+   "segundos": 12.544018268585205
+  },
+  {
+   "sujeto": "sub-CON03",
+   "reales": 7,
+   "esperadas": 9.21592360734375,
+   "esperadas_cadena_desde_azar": 9.259465823125,
+   "esperadas_homotopicas_fijas": 8.861785729687501,
+   "esperadas_dmri_nulo_fmri_real": 11.290299999999998,
+   "esperadas_dmri_real_fmri_nulo": 9.2163,
+   "cruce_real": 0.4304834634998445,
+   "P_real": 1.220475735119464,
+   "cruce_nulo_mediana": 0.4269995180200362,
+   "cruce_nulo_homotopicas_mediana": 0.35280660292394495,
+   "P_nulo_mediana": 1.5940791301090398,
+   "beta": {
+    "dmri": 0.13510729179421233,
+    "fmri": 0.04622285673127682,
+    "fmri_homotopicas": 0.03572071734925579
+   },
+   "longitud_objetivo": {
+    "dmri": 28.740422754293306,
+    "fmri": 46.55659188530709,
+    "fmri_homotopicas": 50.39536102507258
+   },
+   "longitud_obtenida": {
+    "dmri": 28.981627990540176,
+    "fmri": 45.83681037398538,
+    "fmri_homotopicas": 50.40721976234648
+   },
+   "tasa_aceptacion": {
+    "dmri": 0.0147225,
+    "fmri": 0.13662125,
+    "fmri_homotopicas": 0.1813
+   },
+   "arboles_validos": true,
+   "longitudes": {
+    "dmri": {
+     "ks": 0.042239365671641715,
+     "q10_real": 16.214417272989206,
+     "q10_nulo": 14.439363743126137,
+     "q25_real": 20.451819392415686,
+     "q25_nulo": 20.391311014851738,
+     "q50_real": 27.84356082077147,
+     "q50_nulo": 27.1722904248531,
+     "q75_real": 37.1474977490812,
+     "q75_nulo": 37.41905289671108,
+     "q90_real": 43.57234776052729,
+     "q90_nulo": 45.640418181193645,
+     "mismo_lobulo_real": 46,
+     "mismo_lobulo_nulo": 37.449175000000004,
+     "distinto_lobulo_real": 20,
+     "distinto_lobulo_nulo": 19.149500000000003,
+     "homotopica_real": 1,
+     "homotopica_nulo": 3.4566375000000003,
+     "otra_interhemisferica_real": 0,
+     "otra_interhemisferica_nulo": 6.9446875
+    },
+    "fmri": {
+     "ks": 0.18698917910447763,
+     "q10_real": 13.36042947085416,
+     "q10_nulo": 20.00604016915907,
+     "q25_real": 20.724797501079472,
+     "q25_nulo": 28.73928969322112,
+     "q50_real": 36.32700499559522,
+     "q50_nulo": 41.851037199424226,
+     "q75_real": 71.13682367896413,
+     "q75_nulo": 59.22536582491786,
+     "q90_real": 89.62188132091379,
+     "q90_nulo": 78.72223388944191,
+     "mismo_lobulo_real": 16,
+     "mismo_lobulo_nulo": 19.316049999999997,
+     "distinto_lobulo_real": 13,
+     "distinto_lobulo_nulo": 25.537875,
+     "homotopica_real": 17,
+     "homotopica_nulo": 2.3119625000000004,
+     "otra_interhemisferica_real": 21,
+     "otra_interhemisferica_nulo": 19.8341125
+    }
+   },
+   "segundos": 14.657722234725952
+  },
+  {
+   "sujeto": "sub-CON04",
+   "reales": 9,
+   "esperadas": 7.90795139421875,
+   "esperadas_cadena_desde_azar": 7.824731790625,
+   "esperadas_homotopicas_fijas": 8.92728445203125,
+   "esperadas_dmri_nulo_fmri_real": 10.7709875,
+   "esperadas_dmri_real_fmri_nulo": 7.482775,
+   "cruce_real": 0.23674665642098136,
+   "P_real": 1.0708114789120051,
+   "cruce_nulo_mediana": 0.33137590752611645,
+   "cruce_nulo_homotopicas_mediana": 0.24284032626470942,
+   "P_nulo_mediana": 1.2295448971000185,
+   "beta": {
+    "dmri": 0.14336919339107915,
+    "fmri": 0.036179896889824315,
+    "fmri_homotopicas": 0.04392658216784179
+   },
+   "longitud_objetivo": {
+    "dmri": 28.876485093867682,
+    "fmri": 50.30964803095341,
+    "fmri_homotopicas": 47.488708036553774
+   },
+   "longitud_obtenida": {
+    "dmri": 28.256155657148234,
+    "fmri": 50.93800099347875,
+    "fmri_homotopicas": 47.78803907545123
+   },
+   "tasa_aceptacion": {
+    "dmri": 0.01217625,
+    "fmri": 0.19441,
+    "fmri_homotopicas": 0.15854875
+   },
+   "arboles_validos": true,
+   "longitudes": {
+    "dmri": {
+     "ks": 0.08502537313432923,
+     "q10_real": 15.03790534428094,
+     "q10_nulo": 15.25798994262786,
+     "q25_real": 17.753384167587974,
+     "q25_nulo": 17.7755297953369,
+     "q50_real": 27.35930060473038,
+     "q50_nulo": 27.869214645302797,
+     "q75_real": 38.322498860831686,
+     "q75_nulo": 34.25611896732797,
+     "q90_real": 49.397211648319235,
+     "q90_nulo": 44.41380075729403,
+     "mismo_lobulo_real": 43,
+     "mismo_lobulo_nulo": 36.872862500000004,
+     "distinto_lobulo_real": 23,
+     "distinto_lobulo_nulo": 21.0079125,
+     "homotopica_real": 1,
+     "homotopica_nulo": 3.1885624999999997,
+     "otra_interhemisferica_real": 0,
+     "otra_interhemisferica_nulo": 5.9306625
+    },
+    "fmri": {
+     "ks": 0.17097033582089544,
+     "q10_real": 17.27912261116359,
+     "q10_nulo": 21.739209888980497,
+     "q25_real": 24.695749954323556,
+     "q25_nulo": 32.45108715921279,
+     "q50_real": 40.326732962391084,
+     "q50_nulo": 47.44715807243018,
+     "q75_real": 72.43712757091157,
+     "q75_nulo": 66.77276572614353,
+     "q90_real": 100.58894823391867,
+     "q90_nulo": 84.69570160084581,
+     "mismo_lobulo_real": 16,
+     "mismo_lobulo_nulo": 14.8888875,
+     "distinto_lobulo_real": 17,
+     "distinto_lobulo_nulo": 28.2768625,
+     "homotopica_real": 21,
+     "homotopica_nulo": 1.8086,
+     "otra_interhemisferica_real": 13,
+     "otra_interhemisferica_nulo": 22.02565
+    }
+   },
+   "segundos": 14.894114971160889
+  },
+  {
+   "sujeto": "sub-CON05",
+   "reales": 13,
+   "esperadas": 8.29081073171875,
+   "esperadas_cadena_desde_azar": 8.207449395625,
+   "esperadas_homotopicas_fijas": 8.828796208124999,
+   "esperadas_dmri_nulo_fmri_real": 11.735074999999998,
+   "esperadas_dmri_real_fmri_nulo": 7.9456750000000005,
+   "cruce_real": 0.2878222401083578,
+   "P_real": 1.2188001261856158,
+   "cruce_nulo_mediana": 0.6016051717029726,
+   "cruce_nulo_homotopicas_mediana": 0.4995255751036567,
+   "P_nulo_mediana": 1.7176186810930112,
+   "beta": {
+    "dmri": 0.16895722433412266,
+    "fmri": 0.03943136714060193,
+    "fmri_homotopicas": 0.04296517395974822
+   },
+   "longitud_objetivo": {
+    "dmri": 28.874436208802678,
+    "fmri": 48.78671132888012,
+    "fmri_homotopicas": 49.650869363260426
+   },
+   "longitud_obtenida": {
+    "dmri": 28.0687845852828,
+    "fmri": 49.00718673476922,
+    "fmri_homotopicas": 49.35562036210047
+   },
+   "tasa_aceptacion": {
+    "dmri": 0.00954,
+    "fmri": 0.16700375,
+    "fmri_homotopicas": 0.1536925
+   },
+   "arboles_validos": true,
+   "longitudes": {
+    "dmri": {
+     "ks": 0.08172500000000016,
+     "q10_real": 16.21977960575214,
+     "q10_nulo": 16.215745358917637,
+     "q25_real": 18.664361800785713,
+     "q25_nulo": 18.683388563813594,
+     "q50_real": 24.583286274011453,
+     "q50_nulo": 24.742316582190682,
+     "q75_real": 35.92817727842127,
+     "q75_nulo": 36.028846093349294,
+     "q90_real": 46.47810144773108,
+     "q90_nulo": 44.33471227339858,
+     "mismo_lobulo_real": 46,
+     "mismo_lobulo_nulo": 38.008925,
+     "distinto_lobulo_real": 20,
+     "distinto_lobulo_nulo": 19.423025,
+     "homotopica_real": 1,
+     "homotopica_nulo": 3.1960625,
+     "otra_interhemisferica_real": 0,
+     "otra_interhemisferica_nulo": 6.3719874999999995
+    },
+    "fmri": {
+     "ks": 0.20887947761194034,
+     "q10_real": 14.36979027599345,
+     "q10_nulo": 20.43650031763328,
+     "q25_real": 20.223115389630248,
+     "q25_nulo": 31.64843410134951,
+     "q50_real": 40.2174680512088,
+     "q50_nulo": 44.844537186789765,
+     "q75_real": 74.36934708741491,
+     "q75_nulo": 64.16448473325353,
+     "q90_real": 98.01514515005152,
+     "q90_nulo": 82.64962359882537,
+     "mismo_lobulo_real": 13,
+     "mismo_lobulo_nulo": 17.30355,
+     "distinto_lobulo_real": 17,
+     "distinto_lobulo_nulo": 27.507275,
+     "homotopica_real": 24,
+     "homotopica_nulo": 2.0357749999999997,
+     "otra_interhemisferica_real": 13,
+     "otra_interhemisferica_nulo": 20.1534
+    }
+   },
+   "segundos": 14.368164539337158
+  },
+  {
+   "sujeto": "sub-CON06",
+   "reales": 11,
+   "esperadas": 9.258786494374998,
+   "esperadas_cadena_desde_azar": 9.324091846875,
+   "esperadas_homotopicas_fijas": 10.92317893875,
+   "esperadas_dmri_nulo_fmri_real": 13.403500000000001,
+   "esperadas_dmri_real_fmri_nulo": 8.762525,
+   "cruce_real": 0.4019614668054329,
+   "P_real": 1.4174160310963582,
+   "cruce_nulo_mediana": 0.6397797478199377,
+   "cruce_nulo_homotopicas_mediana": 0.50043332492907,
+   "P_nulo_mediana": 1.7478571211274392,
+   "beta": {
+    "dmri": 0.12514698616577669,
+    "fmri": 0.04115571148456592,
+    "fmri_homotopicas": 0.052559918451857215
+   },
+   "longitud_objetivo": {
+    "dmri": 31.1008500969867,
+    "fmri": 49.21272372410852,
+    "fmri_homotopicas": 46.641440401127845
+   },
+   "longitud_obtenida": {
+    "dmri": 30.714680409686277,
+    "fmri": 49.18193771146851,
+    "fmri_homotopicas": 45.94305134364132
+   },
+   "tasa_aceptacion": {
+    "dmri": 0.01647375,
+    "fmri": 0.14376375,
+    "fmri_homotopicas": 0.10179625
+   },
+   "arboles_validos": true,
+   "longitudes": {
+    "dmri": {
+     "ks": 0.08996343283582053,
+     "q10_real": 15.731901319824898,
+     "q10_nulo": 15.444096248349108,
+     "q25_real": 19.77928641738122,
+     "q25_nulo": 19.82117608603934,
+     "q50_real": 27.838721461482386,
+     "q50_nulo": 28.49917682234232,
+     "q75_real": 41.186875478896496,
+     "q75_nulo": 39.326713925743746,
+     "q90_real": 51.80525130536992,
+     "q90_nulo": 50.64102225432403,
+     "mismo_lobulo_real": 46,
+     "mismo_lobulo_nulo": 38.121174999999994,
+     "distinto_lobulo_real": 20,
+     "distinto_lobulo_nulo": 18.614150000000002,
+     "homotopica_real": 1,
+     "homotopica_nulo": 3.2640000000000002,
+     "otra_interhemisferica_real": 0,
+     "otra_interhemisferica_nulo": 7.000674999999999
+    },
+    "fmri": {
+     "ks": 0.17458302238805964,
+     "q10_real": 13.447626197457115,
+     "q10_nulo": 19.973884014023486,
+     "q25_real": 20.731957550876633,
+     "q25_nulo": 29.801702360266493,
+     "q50_real": 41.071092345468486,
+     "q50_nulo": 44.8440710101013,
+     "q75_real": 74.16512418514,
+     "q75_nulo": 64.04612109593444,
+     "q90_real": 103.84603374699654,
+     "q90_nulo": 84.79513297142886,
+     "mismo_lobulo_real": 16,
+     "mismo_lobulo_nulo": 19.404525,
+     "distinto_lobulo_real": 14,
+     "distinto_lobulo_nulo": 27.65285,
+     "homotopica_real": 27,
+     "homotopica_nulo": 1.9945875,
+     "otra_interhemisferica_real": 10,
+     "otra_interhemisferica_nulo": 17.948037499999998
+    }
+   },
+   "segundos": 13.127331256866455
+  },
+  {
+   "sujeto": "sub-CON07",
+   "reales": 11,
+   "esperadas": 9.90062163,
+   "esperadas_cadena_desde_azar": 9.88614248125,
+   "esperadas_homotopicas_fijas": 8.593528693437499,
+   "esperadas_dmri_nulo_fmri_real": 11.1369375,
+   "esperadas_dmri_real_fmri_nulo": 9.794825,
+   "cruce_real": 0.6604062852776967,
+   "P_real": 1.720978177568322,
+   "cruce_nulo_mediana": 0.8559354853637666,
+   "cruce_nulo_homotopicas_mediana": 0.7282044893156285,
+   "P_nulo_mediana": 2.4172339300064376,
+   "beta": {
+    "dmri": 0.13713791741705067,
+    "fmri": 0.04780781079620522,
+    "fmri_homotopicas": 0.046909217222700174
+   },
+   "longitud_objetivo": {
+    "dmri": 30.1338619254779,
+    "fmri": 47.366718120940995,
+    "fmri_homotopicas": 49.01099375577029
+   },
+   "longitud_obtenida": {
+    "dmri": 30.150652798343707,
+    "fmri": 46.20990551064961,
+    "fmri_homotopicas": 49.18323373738208
+   },
+   "tasa_aceptacion": {
+    "dmri": 0.0153675,
+    "fmri": 0.12804125,
+    "fmri_homotopicas": 0.13578875
+   },
+   "arboles_validos": true,
+   "longitudes": {
+    "dmri": {
+     "ks": 0.07975746268656614,
+     "q10_real": 15.947412340600788,
+     "q10_nulo": 15.567412537572526,
+     "q25_real": 18.437198280428134,
+     "q25_nulo": 18.45702573888272,
+     "q50_real": 24.630748180272555,
+     "q50_nulo": 27.557126274164172,
+     "q75_real": 40.75111040906835,
+     "q75_nulo": 39.33781396493223,
+     "q90_real": 52.926206901649444,
+     "q90_nulo": 48.28151860878687,
+     "mismo_lobulo_real": 48,
+     "mismo_lobulo_nulo": 36.6540875,
+     "distinto_lobulo_real": 18,
+     "distinto_lobulo_nulo": 18.766262500000003,
+     "homotopica_real": 1,
+     "homotopica_nulo": 3.4591250000000002,
+     "otra_interhemisferica_real": 0,
+     "otra_interhemisferica_nulo": 8.120525
+    },
+    "fmri": {
+     "ks": 0.144802052238806,
+     "q10_real": 14.160206813735858,
+     "q10_nulo": 17.85629461411461,
+     "q25_real": 19.713778360675725,
+     "q25_nulo": 29.014907013112335,
+     "q50_real": 39.85270807398163,
+     "q50_nulo": 42.195149680919506,
+     "q75_real": 71.98478881671542,
+     "q75_nulo": 59.12140308410609,
+     "q90_real": 99.61194422224673,
+     "q90_nulo": 79.34267152753795,
+     "mismo_lobulo_real": 17,
+     "mismo_lobulo_nulo": 19.508137500000004,
+     "distinto_lobulo_real": 10,
+     "distinto_lobulo_nulo": 26.2142875,
+     "homotopica_real": 22,
+     "homotopica_nulo": 2.73575,
+     "otra_interhemisferica_real": 18,
+     "otra_interhemisferica_nulo": 18.541825
+    }
+   },
+   "segundos": 13.735716819763184
+  },
+  {
+   "sujeto": "sub-CON08",
+   "reales": 6,
+   "esperadas": 8.453180199062501,
+   "esperadas_cadena_desde_azar": 8.470076194375,
+   "esperadas_homotopicas_fijas": 8.34457646328125,
+   "esperadas_dmri_nulo_fmri_real": 10.2137125,
+   "esperadas_dmri_real_fmri_nulo": 8.0287875,
+   "cruce_real": 0.6027647955918126,
+   "P_real": 1.5139451707744453,
+   "cruce_nulo_mediana": 0.7465981411609002,
+   "cruce_nulo_homotopicas_mediana": 0.7101604686205505,
+   "P_nulo_mediana": 1.8232344322467084,
+   "beta": {
+    "dmri": 0.14380778063161362,
+    "fmri": 0.035355396183812005,
+    "fmri_homotopicas": 0.03501039354252997
+   },
+   "longitud_objetivo": {
+    "dmri": 29.1694946920798,
+    "fmri": 52.29983929872417,
+    "fmri_homotopicas": 53.19421168595615
+   },
+   "longitud_obtenida": {
+    "dmri": 28.644771055967514,
+    "fmri": 51.38157139586385,
+    "fmri_homotopicas": 53.21953187347315
+   },
+   "tasa_aceptacion": {
+    "dmri": 0.01422625,
+    "fmri": 0.1832275,
+    "fmri_homotopicas": 0.18285625
+   },
+   "arboles_validos": true,
+   "longitudes": {
+    "dmri": {
+     "ks": 0.06383507462686555,
+     "q10_real": 14.693746655086036,
+     "q10_nulo": 14.580185467061165,
+     "q25_real": 17.391351583450806,
+     "q25_nulo": 17.473734907647852,
+     "q50_real": 26.78893249926171,
+     "q50_nulo": 26.44612398969442,
+     "q75_real": 37.20497751427425,
+     "q75_nulo": 37.74509581503937,
+     "q90_real": 48.017389589009504,
+     "q90_nulo": 46.22226687575091,
+     "mismo_lobulo_real": 45,
+     "mismo_lobulo_nulo": 37.27235,
+     "distinto_lobulo_real": 21,
+     "distinto_lobulo_nulo": 18.472625,
+     "homotopica_real": 1,
+     "homotopica_nulo": 3.4171125,
+     "otra_interhemisferica_real": 0,
+     "otra_interhemisferica_nulo": 7.8379125
+    },
+    "fmri": {
+     "ks": 0.11013507462686566,
+     "q10_real": 15.242345237311417,
+     "q10_nulo": 21.101139064489388,
+     "q25_real": 27.932760228470777,
+     "q25_nulo": 32.37489321419356,
+     "q50_real": 51.31415136334226,
+     "q50_nulo": 47.69412609173414,
+     "q75_real": 73.89120682423385,
+     "q75_nulo": 68.49636858692423,
+     "q90_real": 91.49812993992178,
+     "q90_nulo": 86.34580304150215,
+     "mismo_lobulo_real": 14,
+     "mismo_lobulo_nulo": 16.319087500000002,
+     "distinto_lobulo_real": 18,
+     "distinto_lobulo_nulo": 29.5781375,
+     "homotopica_real": 22,
+     "homotopica_nulo": 1.4944124999999997,
+     "otra_interhemisferica_real": 13,
+     "otra_interhemisferica_nulo": 19.6083625
+    }
+   },
+   "segundos": 16.01237154006958
+  },
+  {
+   "sujeto": "sub-CON09",
+   "reales": 11,
+   "esperadas": 10.83057167203125,
+   "esperadas_cadena_desde_azar": 10.815739595625,
+   "esperadas_homotopicas_fijas": 11.331697275,
+   "esperadas_dmri_nulo_fmri_real": 13.544675,
+   "esperadas_dmri_real_fmri_nulo": 10.3867625,
+   "cruce_real": 0.2290558596407321,
+   "P_real": 1.0319707052834344,
+   "cruce_nulo_mediana": 0.35184190616438493,
+   "cruce_nulo_homotopicas_mediana": 0.2836627426518456,
+   "P_nulo_mediana": 1.7105466842819856,
+   "beta": {
+    "dmri": 0.14236180169038443,
+    "fmri": 0.0416455700059194,
+    "fmri_homotopicas": 0.04146237474293892
+   },
+   "longitud_objetivo": {
+    "dmri": 29.72211084479923,
+    "fmri": 49.28395467560166,
+    "fmri_homotopicas": 51.19330183631668
+   },
+   "longitud_obtenida": {
+    "dmri": 28.717588098518906,
+    "fmri": 49.46789938120926,
+    "fmri_homotopicas": 50.94414898174659
+   },
+   "tasa_aceptacion": {
+    "dmri": 0.01069125,
+    "fmri": 0.129485,
+    "fmri_homotopicas": 0.12430875
+   },
+   "arboles_validos": true,
+   "longitudes": {
+    "dmri": {
+     "ks": 0.0782753731343282,
+     "q10_real": 14.969469941791825,
+     "q10_nulo": 14.687553130601875,
+     "q25_real": 18.21597433027361,
+     "q25_nulo": 18.266653977466934,
+     "q50_real": 28.343173578835525,
+     "q50_nulo": 27.842497972114128,
+     "q75_real": 38.88901508932943,
+     "q75_nulo": 36.36936002258711,
+     "q90_real": 48.02414775069393,
+     "q90_nulo": 44.78016094830572,
+     "mismo_lobulo_real": 47,
+     "mismo_lobulo_nulo": 38.218225,
+     "distinto_lobulo_real": 19,
+     "distinto_lobulo_nulo": 17.79155,
+     "homotopica_real": 1,
+     "homotopica_nulo": 4.2524999999999995,
+     "otra_interhemisferica_real": 0,
+     "otra_interhemisferica_nulo": 6.737724999999999
+    },
+    "fmri": {
+     "ks": 0.15070335820895522,
+     "q10_real": 12.825804643813523,
+     "q10_nulo": 18.684194266888568,
+     "q25_real": 20.694944477715993,
+     "q25_nulo": 31.478964289945313,
+     "q50_real": 43.50597064771685,
+     "q50_nulo": 45.47359799210194,
+     "q75_real": 70.03832622773373,
+     "q75_nulo": 63.78968076411792,
+     "q90_real": 96.568780957062,
+     "q90_nulo": 85.24339443135659,
+     "mismo_lobulo_real": 20,
+     "mismo_lobulo_nulo": 19.696675,
+     "distinto_lobulo_real": 18,
+     "distinto_lobulo_nulo": 26.225649999999998,
+     "homotopica_real": 22,
+     "homotopica_nulo": 2.4299,
+     "otra_interhemisferica_real": 7,
+     "otra_interhemisferica_nulo": 18.647775000000003
+    }
+   },
+   "segundos": 13.18342137336731
+  },
+  {
+   "sujeto": "sub-CON10",
+   "reales": 14,
+   "esperadas": 12.77083062875,
+   "esperadas_cadena_desde_azar": 12.553492838124999,
+   "esperadas_homotopicas_fijas": 12.49941653015625,
+   "esperadas_dmri_nulo_fmri_real": 13.9000625,
+   "esperadas_dmri_real_fmri_nulo": 12.5745375,
+   "cruce_real": 0.09833825248470787,
+   "P_real": 1.0061599089134245,
+   "cruce_nulo_mediana": 0.31158178034096756,
+   "cruce_nulo_homotopicas_mediana": 0.15490989491171991,
+   "P_nulo_mediana": 1.4761314563821593,
+   "beta": {
+    "dmri": 0.16114911589623307,
+    "fmri": 0.057179962832791,
+    "fmri_homotopicas": 0.08056144179478959
+   },
+   "longitud_objetivo": {
+    "dmri": 28.069419665470875,
+    "fmri": 41.94180476487943,
+    "fmri_homotopicas": 36.6682933204475
+   },
+   "longitud_obtenida": {
+    "dmri": 27.223275501770598,
+    "fmri": 40.73302665881413,
+    "fmri_homotopicas": 36.347496285130795
+   },
+   "tasa_aceptacion": {
+    "dmri": 0.00852625,
+    "fmri": 0.0900725,
+    "fmri_homotopicas": 0.04963
+   },
+   "arboles_validos": true,
+   "longitudes": {
+    "dmri": {
+     "ks": 0.06729514925373103,
+     "q10_real": 15.386122090239096,
+     "q10_nulo": 14.384289272896336,
+     "q25_real": 18.74705530178386,
+     "q25_nulo": 18.523457266925504,
+     "q50_real": 26.031341837485055,
+     "q50_nulo": 24.667892857641586,
+     "q75_real": 37.147996177792876,
+     "q75_nulo": 34.31150522797126,
+     "q90_real": 44.42308855099088,
+     "q90_nulo": 42.346049274490866,
+     "mismo_lobulo_real": 46,
+     "mismo_lobulo_nulo": 40.6339,
+     "distinto_lobulo_real": 20,
+     "distinto_lobulo_nulo": 17.881249999999998,
+     "homotopica_real": 1,
+     "homotopica_nulo": 3.4669499999999998,
+     "otra_interhemisferica_real": 0,
+     "otra_interhemisferica_nulo": 5.0179
+    },
+    "fmri": {
+     "ks": 0.13140914179104476,
+     "q10_real": 12.545600207864657,
+     "q10_nulo": 17.05463922610893,
+     "q25_real": 22.031005436024977,
+     "q25_nulo": 24.669861379831197,
+     "q50_real": 34.258453825005006,
+     "q50_nulo": 37.68085275836391,
+     "q75_real": 58.45983337003749,
+     "q75_nulo": 50.821264352152134,
+     "q90_real": 81.85681204543033,
+     "q90_nulo": 69.7938985393423,
+     "mismo_lobulo_real": 24,
+     "mismo_lobulo_nulo": 23.49365,
+     "distinto_lobulo_real": 9,
+     "distinto_lobulo_nulo": 25.661125,
+     "homotopica_real": 24,
+     "homotopica_nulo": 2.4912250000000005,
+     "otra_interhemisferica_real": 10,
+     "otra_interhemisferica_nulo": 15.353999999999997
+    }
+   },
+   "segundos": 10.280943870544434
+  },
+  {
+   "sujeto": "sub-CON11",
+   "reales": 7,
+   "esperadas": 6.01791102984375,
+   "esperadas_cadena_desde_azar": 5.921394623125,
+   "esperadas_homotopicas_fijas": 6.0785084626562496,
+   "esperadas_dmri_nulo_fmri_real": 7.418075,
+   "esperadas_dmri_real_fmri_nulo": 5.9018999999999995,
+   "cruce_real": 0.261509204237991,
+   "P_real": 1.5842182123269704,
+   "cruce_nulo_mediana": 0.49310116044546637,
+   "cruce_nulo_homotopicas_mediana": 0.43075149387300915,
+   "P_nulo_mediana": 1.807303022053572,
+   "beta": {
+    "dmri": 0.195921657676454,
+    "fmri": 0.02653953947968859,
+    "fmri_homotopicas": 0.027872660845531288
+   },
+   "longitud_objetivo": {
+    "dmri": 26.399729881610625,
+    "fmri": 54.72103508995002,
+    "fmri_homotopicas": 54.04201874763784
+   },
+   "longitud_obtenida": {
+    "dmri": 25.302626344850562,
+    "fmri": 54.67714344166792,
+    "fmri_homotopicas": 54.0952319371055
+   },
+   "tasa_aceptacion": {
+    "dmri": 0.00623125,
+    "fmri": 0.24063125,
+    "fmri_homotopicas": 0.22724875
+   },
+   "arboles_validos": true,
+   "longitudes": {
+    "dmri": {
+     "ks": 0.07290335820895533,
+     "q10_real": 13.791079277110676,
+     "q10_nulo": 13.877974374678821,
+     "q25_real": 17.442335337991103,
+     "q25_nulo": 17.264856287815675,
+     "q50_real": 23.77559374842193,
+     "q50_nulo": 22.393839323143546,
+     "q75_real": 35.25846478857453,
+     "q75_nulo": 31.74516431417272,
+     "q90_real": 41.596556050671104,
+     "q90_nulo": 39.959074242694236,
+     "mismo_lobulo_real": 45,
+     "mismo_lobulo_nulo": 38.500437500000004,
+     "distinto_lobulo_real": 21,
+     "distinto_lobulo_nulo": 21.393237499999998,
+     "homotopica_real": 1,
+     "homotopica_nulo": 2.9215624999999994,
+     "otra_interhemisferica_real": 0,
+     "otra_interhemisferica_nulo": 4.1847625
+    },
+    "fmri": {
+     "ks": 0.12380466417910446,
+     "q10_real": 18.07580812080741,
+     "q10_nulo": 22.84350188117476,
+     "q25_real": 26.949152601697875,
+     "q25_nulo": 35.172140846197024,
+     "q50_real": 49.8171988869306,
+     "q50_nulo": 51.4180402907733,
+     "q75_real": 75.1435917569226,
+     "q75_nulo": 72.5795862930309,
+     "q90_real": 103.04913695310105,
+     "q90_nulo": 90.2329459482566,
+     "mismo_lobulo_real": 9,
+     "mismo_lobulo_nulo": 14.7306375,
+     "distinto_lobulo_real": 10,
+     "distinto_lobulo_nulo": 27.9830125,
+     "homotopica_real": 26,
+     "homotopica_nulo": 1.4786375,
+     "otra_interhemisferica_real": 22,
+     "otra_interhemisferica_nulo": 22.8077125
+    }
+   },
+   "segundos": 18.160502195358276
+  },
+  {
+   "sujeto": "sub-PAT01",
+   "reales": 10,
+   "esperadas": 9.078513955000002,
+   "esperadas_cadena_desde_azar": 9.120565529375,
+   "esperadas_homotopicas_fijas": 9.13928744921875,
+   "esperadas_dmri_nulo_fmri_real": 11.382862500000002,
+   "esperadas_dmri_real_fmri_nulo": 9.361475,
+   "cruce_real": 0.4961085894500168,
+   "P_real": 2.5235688424193543,
+   "cruce_nulo_mediana": 0.7830064827342691,
+   "cruce_nulo_homotopicas_mediana": 0.6348988505745966,
+   "P_nulo_mediana": 2.4028337306622616,
+   "beta": {
+    "dmri": 0.17170382737679815,
+    "fmri": 0.046956497084574625,
+    "fmri_homotopicas": 0.044996210375830105
+   },
+   "longitud_objetivo": {
+    "dmri": 25.93077756830437,
+    "fmri": 43.87906721717104,
+    "fmri_homotopicas": 43.77077588842621
+   },
+   "longitud_obtenida": {
+    "dmri": 26.10316787689249,
+    "fmri": 42.76296677564432,
+    "fmri_homotopicas": 44.371584808354115
+   },
+   "tasa_aceptacion": {
+    "dmri": 0.00887,
+    "fmri": 0.139355,
+    "fmri_homotopicas": 0.1521475
+   },
+   "arboles_validos": true,
+   "longitudes": {
+    "dmri": {
+     "ks": 0.0764701492537313,
+     "q10_real": 12.664839871714081,
+     "q10_nulo": 12.67141872478361,
+     "q25_real": 16.771386618156214,
+     "q25_nulo": 17.220045665604086,
+     "q50_real": 21.264854463880067,
+     "q50_nulo": 24.511521065809372,
+     "q75_real": 35.162848428285,
+     "q75_nulo": 33.74294942081979,
+     "q90_real": 39.30369698955585,
+     "q90_nulo": 41.42785844190917,
+     "mismo_lobulo_real": 48,
+     "mismo_lobulo_nulo": 39.9512125,
+     "distinto_lobulo_real": 18,
+     "distinto_lobulo_nulo": 18.4310375,
+     "homotopica_real": 1,
+     "homotopica_nulo": 2.8437124999999996,
+     "otra_interhemisferica_real": 0,
+     "otra_interhemisferica_nulo": 5.7740375
+    },
+    "fmri": {
+     "ks": 0.14143600746268656,
+     "q10_real": 12.034960905594533,
+     "q10_nulo": 17.248969153033165,
+     "q25_real": 21.694064023224,
+     "q25_nulo": 26.30965754546987,
+     "q50_real": 40.405769951579934,
+     "q50_nulo": 38.64499532016368,
+     "q75_real": 62.297915040062605,
+     "q75_nulo": 56.32735858809992,
+     "q90_real": 80.97120452451979,
+     "q90_nulo": 73.17344543868346,
+     "mismo_lobulo_real": 14,
+     "mismo_lobulo_nulo": 18.7463125,
+     "distinto_lobulo_real": 13,
+     "distinto_lobulo_nulo": 27.581562499999997,
+     "homotopica_real": 23,
+     "homotopica_nulo": 2.1658874999999997,
+     "otra_interhemisferica_real": 17,
+     "otra_interhemisferica_nulo": 18.506237499999997
+    }
+   },
+   "segundos": 14.111499786376953
+  },
+  {
+   "sujeto": "sub-PAT02",
+   "reales": 12,
+   "esperadas": 10.65588950765625,
+   "esperadas_cadena_desde_azar": 10.861362175,
+   "esperadas_homotopicas_fijas": 10.17102619546875,
+   "esperadas_dmri_nulo_fmri_real": 10.30795,
+   "esperadas_dmri_real_fmri_nulo": 10.4853625,
+   "cruce_real": 0.5353839709916995,
+   "P_real": 1.7912752820493698,
+   "cruce_nulo_mediana": 0.8562106019343807,
+   "cruce_nulo_homotopicas_mediana": 0.6869479287591805,
+   "P_nulo_mediana": 2.735156546743285,
+   "beta": {
+    "dmri": 0.20308618928184682,
+    "fmri": 0.053451697810562665,
+    "fmri_homotopicas": 0.056560523450746934
+   },
+   "longitud_objetivo": {
+    "dmri": 26.875642884927895,
+    "fmri": 42.233195384275206,
+    "fmri_homotopicas": 43.21275696669467
+   },
+   "longitud_obtenida": {
+    "dmri": 25.745893075753592,
+    "fmri": 41.598842020424435,
+    "fmri_homotopicas": 43.46750536123337
+   },
+   "tasa_aceptacion": {
+    "dmri": 0.007735,
+    "fmri": 0.11890125,
+    "fmri_homotopicas": 0.112925
+   },
+   "arboles_validos": true,
+   "longitudes": {
+    "dmri": {
+     "ks": 0.04383675373134316,
+     "q10_real": 14.492006525679058,
+     "q10_nulo": 13.484515845349708,
+     "q25_real": 17.47484874160908,
+     "q25_nulo": 17.091106547520436,
+     "q50_real": 25.378718189004342,
+     "q50_nulo": 23.55430058406918,
+     "q75_real": 33.72134483396998,
+     "q75_nulo": 33.331652742468485,
+     "q90_real": 43.72430387432452,
+     "q90_nulo": 40.43319993970263,
+     "mismo_lobulo_real": 46,
+     "mismo_lobulo_nulo": 39.0173875,
+     "distinto_lobulo_real": 20,
+     "distinto_lobulo_nulo": 18.1984125,
+     "homotopica_real": 1,
+     "homotopica_nulo": 3.3185625,
+     "otra_interhemisferica_real": 0,
+     "otra_interhemisferica_nulo": 6.4656375
+    },
+    "fmri": {
+     "ks": 0.13454141791044774,
+     "q10_real": 11.810391729696864,
+     "q10_nulo": 16.55514369286362,
+     "q25_real": 19.291490402861218,
+     "q25_nulo": 25.723710451052693,
+     "q50_real": 40.46264361815723,
+     "q50_nulo": 38.01780379519754,
+     "q75_real": 56.84840030269148,
+     "q75_nulo": 53.59843126331522,
+     "q90_real": 76.15761032899695,
+     "q90_nulo": 71.25378481878127,
+     "mismo_lobulo_real": 15,
+     "mismo_lobulo_nulo": 17.706375,
+     "distinto_lobulo_real": 21,
+     "distinto_lobulo_nulo": 27.795225000000002,
+     "homotopica_real": 22,
+     "homotopica_nulo": 2.9571124999999996,
+     "otra_interhemisferica_real": 9,
+     "otra_interhemisferica_nulo": 18.5412875
+    }
+   },
+   "segundos": 14.434820175170898
+  },
+  {
+   "sujeto": "sub-PAT03",
+   "reales": 15,
+   "esperadas": 10.727666182812499,
+   "esperadas_cadena_desde_azar": 10.751169371875001,
+   "esperadas_homotopicas_fijas": 11.34628036015625,
+   "esperadas_dmri_nulo_fmri_real": 15.557324999999999,
+   "esperadas_dmri_real_fmri_nulo": 10.360600000000002,
+   "cruce_real": 0.07054798995451454,
+   "P_real": 0.6790593631088114,
+   "cruce_nulo_mediana": 0.3164121451060101,
+   "cruce_nulo_homotopicas_mediana": 0.21146942309573458,
+   "P_nulo_mediana": 1.4012033845011824,
+   "beta": {
+    "dmri": 0.1518907874486608,
+    "fmri": 0.04262802511448468,
+    "fmri_homotopicas": 0.04595728130853762
+   },
+   "longitud_objetivo": {
+    "dmri": 28.907046349747237,
+    "fmri": 46.50779408417353,
+    "fmri_homotopicas": 46.34005515301643
+   },
+   "longitud_obtenida": {
+    "dmri": 28.270716360529455,
+    "fmri": 46.45268105342437,
+    "fmri_homotopicas": 45.72936249409824
+   },
+   "tasa_aceptacion": {
+    "dmri": 0.0103775,
+    "fmri": 0.13968,
+    "fmri_homotopicas": 0.12261375
+   },
+   "arboles_validos": true,
+   "longitudes": {
+    "dmri": {
+     "ks": 0.055155410447761066,
+     "q10_real": 15.464706632041699,
+     "q10_nulo": 14.187795248007552,
+     "q25_real": 18.945273367051612,
+     "q25_nulo": 18.409643026034832,
+     "q50_real": 26.251624436022997,
+     "q50_nulo": 26.138328327159144,
+     "q75_real": 37.65189332989651,
+     "q75_nulo": 35.17452800395409,
+     "q90_real": 45.35128083104767,
+     "q90_nulo": 43.35783655051077,
+     "mismo_lobulo_real": 48,
+     "mismo_lobulo_nulo": 39.05625,
+     "distinto_lobulo_real": 18,
+     "distinto_lobulo_nulo": 19.252325,
+     "homotopica_real": 1,
+     "homotopica_nulo": 2.7732374999999996,
+     "otra_interhemisferica_real": 0,
+     "otra_interhemisferica_nulo": 5.918187499999999
+    },
+    "fmri": {
+     "ks": 0.14710298507462705,
+     "q10_real": 14.682257635157265,
+     "q10_nulo": 19.21041266788994,
+     "q25_real": 22.577087146017263,
+     "q25_nulo": 29.113467297995633,
+     "q50_real": 42.15124833714892,
+     "q50_nulo": 41.84934516035969,
+     "q75_real": 66.08266386601588,
+     "q75_nulo": 60.200024171092245,
+     "q90_real": 87.63802436954619,
+     "q90_nulo": 79.57237084974867,
+     "mismo_lobulo_real": 22,
+     "mismo_lobulo_nulo": 20.709737500000003,
+     "distinto_lobulo_real": 14,
+     "distinto_lobulo_nulo": 26.8162125,
+     "homotopica_real": 19,
+     "homotopica_nulo": 1.794825,
+     "otra_interhemisferica_real": 12,
+     "otra_interhemisferica_nulo": 17.679225
+    }
+   },
+   "segundos": 12.338238716125488
+  },
+  {
+   "sujeto": "sub-PAT05",
+   "reales": 14,
+   "esperadas": 10.106701145625,
+   "esperadas_cadena_desde_azar": 10.138486759375,
+   "esperadas_homotopicas_fijas": 10.231775236875,
+   "esperadas_dmri_nulo_fmri_real": 12.682087500000002,
+   "esperadas_dmri_real_fmri_nulo": 9.982724999999999,
+   "cruce_real": 0.2822641301692144,
+   "P_real": 1.2160779675038496,
+   "cruce_nulo_mediana": 0.280664033285284,
+   "cruce_nulo_homotopicas_mediana": 0.26725835431398803,
+   "P_nulo_mediana": 1.0677450685074161,
+   "beta": {
+    "dmri": 0.1248600091622379,
+    "fmri": 0.049016905618682535,
+    "fmri_homotopicas": 0.04466950068912097
+   },
+   "longitud_objetivo": {
+    "dmri": 30.389695087478614,
+    "fmri": 44.505831872754314,
+    "fmri_homotopicas": 45.40301259761952
+   },
+   "longitud_obtenida": {
+    "dmri": 30.252987860342646,
+    "fmri": 44.23005526881165,
+    "fmri_homotopicas": 45.87282932509653
+   },
+   "tasa_aceptacion": {
+    "dmri": 0.01921125,
+    "fmri": 0.11965,
+    "fmri_homotopicas": 0.136445
+   },
+   "arboles_validos": true,
+   "longitudes": {
+    "dmri": {
+     "ks": 0.05919384328358207,
+     "q10_real": 16.319031661894442,
+     "q10_nulo": 14.57647901892124,
+     "q25_real": 18.67935427423611,
+     "q25_nulo": 18.307864723690578,
+     "q50_real": 29.60425763315135,
+     "q50_nulo": 29.46804709067272,
+     "q75_real": 39.10042381197891,
+     "q75_nulo": 39.221256338471015,
+     "q90_real": 45.4706655772419,
+     "q90_nulo": 47.812912139557596,
+     "mismo_lobulo_real": 44,
+     "mismo_lobulo_nulo": 33.34455,
+     "distinto_lobulo_real": 22,
+     "distinto_lobulo_nulo": 22.321399999999997,
+     "homotopica_real": 1,
+     "homotopica_nulo": 3.2323125,
+     "otra_interhemisferica_real": 0,
+     "otra_interhemisferica_nulo": 8.101737499999999
+    },
+    "fmri": {
+     "ks": 0.11750988805970142,
+     "q10_real": 15.71518354041825,
+     "q10_nulo": 17.672742518018516,
+     "q25_real": 19.80890631805177,
+     "q25_nulo": 27.934863133999993,
+     "q50_real": 38.815714199921665,
+     "q50_nulo": 40.55407382856509,
+     "q75_real": 65.37002359495695,
+     "q75_nulo": 57.740610777319375,
+     "q90_real": 87.6243758335506,
+     "q90_nulo": 75.29457911933403,
+     "mismo_lobulo_real": 17,
+     "mismo_lobulo_nulo": 21.179199999999998,
+     "distinto_lobulo_real": 20,
+     "distinto_lobulo_nulo": 24.269125000000003,
+     "homotopica_real": 18,
+     "homotopica_nulo": 2.7378000000000005,
+     "otra_interhemisferica_real": 12,
+     "otra_interhemisferica_nulo": 18.813875
+    }
+   },
+   "segundos": 12.232739686965942
+  },
+  {
+   "sujeto": "sub-PAT06",
+   "reales": 14,
+   "esperadas": 11.265096195937499,
+   "esperadas_cadena_desde_azar": 11.335793153125,
+   "esperadas_homotopicas_fijas": 11.271558599375,
+   "esperadas_dmri_nulo_fmri_real": 14.648762500000002,
+   "esperadas_dmri_real_fmri_nulo": 11.6664375,
+   "cruce_real": 0.32054114878706963,
+   "P_real": 1.3819134333501626,
+   "cruce_nulo_mediana": 0.24213916684234948,
+   "cruce_nulo_homotopicas_mediana": 0.20163054481029746,
+   "P_nulo_mediana": 1.1645171467399722,
+   "beta": {
+    "dmri": 0.12948340048931356,
+    "fmri": 0.06036026483387734,
+    "fmri_homotopicas": 0.05553588384324826
+   },
+   "longitud_objetivo": {
+    "dmri": 28.43385219618176,
+    "fmri": 44.66851562320542,
+    "fmri_homotopicas": 47.29540736920099
+   },
+   "longitud_obtenida": {
+    "dmri": 28.714218972420657,
+    "fmri": 44.08478346595919,
+    "fmri_homotopicas": 47.09412827691169
+   },
+   "tasa_aceptacion": {
+    "dmri": 0.0171325,
+    "fmri": 0.1066375,
+    "fmri_homotopicas": 0.11829375
+   },
+   "arboles_validos": true,
+   "longitudes": {
+    "dmri": {
+     "ks": 0.05771343283582084,
+     "q10_real": 13.637459624827654,
+     "q10_nulo": 14.179835427409673,
+     "q25_real": 16.94483830345433,
+     "q25_nulo": 18.268017475531963,
+     "q50_real": 25.669869928186237,
+     "q50_nulo": 26.57237627624586,
+     "q75_real": 36.275302773510326,
+     "q75_nulo": 36.762495536683815,
+     "q90_real": 48.49957327859032,
+     "q90_nulo": 46.268144702866934,
+     "mismo_lobulo_real": 43,
+     "mismo_lobulo_nulo": 35.318237499999995,
+     "distinto_lobulo_real": 22,
+     "distinto_lobulo_nulo": 21.8142875,
+     "homotopica_real": 1,
+     "homotopica_nulo": 3.0287499999999996,
+     "otra_interhemisferica_real": 1,
+     "otra_interhemisferica_nulo": 6.838725
+    },
+    "fmri": {
+     "ks": 0.16527164179104478,
+     "q10_real": 14.2277682347268,
+     "q10_nulo": 17.20124799077171,
+     "q25_real": 19.235783682222888,
+     "q25_nulo": 28.075348003230463,
+     "q50_real": 32.816307429995845,
+     "q50_nulo": 40.694749435379556,
+     "q75_real": 53.23731650023987,
+     "q75_nulo": 57.225170654343955,
+     "q90_real": 100.59126797149587,
+     "q90_nulo": 76.0545506857971,
+     "mismo_lobulo_real": 24,
+     "mismo_lobulo_nulo": 20.017162499999998,
+     "distinto_lobulo_real": 17,
+     "distinto_lobulo_nulo": 29.4410875,
+     "homotopica_real": 12,
+     "homotopica_nulo": 1.87955,
+     "otra_interhemisferica_real": 14,
+     "otra_interhemisferica_nulo": 15.662200000000002
+    }
+   },
+   "segundos": 13.309022903442383
+  },
+  {
+   "sujeto": "sub-PAT07",
+   "reales": 8,
+   "esperadas": 8.914567190156252,
+   "esperadas_cadena_desde_azar": 9.013319529375,
+   "esperadas_homotopicas_fijas": 9.786045814531251,
+   "esperadas_dmri_nulo_fmri_real": 9.8479875,
+   "esperadas_dmri_real_fmri_nulo": 9.0381125,
+   "cruce_real": 0.24938108552089708,
+   "P_real": 0.9263336934220134,
+   "cruce_nulo_mediana": 0.45916725853428364,
+   "cruce_nulo_homotopicas_mediana": 0.3656424413863496,
+   "P_nulo_mediana": 1.615377048016414,
+   "beta": {
+    "dmri": 0.11185711528949628,
+    "fmri": 0.03953787428740329,
+    "fmri_homotopicas": 0.045865453951768796
+   },
+   "longitud_objetivo": {
+    "dmri": 30.085355094269,
+    "fmri": 50.5410938615846,
+    "fmri_homotopicas": 48.95658636553605
+   },
+   "longitud_obtenida": {
+    "dmri": 31.030755439238053,
+    "fmri": 50.13786815863964,
+    "fmri_homotopicas": 48.92716364810902
+   },
+   "tasa_aceptacion": {
+    "dmri": 0.01998875,
+    "fmri": 0.1566525,
+    "fmri_homotopicas": 0.129405
+   },
+   "arboles_validos": true,
+   "longitudes": {
+    "dmri": {
+     "ks": 0.1062641791044775,
+     "q10_real": 14.809287820171958,
+     "q10_nulo": 15.120974651344918,
+     "q25_real": 19.246555552807294,
+     "q25_nulo": 20.335075709673927,
+     "q50_real": 26.36156577007519,
+     "q50_nulo": 29.239354765643455,
+     "q75_real": 40.82320287680288,
+     "q75_nulo": 39.259169230718214,
+     "q90_real": 49.44711937132985,
+     "q90_nulo": 49.71413591471377,
+     "mismo_lobulo_real": 45,
+     "mismo_lobulo_nulo": 35.7963125,
+     "distinto_lobulo_real": 21,
+     "distinto_lobulo_nulo": 20.4141375,
+     "homotopica_real": 1,
+     "homotopica_nulo": 3.0262125,
+     "otra_interhemisferica_real": 0,
+     "otra_interhemisferica_nulo": 7.7633375000000004
+    },
+    "fmri": {
+     "ks": 0.09509757462686569,
+     "q10_real": 14.471654995499083,
+     "q10_nulo": 19.697328284514448,
+     "q25_real": 26.529500808350498,
+     "q25_nulo": 31.351560147212187,
+     "q50_real": 45.172443279061184,
+     "q50_nulo": 46.3174205790227,
+     "q75_real": 75.44166375445175,
+     "q75_nulo": 66.00329791679536,
+     "q90_real": 93.22829411651139,
+     "q90_nulo": 85.33901128797734,
+     "mismo_lobulo_real": 15,
+     "mismo_lobulo_nulo": 17.7978625,
+     "distinto_lobulo_real": 20,
+     "distinto_lobulo_nulo": 26.577312499999998,
+     "homotopica_real": 19,
+     "homotopica_nulo": 2.1333249999999997,
+     "otra_interhemisferica_real": 13,
+     "otra_interhemisferica_nulo": 20.491500000000002
+    }
+   },
+   "segundos": 13.943746089935303
+  },
+  {
+   "sujeto": "sub-PAT08",
+   "reales": 11,
+   "esperadas": 12.5773038128125,
+   "esperadas_cadena_desde_azar": 12.79669327,
+   "esperadas_homotopicas_fijas": 13.07698569984375,
+   "esperadas_dmri_nulo_fmri_real": 13.5798375,
+   "esperadas_dmri_real_fmri_nulo": 11.588249999999999,
+   "cruce_real": 0.5245950867375241,
+   "P_real": 1.2356856155112512,
+   "cruce_nulo_mediana": 0.44349197128603024,
+   "cruce_nulo_homotopicas_mediana": 0.42120672386148983,
+   "P_nulo_mediana": 1.1560141329055045,
+   "beta": {
+    "dmri": 0.11954328195305446,
+    "fmri": 0.0806521957129402,
+    "fmri_homotopicas": 0.08310932191515405
+   },
+   "longitud_objetivo": {
+    "dmri": 32.63062328627785,
+    "fmri": 36.526762794415575,
+    "fmri_homotopicas": 38.19340467073373
+   },
+   "longitud_obtenida": {
+    "dmri": 32.14328350203297,
+    "fmri": 36.99523794042446,
+    "fmri_homotopicas": 37.45746859467444
+   },
+   "tasa_aceptacion": {
+    "dmri": 0.01875,
+    "fmri": 0.05362375,
+    "fmri_homotopicas": 0.04778
+   },
+   "arboles_validos": true,
+   "longitudes": {
+    "dmri": {
+     "ks": 0.06506791044776095,
+     "q10_real": 15.717146840499456,
+     "q10_nulo": 15.94811764584476,
+     "q25_real": 21.687541152315077,
+     "q25_nulo": 21.717449122271937,
+     "q50_real": 32.25466892389379,
+     "q50_nulo": 30.96969679355226,
+     "q75_real": 43.11478034135749,
+     "q75_nulo": 40.532446060474264,
+     "q90_real": 50.77656972635512,
+     "q90_nulo": 51.15103560245401,
+     "mismo_lobulo_real": 42,
+     "mismo_lobulo_nulo": 33.9662,
+     "distinto_lobulo_real": 24,
+     "distinto_lobulo_nulo": 22.701475000000002,
+     "homotopica_real": 1,
+     "homotopica_nulo": 2.9462,
+     "otra_interhemisferica_real": 0,
+     "otra_interhemisferica_nulo": 7.386125
+    },
+    "fmri": {
+     "ks": 0.0954783582089552,
+     "q10_real": 12.497675200034928,
+     "q10_nulo": 14.7916407696198,
+     "q25_real": 18.277741975130624,
+     "q25_nulo": 21.94696698045249,
+     "q50_real": 31.128679955789963,
+     "q50_nulo": 34.30550110184855,
+     "q75_real": 47.163057430218444,
+     "q75_nulo": 47.24509994553278,
+     "q90_real": 65.39089830326662,
+     "q90_nulo": 63.83630864429263,
+     "mismo_lobulo_real": 22,
+     "mismo_lobulo_nulo": 24.8752875,
+     "distinto_lobulo_real": 21,
+     "distinto_lobulo_nulo": 25.508512500000002,
+     "homotopica_real": 14,
+     "homotopica_nulo": 3.6217124999999992,
+     "otra_interhemisferica_real": 10,
+     "otra_interhemisferica_nulo": 12.994487500000002
+    }
+   },
+   "segundos": 9.894009351730347
+  },
+  {
+   "sujeto": "sub-PAT10",
+   "reales": 11,
+   "esperadas": 7.59709329765625,
+   "esperadas_cadena_desde_azar": 7.68109013625,
+   "esperadas_homotopicas_fijas": 7.0095005178125,
+   "esperadas_dmri_nulo_fmri_real": 8.1959,
+   "esperadas_dmri_real_fmri_nulo": 7.3131,
+   "cruce_real": 0.31340734431495626,
+   "P_real": 1.0187689343489827,
+   "cruce_nulo_mediana": 0.6152988816675596,
+   "cruce_nulo_homotopicas_mediana": 0.4460802735376301,
+   "P_nulo_mediana": 2.263716004553217,
+   "beta": {
+    "dmri": 0.15513248216831355,
+    "fmri": 0.03610416886030515,
+    "fmri_homotopicas": 0.03933592161494797
+   },
+   "longitud_objetivo": {
+    "dmri": 28.948617285099512,
+    "fmri": 50.6649646949094,
+    "fmri_homotopicas": 48.76667907495563
+   },
+   "longitud_obtenida": {
+    "dmri": 29.133618940487214,
+    "fmri": 50.29840533658991,
+    "fmri_homotopicas": 48.5814767297435
+   },
+   "tasa_aceptacion": {
+    "dmri": 0.01283875,
+    "fmri": 0.1822525,
+    "fmri_homotopicas": 0.16138375
+   },
+   "arboles_validos": true,
+   "longitudes": {
+    "dmri": {
+     "ks": 0.04121660447761216,
+     "q10_real": 14.874103274006163,
+     "q10_nulo": 14.581287218786356,
+     "q25_real": 18.107638867553234,
+     "q25_nulo": 18.18292307186317,
+     "q50_real": 27.122078321913307,
+     "q50_nulo": 27.111091352204713,
+     "q75_real": 36.90539853139846,
+     "q75_nulo": 37.8932685462668,
+     "q90_real": 46.142597179829274,
+     "q90_nulo": 46.138012398210854,
+     "mismo_lobulo_real": 42,
+     "mismo_lobulo_nulo": 33.7960875,
+     "distinto_lobulo_real": 24,
+     "distinto_lobulo_nulo": 23.6407125,
+     "homotopica_real": 1,
+     "homotopica_nulo": 2.8362499999999997,
+     "otra_interhemisferica_real": 0,
+     "otra_interhemisferica_nulo": 6.72695
+    },
+    "fmri": {
+     "ks": 0.12877630597014925,
+     "q10_real": 12.414223658510524,
+     "q10_nulo": 20.653561542211847,
+     "q25_real": 26.589724291629032,
+     "q25_nulo": 31.490354611125287,
+     "q50_real": 49.57952583678065,
+     "q50_nulo": 46.64140258187254,
+     "q75_real": 75.17169470177302,
+     "q75_nulo": 66.4710745209723,
+     "q90_real": 86.10214345865316,
+     "q90_nulo": 84.36687163408386,
+     "mismo_lobulo_real": 16,
+     "mismo_lobulo_nulo": 17.3308875,
+     "distinto_lobulo_real": 10,
+     "distinto_lobulo_nulo": 27.061212500000003,
+     "homotopica_real": 26,
+     "homotopica_nulo": 1.853125,
+     "otra_interhemisferica_real": 15,
+     "otra_interhemisferica_nulo": 20.754775
+    }
+   },
+   "segundos": 16.75974941253662
+  },
+  {
+   "sujeto": "sub-PAT11",
+   "reales": 7,
+   "esperadas": 7.0347816521875,
+   "esperadas_cadena_desde_azar": 7.03334562875,
+   "esperadas_homotopicas_fijas": 7.25115118546875,
+   "esperadas_dmri_nulo_fmri_real": 10.7021625,
+   "esperadas_dmri_real_fmri_nulo": 6.571975,
+   "cruce_real": 0.46239814649011884,
+   "P_real": 1.808197042804412,
+   "cruce_nulo_mediana": 0.6339979914540536,
+   "cruce_nulo_homotopicas_mediana": 0.46691388685567314,
+   "P_nulo_mediana": 1.9346698756630287,
+   "beta": {
+    "dmri": 0.18114826386099966,
+    "fmri": 0.033050984981276635,
+    "fmri_homotopicas": 0.03169575781940177
+   },
+   "longitud_objetivo": {
+    "dmri": 26.920996085044997,
+    "fmri": 49.789935718822406,
+    "fmri_homotopicas": 50.989931593811356
+   },
+   "longitud_obtenida": {
+    "dmri": 24.99201477461549,
+    "fmri": 50.2465888852787,
+    "fmri_homotopicas": 50.928142626903615
+   },
+   "tasa_aceptacion": {
+    "dmri": 0.00739,
+    "fmri": 0.20791375,
+    "fmri_homotopicas": 0.21112875
+   },
+   "arboles_validos": true,
+   "longitudes": {
+    "dmri": {
+     "ks": 0.1067475746268658,
+     "q10_real": 13.662613837678457,
+     "q10_nulo": 13.03427514846951,
+     "q25_real": 18.19475550001321,
+     "q25_nulo": 17.560024360164633,
+     "q50_real": 24.110516891597328,
+     "q50_nulo": 22.712410033933143,
+     "q75_real": 35.9358908266848,
+     "q75_nulo": 31.24234754317445,
+     "q90_real": 44.79404422515882,
+     "q90_nulo": 39.65562378070128,
+     "mismo_lobulo_real": 48,
+     "mismo_lobulo_nulo": 42.0568375,
+     "distinto_lobulo_real": 18,
+     "distinto_lobulo_nulo": 17.3262375,
+     "homotopica_real": 0,
+     "homotopica_nulo": 2.9630875000000003,
+     "otra_interhemisferica_real": 1,
+     "otra_interhemisferica_nulo": 4.6538375
+    },
+    "fmri": {
+     "ks": 0.15065373134328353,
+     "q10_real": 15.036632298420502,
+     "q10_nulo": 20.111700787678696,
+     "q25_real": 22.39711265801337,
+     "q25_nulo": 31.7640492226915,
+     "q50_real": 48.76404789186394,
+     "q50_nulo": 46.862356865866275,
+     "q75_real": 69.59738612208147,
+     "q75_nulo": 66.64273351007125,
+     "q90_real": 89.35332061554669,
+     "q90_nulo": 83.86914301234303,
+     "mismo_lobulo_real": 11,
+     "mismo_lobulo_nulo": 15.785787499999998,
+     "distinto_lobulo_real": 16,
+     "distinto_lobulo_nulo": 28.6167625,
+     "homotopica_real": 19,
+     "homotopica_nulo": 1.6134625,
+     "otra_interhemisferica_real": 21,
+     "otra_interhemisferica_nulo": 20.9839875
+    }
+   },
+   "segundos": 15.954090356826782
+  },
+  {
+   "sujeto": "sub-PAT13",
+   "reales": 9,
+   "esperadas": 7.948582957187501,
+   "esperadas_cadena_desde_azar": 7.938292465624999,
+   "esperadas_homotopicas_fijas": 7.516065187500001,
+   "esperadas_dmri_nulo_fmri_real": 8.2863375,
+   "esperadas_dmri_real_fmri_nulo": 7.7127375,
+   "cruce_real": 0.38574999614737343,
+   "P_real": 1.3557998788159296,
+   "cruce_nulo_mediana": 0.6897155420823539,
+   "cruce_nulo_homotopicas_mediana": 0.4961707222861388,
+   "P_nulo_mediana": 2.3189845899839767,
+   "beta": {
+    "dmri": 0.12713232116412065,
+    "fmri": 0.037595849940137004,
+    "fmri_homotopicas": 0.039433198569437396
+   },
+   "longitud_objetivo": {
+    "dmri": 28.976691049636056,
+    "fmri": 47.16915943640278,
+    "fmri_homotopicas": 48.95463685456869
+   },
+   "longitud_obtenida": {
+    "dmri": 29.733365251104882,
+    "fmri": 47.75429587870179,
+    "fmri_homotopicas": 49.21867009763167
+   },
+   "tasa_aceptacion": {
+    "dmri": 0.02105375,
+    "fmri": 0.17994375,
+    "fmri_homotopicas": 0.1661625
+   },
+   "arboles_validos": true,
+   "longitudes": {
+    "dmri": {
+     "ks": 0.056282649253731276,
+     "q10_real": 14.189676722591127,
+     "q10_nulo": 14.71110509982946,
+     "q25_real": 18.10903137441151,
+     "q25_nulo": 18.45344611641635,
+     "q50_real": 25.94603955327287,
+     "q50_nulo": 27.67339764079746,
+     "q75_real": 39.56337377389889,
+     "q75_nulo": 38.4820724122535,
+     "q90_real": 47.79429747312164,
+     "q90_nulo": 48.23981857812272,
+     "mismo_lobulo_real": 46,
+     "mismo_lobulo_nulo": 36.814025,
+     "distinto_lobulo_real": 20,
+     "distinto_lobulo_nulo": 18.753550000000004,
+     "homotopica_real": 1,
+     "homotopica_nulo": 2.3850375,
+     "otra_interhemisferica_real": 0,
+     "otra_interhemisferica_nulo": 9.047387500000001
+    },
+    "fmri": {
+     "ks": 0.1364516791044776,
+     "q10_real": 12.568019267993023,
+     "q10_nulo": 19.347520882421936,
+     "q25_real": 21.34201420475403,
+     "q25_nulo": 31.212682830551213,
+     "q50_real": 41.6890841595255,
+     "q50_nulo": 43.70950142084628,
+     "q75_real": 69.49324372072482,
+     "q75_nulo": 62.5921222609133,
+     "q90_real": 89.85454655817912,
+     "q90_nulo": 80.45521978141105,
+     "mismo_lobulo_real": 16,
+     "mismo_lobulo_nulo": 15.774474999999999,
+     "distinto_lobulo_real": 8,
+     "distinto_lobulo_nulo": 27.54005,
+     "homotopica_real": 24,
+     "homotopica_nulo": 2.25605,
+     "otra_interhemisferica_real": 19,
+     "otra_interhemisferica_nulo": 21.429425000000002
+    }
+   },
+   "segundos": 14.480614423751831
+  },
+  {
+   "sujeto": "sub-PAT14",
+   "reales": 9,
+   "esperadas": 10.404867048906251,
+   "esperadas_cadena_desde_azar": 10.169560451250002,
+   "esperadas_homotopicas_fijas": 10.247724085000002,
+   "esperadas_dmri_nulo_fmri_real": 12.596287499999999,
+   "esperadas_dmri_real_fmri_nulo": 10.1397,
+   "cruce_real": 0.6283548696154966,
+   "P_real": 1.4311729271288862,
+   "cruce_nulo_mediana": 0.707615011919607,
+   "cruce_nulo_homotopicas_mediana": 0.6581402094897567,
+   "P_nulo_mediana": 1.8254389585526392,
+   "beta": {
+    "dmri": 0.13664075714186125,
+    "fmri": 0.06344543576897667,
+    "fmri_homotopicas": 0.060177658771612415
+   },
+   "longitud_objetivo": {
+    "dmri": 27.774763184880175,
+    "fmri": 39.1348421555523,
+    "fmri_homotopicas": 39.4833735500771
+   },
+   "longitud_obtenida": {
+    "dmri": 27.64896493517304,
+    "fmri": 37.99705718416115,
+    "fmri_homotopicas": 39.10358147247487
+   },
+   "tasa_aceptacion": {
+    "dmri": 0.014365,
+    "fmri": 0.08984125,
+    "fmri_homotopicas": 0.09863125
+   },
+   "arboles_validos": true,
+   "longitudes": {
+    "dmri": {
+     "ks": 0.03972126865671638,
+     "q10_real": 13.763148430844609,
+     "q10_nulo": 13.793489390096768,
+     "q25_real": 16.534029252814072,
+     "q25_nulo": 16.51041212470151,
+     "q50_real": 26.22625546546819,
+     "q50_nulo": 25.98012017514772,
+     "q75_real": 35.80556481225334,
+     "q75_nulo": 35.60668697915174,
+     "q90_real": 44.259328263045234,
+     "q90_nulo": 44.85095201177447,
+     "mismo_lobulo_real": 40,
+     "mismo_lobulo_nulo": 33.9844375,
+     "distinto_lobulo_real": 25,
+     "distinto_lobulo_nulo": 21.127812499999997,
+     "homotopica_real": 2,
+     "homotopica_nulo": 3.9060874999999995,
+     "otra_interhemisferica_real": 0,
+     "otra_interhemisferica_nulo": 7.9816625000000005
+    },
+    "fmri": {
+     "ks": 0.10186753731343301,
+     "q10_real": 14.201644964969171,
+     "q10_nulo": 15.961705391790684,
+     "q25_real": 20.44556409939531,
+     "q25_nulo": 23.44930887231877,
+     "q50_real": 32.98448053054648,
+     "q50_nulo": 35.432833746709335,
+     "q75_real": 53.72205511016605,
+     "q75_nulo": 47.9465078230667,
+     "q90_real": 72.21747184330448,
+     "q90_nulo": 65.36040320022055,
+     "mismo_lobulo_real": 16,
+     "mismo_lobulo_nulo": 20.876912500000003,
+     "distinto_lobulo_real": 27,
+     "distinto_lobulo_nulo": 26.4574625,
+     "homotopica_real": 17,
+     "homotopica_nulo": 2.9808125000000003,
+     "otra_interhemisferica_real": 7,
+     "otra_interhemisferica_nulo": 16.6848125
+    }
+   },
+   "segundos": 11.6383216381073
+  },
+  {
+   "sujeto": "sub-PAT15",
+   "reales": 16,
+   "esperadas": 9.4857246015625,
+   "esperadas_cadena_desde_azar": 9.35888594625,
+   "esperadas_homotopicas_fijas": 10.2595461271875,
+   "esperadas_dmri_nulo_fmri_real": 12.3415125,
+   "esperadas_dmri_real_fmri_nulo": 9.042025,
+   "cruce_real": 0.33092270260543855,
+   "P_real": 1.2426425788970814,
+   "cruce_nulo_mediana": 0.4624546738302998,
+   "cruce_nulo_homotopicas_mediana": 0.3267818381218916,
+   "P_nulo_mediana": 1.678379961792572,
+   "beta": {
+    "dmri": 0.14264240794876606,
+    "fmri": 0.039999692596005214,
+    "fmri_homotopicas": 0.04621744173507846
+   },
+   "longitud_objetivo": {
+    "dmri": 28.341869346133546,
+    "fmri": 48.58745732710763,
+    "fmri_homotopicas": 49.1438210824896
+   },
+   "longitud_obtenida": {
+    "dmri": 28.01716970709575,
+    "fmri": 49.18049479982357,
+    "fmri_homotopicas": 48.542157903066965
+   },
+   "tasa_aceptacion": {
+    "dmri": 0.011935,
+    "fmri": 0.16385125,
+    "fmri_homotopicas": 0.14636
+   },
+   "arboles_validos": true,
+   "longitudes": {
+    "dmri": {
+     "ks": 0.07394197761194066,
+     "q10_real": 13.9713510131626,
+     "q10_nulo": 13.959855626872557,
+     "q25_real": 18.39744394048641,
+     "q25_nulo": 19.019662423413777,
+     "q50_real": 25.39170034656994,
+     "q50_nulo": 26.689987803581246,
+     "q75_real": 35.095541072642106,
+     "q75_nulo": 34.98493271122437,
+     "q90_real": 48.26203474899702,
+     "q90_nulo": 44.216058439915386,
+     "mismo_lobulo_real": 47,
+     "mismo_lobulo_nulo": 37.7171,
+     "distinto_lobulo_real": 19,
+     "distinto_lobulo_nulo": 18.711875,
+     "homotopica_real": 1,
+     "homotopica_nulo": 3.3632375000000003,
+     "otra_interhemisferica_real": 0,
+     "otra_interhemisferica_nulo": 7.2077875
+    },
+    "fmri": {
+     "ks": 0.15801361940298517,
+     "q10_real": 17.20820886119685,
+     "q10_nulo": 20.171652076051398,
+     "q25_real": 21.98205571612195,
+     "q25_nulo": 31.47988008259813,
+     "q50_real": 39.054227306528546,
+     "q50_nulo": 45.29018133215529,
+     "q75_real": 66.40589990565866,
+     "q75_nulo": 64.23537064230975,
+     "q90_real": 98.37624065404043,
+     "q90_nulo": 83.43842569068426,
+     "mismo_lobulo_real": 19,
+     "mismo_lobulo_nulo": 16.9595375,
+     "distinto_lobulo_real": 19,
+     "distinto_lobulo_nulo": 25.3617375,
+     "homotopica_real": 19,
+     "homotopica_nulo": 2.4076500000000003,
+     "otra_interhemisferica_real": 10,
+     "otra_interhemisferica_nulo": 22.271075000000003
+    }
+   },
+   "segundos": 18.74764609336853
+  },
+  {
+   "sujeto": "sub-PAT16",
+   "reales": 16,
+   "esperadas": 11.8141902646875,
+   "esperadas_cadena_desde_azar": 12.023515400625001,
+   "esperadas_homotopicas_fijas": 11.82050722640625,
+   "esperadas_dmri_nulo_fmri_real": 14.283349999999999,
+   "esperadas_dmri_real_fmri_nulo": 11.738824999999999,
+   "cruce_real": 0.14316884597527055,
+   "P_real": 0.7088654879583668,
+   "cruce_nulo_mediana": 0.28972793921863516,
+   "cruce_nulo_homotopicas_mediana": 0.27341390553117667,
+   "P_nulo_mediana": 1.4308151129702482,
+   "beta": {
+    "dmri": 0.14248891984357462,
+    "fmri": 0.057560560518343386,
+    "fmri_homotopicas": 0.05910293839927011
+   },
+   "longitud_objetivo": {
+    "dmri": 30.125620630559357,
+    "fmri": 41.80939419008027,
+    "fmri_homotopicas": 43.082432745663425
+   },
+   "longitud_obtenida": {
+    "dmri": 29.298909574635875,
+    "fmri": 40.69019928484535,
+    "fmri_homotopicas": 42.101251948804645
+   },
+   "tasa_aceptacion": {
+    "dmri": 0.0118225,
+    "fmri": 0.08960125,
+    "fmri_homotopicas": 0.08888875
+   },
+   "arboles_validos": true,
+   "longitudes": {
+    "dmri": {
+     "ks": 0.07038768656716454,
+     "q10_real": 15.43265070610422,
+     "q10_nulo": 13.914023551512807,
+     "q25_real": 18.579120815853067,
+     "q25_nulo": 18.592102435995347,
+     "q50_real": 26.22171499139596,
+     "q50_nulo": 26.17323530466113,
+     "q75_real": 39.22942919423856,
+     "q75_nulo": 38.20512178473558,
+     "q90_real": 50.82090842012126,
+     "q90_nulo": 46.4212154912974,
+     "mismo_lobulo_real": 46,
+     "mismo_lobulo_nulo": 38.087262499999994,
+     "distinto_lobulo_real": 20,
+     "distinto_lobulo_nulo": 20.310762500000003,
+     "homotopica_real": 1,
+     "homotopica_nulo": 3.5835874999999997,
+     "otra_interhemisferica_real": 0,
+     "otra_interhemisferica_nulo": 5.0183875
+    },
+    "fmri": {
+     "ks": 0.13409981343283606,
+     "q10_real": 12.354143065866873,
+     "q10_nulo": 16.03684454279344,
+     "q25_real": 18.451189662472196,
+     "q25_nulo": 24.46354413381961,
+     "q50_real": 32.572721844205766,
+     "q50_nulo": 37.97821474551959,
+     "q75_real": 56.99909867595384,
+     "q75_nulo": 52.7501994182964,
+     "q90_real": 88.2546447776411,
+     "q90_nulo": 70.48530955599209,
+     "mismo_lobulo_real": 23,
+     "mismo_lobulo_nulo": 21.789975,
+     "distinto_lobulo_real": 17,
+     "distinto_lobulo_nulo": 26.91995,
+     "homotopica_real": 16,
+     "homotopica_nulo": 2.9445375,
+     "otra_interhemisferica_real": 11,
+     "otra_interhemisferica_nulo": 15.345537499999999
+    }
+   },
+   "segundos": 13.298611640930176
+  },
+  {
+   "sujeto": "sub-PAT17",
+   "reales": 13,
+   "esperadas": 11.73345701890625,
+   "esperadas_cadena_desde_azar": 11.655660316875,
+   "esperadas_homotopicas_fijas": 10.961989991874999,
+   "esperadas_dmri_nulo_fmri_real": 12.5028875,
+   "esperadas_dmri_real_fmri_nulo": 11.494625,
+   "cruce_real": 0.14710814486017626,
+   "P_real": 0.6018334744635876,
+   "cruce_nulo_mediana": 0.41586967034856004,
+   "cruce_nulo_homotopicas_mediana": 0.3481251873377762,
+   "P_nulo_mediana": 1.39468029849274,
+   "beta": {
+    "dmri": 0.1473093856659449,
+    "fmri": 0.06445940364422467,
+    "fmri_homotopicas": 0.07343716134058575
+   },
+   "longitud_objetivo": {
+    "dmri": 27.45129896778441,
+    "fmri": 40.08568778050955,
+    "fmri_homotopicas": 39.152596292523754
+   },
+   "longitud_obtenida": {
+    "dmri": 27.480743902244466,
+    "fmri": 38.47241691417669,
+    "fmri_homotopicas": 39.01730524919074
+   },
+   "tasa_aceptacion": {
+    "dmri": 0.0156425,
+    "fmri": 0.089675,
+    "fmri_homotopicas": 0.07522375
+   },
+   "arboles_validos": true,
+   "longitudes": {
+    "dmri": {
+     "ks": 0.06201847014925399,
+     "q10_real": 12.741662853812135,
+     "q10_nulo": 13.188021011274841,
+     "q25_real": 18.474090673217617,
+     "q25_nulo": 18.389222414396855,
+     "q50_real": 25.70076641872767,
+     "q50_nulo": 25.5115247725075,
+     "q75_real": 36.42721303566475,
+     "q75_nulo": 35.66079128050706,
+     "q90_real": 45.19072894764706,
+     "q90_nulo": 45.13033844420302,
+     "mismo_lobulo_real": 48,
+     "mismo_lobulo_nulo": 38.0398125,
+     "distinto_lobulo_real": 18,
+     "distinto_lobulo_nulo": 18.885062499999997,
+     "homotopica_real": 1,
+     "homotopica_nulo": 2.53245,
+     "otra_interhemisferica_real": 0,
+     "otra_interhemisferica_nulo": 7.542675
+    },
+    "fmri": {
+     "ks": 0.12491567164179096,
+     "q10_real": 10.725425512463016,
+     "q10_nulo": 15.897979318709938,
+     "q25_real": 18.222583857072348,
+     "q25_nulo": 23.14845537663263,
+     "q50_real": 35.91022939859894,
+     "q50_nulo": 35.92358803128514,
+     "q75_real": 54.58466748182643,
+     "q75_nulo": 48.57640232025409,
+     "q90_real": 81.47088484482367,
+     "q90_nulo": 65.9239795190888,
+     "mismo_lobulo_real": 22,
+     "mismo_lobulo_nulo": 20.593087500000003,
+     "distinto_lobulo_real": 14,
+     "distinto_lobulo_nulo": 27.109837499999998,
+     "homotopica_real": 22,
+     "homotopica_nulo": 3.06015,
+     "otra_interhemisferica_real": 9,
+     "otra_interhemisferica_nulo": 16.236925
+    }
+   },
+   "segundos": 13.507967233657837
+  },
+  {
+   "sujeto": "sub-PAT19",
+   "reales": 13,
+   "esperadas": 8.052181333906251,
+   "esperadas_cadena_desde_azar": 8.057087641875,
+   "esperadas_homotopicas_fijas": 8.29428912703125,
+   "esperadas_dmri_nulo_fmri_real": 11.570125,
+   "esperadas_dmri_real_fmri_nulo": 7.8713999999999995,
+   "cruce_real": 0.42761672938136724,
+   "P_real": 1.2746657825795886,
+   "cruce_nulo_mediana": 0.5147730251029918,
+   "cruce_nulo_homotopicas_mediana": 0.3722887077774766,
+   "P_nulo_mediana": 1.8498938900146809,
+   "beta": {
+    "dmri": 0.1848193795787656,
+    "fmri": 0.03867682359213751,
+    "fmri_homotopicas": 0.036984823811118984
+   },
+   "longitud_objetivo": {
+    "dmri": 27.96858374087564,
+    "fmri": 46.41659941975732,
+    "fmri_homotopicas": 48.40006248592174
+   },
+   "longitud_obtenida": {
+    "dmri": 27.14887533449759,
+    "fmri": 46.505423569722254,
+    "fmri_homotopicas": 47.857659508865446
+   },
+   "tasa_aceptacion": {
+    "dmri": 0.00838125,
+    "fmri": 0.17558,
+    "fmri_homotopicas": 0.176505
+   },
+   "arboles_validos": true,
+   "longitudes": {
+    "dmri": {
+     "ks": 0.061050559701492646,
+     "q10_real": 13.056341930246848,
+     "q10_nulo": 13.025873630940078,
+     "q25_real": 18.12503105346918,
+     "q25_nulo": 17.96412949025742,
+     "q50_real": 26.215907432892728,
+     "q50_nulo": 25.55251759538782,
+     "q75_real": 35.862181306767475,
+     "q75_nulo": 35.401306142484735,
+     "q90_real": 44.26124990173502,
+     "q90_nulo": 42.701159963951106,
+     "mismo_lobulo_real": 43,
+     "mismo_lobulo_nulo": 39.0914375,
+     "distinto_lobulo_real": 23,
+     "distinto_lobulo_nulo": 18.6486125,
+     "homotopica_real": 1,
+     "homotopica_nulo": 2.857525,
+     "otra_interhemisferica_real": 0,
+     "otra_interhemisferica_nulo": 6.402425
+    },
+    "fmri": {
+     "ks": 0.20606716417910448,
+     "q10_real": 11.813169451921471,
+     "q10_nulo": 19.35470164375501,
+     "q25_real": 17.986485481260832,
+     "q25_nulo": 30.080453100836213,
+     "q50_real": 40.071783896527485,
+     "q50_nulo": 42.930079004390265,
+     "q75_real": 74.80612981490583,
+     "q75_nulo": 61.13516428660053,
+     "q90_real": 88.17072273930364,
+     "q90_nulo": 78.79867748689333,
+     "mismo_lobulo_real": 19,
+     "mismo_lobulo_nulo": 18.12245,
+     "distinto_lobulo_real": 12,
+     "distinto_lobulo_nulo": 26.873325,
+     "homotopica_real": 24,
+     "homotopica_nulo": 1.823725,
+     "otra_interhemisferica_real": 12,
+     "otra_interhemisferica_nulo": 20.180500000000002
+    }
+   },
+   "segundos": 14.126482725143433
+  },
+  {
+   "sujeto": "sub-PAT20",
+   "reales": 9,
+   "esperadas": 9.937360408125,
+   "esperadas_cadena_desde_azar": 9.877248351875,
+   "esperadas_homotopicas_fijas": 9.674973973124999,
+   "esperadas_dmri_nulo_fmri_real": 11.2347,
+   "esperadas_dmri_real_fmri_nulo": 8.4671875,
+   "cruce_real": 0.27007446584610517,
+   "P_real": 0.9672096751861168,
+   "cruce_nulo_mediana": 0.4301739561320325,
+   "cruce_nulo_homotopicas_mediana": 0.39768922080948393,
+   "P_nulo_mediana": 1.8765097690547297,
+   "beta": {
+    "dmri": 0.13502359051426685,
+    "fmri": 0.049826229996344965,
+    "fmri_homotopicas": 0.04961077477531854
+   },
+   "longitud_objetivo": {
+    "dmri": 29.525241429253015,
+    "fmri": 44.58471545092232,
+    "fmri_homotopicas": 45.665750368984675
+   },
+   "longitud_obtenida": {
+    "dmri": 28.499675460178416,
+    "fmri": 43.129910889665005,
+    "fmri_homotopicas": 45.042496052856954
+   },
+   "tasa_aceptacion": {
+    "dmri": 0.01528125,
+    "fmri": 0.1213475,
+    "fmri_homotopicas": 0.12442625
+   },
+   "arboles_validos": true,
+   "longitudes": {
+    "dmri": {
+     "ks": 0.09645429104477626,
+     "q10_real": 14.718761079679012,
+     "q10_nulo": 13.790385600965172,
+     "q25_real": 17.223522042429448,
+     "q25_nulo": 17.631558899621844,
+     "q50_real": 28.585800575810357,
+     "q50_nulo": 27.16984003395067,
+     "q75_real": 37.52534587280279,
+     "q75_nulo": 36.20411662319258,
+     "q90_real": 46.116483784224926,
+     "q90_nulo": 45.38863462429879,
+     "mismo_lobulo_real": 43,
+     "mismo_lobulo_nulo": 35.00305,
+     "distinto_lobulo_real": 23,
+     "distinto_lobulo_nulo": 21.0715,
+     "homotopica_real": 1,
+     "homotopica_nulo": 3.1315375,
+     "otra_interhemisferica_real": 0,
+     "otra_interhemisferica_nulo": 7.7939125
+    },
+    "fmri": {
+     "ks": 0.1477617537313432,
+     "q10_real": 13.251539300934791,
+     "q10_nulo": 17.03622293321574,
+     "q25_real": 19.915111339743852,
+     "q25_nulo": 27.644971137508925,
+     "q50_real": 40.775577738273675,
+     "q50_nulo": 40.64850525356076,
+     "q75_real": 59.68190725623607,
+     "q75_nulo": 55.97265928334284,
+     "q90_real": 90.93216820657395,
+     "q90_nulo": 72.75939803684548,
+     "mismo_lobulo_real": 25,
+     "mismo_lobulo_nulo": 18.9588375,
+     "distinto_lobulo_real": 15,
+     "distinto_lobulo_nulo": 27.0836625,
+     "homotopica_real": 16,
+     "homotopica_nulo": 2.6513125,
+     "otra_interhemisferica_real": 11,
+     "otra_interhemisferica_nulo": 18.3061875
+    }
+   },
+   "segundos": 14.429308652877808
+  },
+  {
+   "sujeto": "sub-PAT22",
+   "reales": 10,
+   "esperadas": 8.434400066093751,
+   "esperadas_cadena_desde_azar": 8.41900829375,
+   "esperadas_homotopicas_fijas": 9.069511311875,
+   "esperadas_dmri_nulo_fmri_real": 10.593425,
+   "esperadas_dmri_real_fmri_nulo": 8.360925000000002,
+   "cruce_real": 0.14426256371110274,
+   "P_real": 0.8003985869462589,
+   "cruce_nulo_mediana": 0.37253326784727003,
+   "cruce_nulo_homotopicas_mediana": 0.29487282743595133,
+   "P_nulo_mediana": 1.5627877845624685,
+   "beta": {
+    "dmri": 0.13475698620318308,
+    "fmri": 0.03811147510140026,
+    "fmri_homotopicas": 0.050890049977688936
+   },
+   "longitud_objetivo": {
+    "dmri": 28.752407459872718,
+    "fmri": 48.18501736645685,
+    "fmri_homotopicas": 44.96668384737366
+   },
+   "longitud_obtenida": {
+    "dmri": 29.051223689814673,
+    "fmri": 48.26877983221044,
+    "fmri_homotopicas": 43.89617837038627
+   },
+   "tasa_aceptacion": {
+    "dmri": 0.0152125,
+    "fmri": 0.1703175,
+    "fmri_homotopicas": 0.11767
+   },
+   "arboles_validos": true,
+   "longitudes": {
+    "dmri": {
+     "ks": 0.03770074626865649,
+     "q10_real": 14.15570481049217,
+     "q10_nulo": 13.928501342552572,
+     "q25_real": 18.869094283495365,
+     "q25_nulo": 17.91683469015887,
+     "q50_real": 26.85729935846119,
+     "q50_nulo": 27.048158636299085,
+     "q75_real": 37.414201630397955,
+     "q75_nulo": 37.50873782264989,
+     "q90_real": 43.37173406753201,
+     "q90_nulo": 45.66391631857795,
+     "mismo_lobulo_real": 44,
+     "mismo_lobulo_nulo": 37.183049999999994,
+     "distinto_lobulo_real": 21,
+     "distinto_lobulo_nulo": 20.256524999999996,
+     "homotopica_real": 1,
+     "homotopica_nulo": 3.08185,
+     "otra_interhemisferica_real": 1,
+     "otra_interhemisferica_nulo": 6.478575
+    },
+    "fmri": {
+     "ks": 0.11549888059701495,
+     "q10_real": 12.713278263722541,
+     "q10_nulo": 19.239728468231952,
+     "q25_real": 24.612400220132045,
+     "q25_nulo": 29.69024838015404,
+     "q50_real": 42.64269984393577,
+     "q50_nulo": 44.24269878691261,
+     "q75_real": 75.03750082146433,
+     "q75_nulo": 63.849987527725055,
+     "q90_real": 94.99995686906209,
+     "q90_nulo": 82.6497035900379,
+     "mismo_lobulo_real": 18,
+     "mismo_lobulo_nulo": 18.2003375,
+     "distinto_lobulo_real": 17,
+     "distinto_lobulo_nulo": 26.3987625,
+     "homotopica_real": 21,
+     "homotopica_nulo": 1.9385875000000001,
+     "otra_interhemisferica_real": 11,
+     "otra_interhemisferica_nulo": 20.4623125
+    }
+   },
+   "segundos": 16.180556058883667
+  },
+  {
+   "sujeto": "sub-PAT23",
+   "reales": 11,
+   "esperadas": 7.98331107328125,
+   "esperadas_cadena_desde_azar": 8.125224744999999,
+   "esperadas_homotopicas_fijas": 9.6277731171875,
+   "esperadas_dmri_nulo_fmri_real": 12.1658,
+   "esperadas_dmri_real_fmri_nulo": 7.915425000000001,
+   "cruce_real": 0.3306766625028532,
+   "P_real": 1.4199372058787971,
+   "cruce_nulo_mediana": 0.6515003204575732,
+   "cruce_nulo_homotopicas_mediana": 0.3658524914819798,
+   "P_nulo_mediana": 2.4271092502967146,
+   "beta": {
+    "dmri": 0.12760784799592076,
+    "fmri": 0.03430662047395169,
+    "fmri_homotopicas": 0.0456024443301139
+   },
+   "longitud_objetivo": {
+    "dmri": 28.54966317591263,
+    "fmri": 50.478690597671196,
+    "fmri_homotopicas": 46.10933562420474
+   },
+   "longitud_obtenida": {
+    "dmri": 29.449483682832017,
+    "fmri": 51.44272057918381,
+    "fmri_homotopicas": 46.372665837439115
+   },
+   "tasa_aceptacion": {
+    "dmri": 0.01716,
+    "fmri": 0.18430125,
+    "fmri_homotopicas": 0.12655125
+   },
+   "arboles_validos": true,
+   "longitudes": {
+    "dmri": {
+     "ks": 0.05644384328358193,
+     "q10_real": 14.843002549987878,
+     "q10_nulo": 14.858745067776672,
+     "q25_real": 17.798231503758743,
+     "q25_nulo": 17.906336714799437,
+     "q50_real": 28.851982554237065,
+     "q50_nulo": 27.8365071851765,
+     "q75_real": 37.223781765043626,
+     "q75_nulo": 37.86421497216616,
+     "q90_real": 45.33227725208666,
+     "q90_nulo": 45.844846040351335,
+     "mismo_lobulo_real": 44,
+     "mismo_lobulo_nulo": 38.2192625,
+     "distinto_lobulo_real": 22,
+     "distinto_lobulo_nulo": 19.7303375,
+     "homotopica_real": 1,
+     "homotopica_nulo": 2.2699124999999998,
+     "otra_interhemisferica_real": 0,
+     "otra_interhemisferica_nulo": 6.7804875000000004
+    },
+    "fmri": {
+     "ks": 0.18572444029850746,
+     "q10_real": 11.753050833600133,
+     "q10_nulo": 20.684069990851167,
+     "q25_real": 20.331953409024575,
+     "q25_nulo": 32.110515251715405,
+     "q50_real": 46.45521702457109,
+     "q50_nulo": 48.067980454106284,
+     "q75_real": 72.20671246764911,
+     "q75_nulo": 67.22812712358522,
+     "q90_real": 97.61325810210674,
+     "q90_nulo": 88.12246817834827,
+     "mismo_lobulo_real": 17,
+     "mismo_lobulo_nulo": 17.849537499999997,
+     "distinto_lobulo_real": 15,
+     "distinto_lobulo_nulo": 29.2766375,
+     "homotopica_real": 18,
+     "homotopica_nulo": 1.3980375,
+     "otra_interhemisferica_real": 17,
+     "otra_interhemisferica_nulo": 18.475787499999996
+    }
+   },
+   "segundos": 18.987207174301147
+  },
+  {
+   "sujeto": "sub-PAT24",
+   "reales": 14,
+   "esperadas": 13.688873765937501,
+   "esperadas_cadena_desde_azar": 13.455607552499998,
+   "esperadas_homotopicas_fijas": 14.3529941165625,
+   "esperadas_dmri_nulo_fmri_real": 13.618425,
+   "esperadas_dmri_real_fmri_nulo": 13.26145,
+   "cruce_real": 0.08796307969509538,
+   "P_real": 1.3097531996731118,
+   "cruce_nulo_mediana": 0.2855001155290223,
+   "cruce_nulo_homotopicas_mediana": 0.26310553606253806,
+   "P_nulo_mediana": 1.2633331849701674,
+   "beta": {
+    "dmri": 0.11403753303886689,
+    "fmri": 0.07582925450875011,
+    "fmri_homotopicas": 0.09243587817027661
+   },
+   "longitud_objetivo": {
+    "dmri": 29.685660018378,
+    "fmri": 36.87266829562273,
+    "fmri_homotopicas": 32.72922216488
+   },
+   "longitud_obtenida": {
+    "dmri": 30.33370236393631,
+    "fmri": 35.70304510484767,
+    "fmri_homotopicas": 32.99111804362745
+   },
+   "tasa_aceptacion": {
+    "dmri": 0.02325375,
+    "fmri": 0.0539225,
+    "fmri_homotopicas": 0.0335675
+   },
+   "arboles_validos": true,
+   "longitudes": {
+    "dmri": {
+     "ks": 0.05577630597014921,
+     "q10_real": 13.868668099408106,
+     "q10_nulo": 13.74523142405925,
+     "q25_real": 19.08558612452809,
+     "q25_nulo": 18.77842655120281,
+     "q50_real": 26.791494722952656,
+     "q50_nulo": 28.258445659312834,
+     "q75_real": 37.81568508247272,
+     "q75_nulo": 38.86766679518602,
+     "q90_real": 48.492277839683204,
+     "q90_nulo": 48.66834385878341,
+     "mismo_lobulo_real": 42,
+     "mismo_lobulo_nulo": 33.315537500000005,
+     "distinto_lobulo_real": 24,
+     "distinto_lobulo_nulo": 21.1800125,
+     "homotopica_real": 1,
+     "homotopica_nulo": 3.8961375,
+     "otra_interhemisferica_real": 0,
+     "otra_interhemisferica_nulo": 8.6083125
+    },
+    "fmri": {
+     "ks": 0.11768861940298508,
+     "q10_real": 12.899248216882372,
+     "q10_nulo": 14.463263000079921,
+     "q25_real": 17.794974816519314,
+     "q25_nulo": 22.53609246781546,
+     "q50_real": 31.88408651365129,
+     "q50_nulo": 33.64312554061475,
+     "q75_real": 46.409027620091805,
+     "q75_nulo": 45.423519790052154,
+     "q90_real": 76.4181688228984,
+     "q90_nulo": 59.397739539659845,
+     "mismo_lobulo_real": 20,
+     "mismo_lobulo_nulo": 25.63165,
+     "distinto_lobulo_real": 15,
+     "distinto_lobulo_nulo": 23.914925,
+     "homotopica_real": 22,
+     "homotopica_nulo": 4.155775000000001,
+     "otra_interhemisferica_real": 10,
+     "otra_interhemisferica_nulo": 13.297649999999999
+    }
+   },
+   "segundos": 9.30183744430542
+  },
+  {
+   "sujeto": "sub-PAT25",
+   "reales": 7,
+   "esperadas": 7.9437719828125,
+   "esperadas_cadena_desde_azar": 7.933016496875,
+   "esperadas_homotopicas_fijas": 7.98221058171875,
+   "esperadas_dmri_nulo_fmri_real": 9.015324999999999,
+   "esperadas_dmri_real_fmri_nulo": 8.252875,
+   "cruce_real": 0.258465358429041,
+   "P_real": 1.2474374503048158,
+   "cruce_nulo_mediana": 0.7960911761466152,
+   "cruce_nulo_homotopicas_mediana": 0.524334016485708,
+   "P_nulo_mediana": 2.4453340466798688,
+   "beta": {
+    "dmri": 0.13138945952481879,
+    "fmri": 0.036895078652414745,
+    "fmri_homotopicas": 0.04051670798334282
+   },
+   "longitud_objetivo": {
+    "dmri": 29.67306697862917,
+    "fmri": 49.39692887707596,
+    "fmri_homotopicas": 49.53819085413999
+   },
+   "longitud_obtenida": {
+    "dmri": 30.73928500251699,
+    "fmri": 49.80146409256725,
+    "fmri_homotopicas": 48.605104583268066
+   },
+   "tasa_aceptacion": {
+    "dmri": 0.017275,
+    "fmri": 0.16939625,
+    "fmri_homotopicas": 0.15123875
+   },
+   "arboles_validos": true,
+   "longitudes": {
+    "dmri": {
+     "ks": 0.09219402985074615,
+     "q10_real": 15.791511944671319,
+     "q10_nulo": 15.253235003107276,
+     "q25_real": 17.944293637936916,
+     "q25_nulo": 18.4702879486949,
+     "q50_real": 24.41891770185567,
+     "q50_nulo": 27.878411448058998,
+     "q75_real": 41.50776650014953,
+     "q75_nulo": 40.077316023080385,
+     "q90_real": 49.25233474347931,
+     "q90_nulo": 49.611936257191076,
+     "mismo_lobulo_real": 47,
+     "mismo_lobulo_nulo": 36.7068625,
+     "distinto_lobulo_real": 19,
+     "distinto_lobulo_nulo": 19.311162500000002,
+     "homotopica_real": 1,
+     "homotopica_nulo": 3.094175,
+     "otra_interhemisferica_real": 0,
+     "otra_interhemisferica_nulo": 7.8878
+    },
+    "fmri": {
+     "ks": 0.16319682835820898,
+     "q10_real": 14.796877903628655,
+     "q10_nulo": 18.734190445933017,
+     "q25_real": 20.77681502524385,
+     "q25_nulo": 30.33699072925753,
+     "q50_real": 43.20455973181534,
+     "q50_nulo": 46.47525391159007,
+     "q75_real": 75.91497034058567,
+     "q75_nulo": 65.52062161349015,
+     "q90_real": 93.06336823856101,
+     "q90_nulo": 85.26019749062728,
+     "mismo_lobulo_real": 13,
+     "mismo_lobulo_nulo": 17.485850000000003,
+     "distinto_lobulo_real": 15,
+     "distinto_lobulo_nulo": 26.8317,
+     "homotopica_real": 25,
+     "homotopica_nulo": 2.1128000000000005,
+     "otra_interhemisferica_real": 14,
+     "otra_interhemisferica_nulo": 20.56965
+    }
+   },
+   "segundos": 14.265566349029541
+  },
+  {
+   "sujeto": "sub-PAT26",
+   "reales": 8,
+   "esperadas": 8.30231757421875,
+   "esperadas_cadena_desde_azar": 8.205741638125001,
+   "esperadas_homotopicas_fijas": 7.7081990918750005,
+   "esperadas_dmri_nulo_fmri_real": 8.7414375,
+   "esperadas_dmri_real_fmri_nulo": 8.3769125,
+   "cruce_real": 0.3479083432392934,
+   "P_real": 1.225676570607165,
+   "cruce_nulo_mediana": 0.6594674042764685,
+   "cruce_nulo_homotopicas_mediana": 0.5444111289406622,
+   "P_nulo_mediana": 1.9467540724099788,
+   "beta": {
+    "dmri": 0.1449012659293695,
+    "fmri": 0.03936930617030471,
+    "fmri_homotopicas": 0.04395964005585276
+   },
+   "longitud_objetivo": {
+    "dmri": 28.856327596346922,
+    "fmri": 51.95853305391729,
+    "fmri_homotopicas": 51.96405448624014
+   },
+   "longitud_obtenida": {
+    "dmri": 29.49448260116164,
+    "fmri": 52.685711743260754,
+    "fmri_homotopicas": 52.42311393075399
+   },
+   "tasa_aceptacion": {
+    "dmri": 0.01171375,
+    "fmri": 0.15562,
+    "fmri_homotopicas": 0.1347625
+   },
+   "arboles_validos": true,
+   "longitudes": {
+    "dmri": {
+     "ks": 0.04602367424242426,
+     "q10_real": 15.442807638533072,
+     "q10_nulo": 15.421243664344798,
+     "q25_real": 17.692709201535603,
+     "q25_nulo": 18.471191654114612,
+     "q50_real": 25.198021938194955,
+     "q50_nulo": 26.651573189510998,
+     "q75_real": 38.09947498979572,
+     "q75_nulo": 38.92480671363785,
+     "q90_real": 47.94061170448791,
+     "q90_nulo": 47.029447973317204,
+     "mismo_lobulo_real": 46,
+     "mismo_lobulo_nulo": 39.9491,
+     "distinto_lobulo_real": 19,
+     "distinto_lobulo_nulo": 18.060875,
+     "homotopica_real": 1,
+     "homotopica_nulo": 2.1601624999999998,
+     "otra_interhemisferica_real": 0,
+     "otra_interhemisferica_nulo": 5.8298625
+    },
+    "fmri": {
+     "ks": 0.174760447761194,
+     "q10_real": 16.051136744680008,
+     "q10_nulo": 20.457543540372207,
+     "q25_real": 24.00092817301811,
+     "q25_nulo": 32.55879478134057,
+     "q50_real": 43.581520417029964,
+     "q50_nulo": 48.43374518066744,
+     "q75_real": 77.98595807261874,
+     "q75_nulo": 68.76760601969858,
+     "q90_real": 102.53396716428529,
+     "q90_nulo": 89.90229639100654,
+     "mismo_lobulo_real": 18,
+     "mismo_lobulo_nulo": 16.067700000000002,
+     "distinto_lobulo_real": 16,
+     "distinto_lobulo_nulo": 29.719025000000002,
+     "homotopica_real": 16,
+     "homotopica_nulo": 1.908325,
+     "otra_interhemisferica_real": 17,
+     "otra_interhemisferica_nulo": 19.30495
+    }
+   },
+   "segundos": 13.871216058731079
+  },
+  {
+   "sujeto": "sub-PAT27",
+   "reales": 17,
+   "esperadas": 11.06514039453125,
+   "esperadas_cadena_desde_azar": 10.898391795624999,
+   "esperadas_homotopicas_fijas": 10.700278098281249,
+   "esperadas_dmri_nulo_fmri_real": 11.050475,
+   "esperadas_dmri_real_fmri_nulo": 11.387287500000001,
+   "cruce_real": 0.1555675260566638,
+   "P_real": 0.7497922368468685,
+   "cruce_nulo_mediana": 0.27667021760141475,
+   "cruce_nulo_homotopicas_mediana": 0.20193124562741188,
+   "P_nulo_mediana": 1.219117099600081,
+   "beta": {
+    "dmri": 0.12109695732042028,
+    "fmri": 0.04932131702812774,
+    "fmri_homotopicas": 0.05057002067372377
+   },
+   "longitud_objetivo": {
+    "dmri": 29.988091526159153,
+    "fmri": 44.68479593206148,
+    "fmri_homotopicas": 43.812359860012
+   },
+   "longitud_obtenida": {
+    "dmri": 30.68128480445834,
+    "fmri": 44.37933761095313,
+    "fmri_homotopicas": 44.34515766767758
+   },
+   "tasa_aceptacion": {
+    "dmri": 0.0153275,
+    "fmri": 0.11021625,
+    "fmri_homotopicas": 0.1010325
+   },
+   "arboles_validos": true,
+   "longitudes": {
+    "dmri": {
+     "ks": 0.050015298507463224,
+     "q10_real": 16.524717035112353,
+     "q10_nulo": 16.307642192559793,
+     "q25_real": 19.48800451354216,
+     "q25_nulo": 19.028673534407126,
+     "q50_real": 27.424414564034,
+     "q50_nulo": 28.378847787600936,
+     "q75_real": 38.48708801355121,
+     "q75_nulo": 38.9319969249265,
+     "q90_real": 44.68306773934048,
+     "q90_nulo": 49.939202153671836,
+     "mismo_lobulo_real": 45,
+     "mismo_lobulo_nulo": 35.7075375,
+     "distinto_lobulo_real": 21,
+     "distinto_lobulo_nulo": 20.7741875,
+     "homotopica_real": 1,
+     "homotopica_nulo": 3.1793000000000005,
+     "otra_interhemisferica_real": 0,
+     "otra_interhemisferica_nulo": 7.338975
+    },
+    "fmri": {
+     "ks": 0.16747873134328345,
+     "q10_real": 14.144730335356996,
+     "q10_nulo": 18.169015695544335,
+     "q25_real": 22.170563328012566,
+     "q25_nulo": 27.440369364789397,
+     "q50_real": 37.27650137365361,
+     "q50_nulo": 40.463416322791595,
+     "q75_real": 67.99992951296548,
+     "q75_nulo": 57.36087454240425,
+     "q90_real": 89.89969420406322,
+     "q90_nulo": 76.1522237503455,
+     "mismo_lobulo_real": 24,
+     "mismo_lobulo_nulo": 21.913787499999998,
+     "distinto_lobulo_real": 13,
+     "distinto_lobulo_nulo": 25.1076875,
+     "homotopica_real": 24,
+     "homotopica_nulo": 2.6312124999999997,
+     "otra_interhemisferica_real": 6,
+     "otra_interhemisferica_nulo": 17.3473125
+    }
+   },
+   "segundos": 11.168108940124512
+  },
+  {
+   "sujeto": "sub-PAT28",
+   "reales": 13,
+   "esperadas": 9.4974475175,
+   "esperadas_cadena_desde_azar": 9.585737764374999,
+   "esperadas_homotopicas_fijas": 10.2831278959375,
+   "esperadas_dmri_nulo_fmri_real": 13.979349999999998,
+   "esperadas_dmri_real_fmri_nulo": 9.566225,
+   "cruce_real": 0.23396933223030153,
+   "P_real": 1.306382127298999,
+   "cruce_nulo_mediana": 0.4515478623093064,
+   "cruce_nulo_homotopicas_mediana": 0.3515027428612576,
+   "P_nulo_mediana": 1.6819192525018996,
+   "beta": {
+    "dmri": 0.12433494211487772,
+    "fmri": 0.04387769343445728,
+    "fmri_homotopicas": 0.059569071679747315
+   },
+   "longitud_objetivo": {
+    "dmri": 28.707921313300027,
+    "fmri": 45.52124577452663,
+    "fmri_homotopicas": 41.40926108656109
+   },
+   "longitud_obtenida": {
+    "dmri": 28.916881920944956,
+    "fmri": 45.77043017864603,
+    "fmri_homotopicas": 41.66019987671788
+   },
+   "tasa_aceptacion": {
+    "dmri": 0.0156725,
+    "fmri": 0.13765875,
+    "fmri_homotopicas": 0.0894225
+   },
+   "arboles_validos": true,
+   "longitudes": {
+    "dmri": {
+     "ks": 0.07867406716417913,
+     "q10_real": 14.435792821840339,
+     "q10_nulo": 13.861371838185706,
+     "q25_real": 19.623155598534247,
+     "q25_nulo": 19.77406396161705,
+     "q50_real": 24.096250658764323,
+     "q50_nulo": 25.40446203444555,
+     "q75_real": 37.82642462513701,
+     "q75_nulo": 37.12866141508084,
+     "q90_real": 46.40133747200568,
+     "q90_nulo": 45.480941563974774,
+     "mismo_lobulo_real": 49,
+     "mismo_lobulo_nulo": 37.2481375,
+     "distinto_lobulo_real": 17,
+     "distinto_lobulo_nulo": 20.1047875,
+     "homotopica_real": 1,
+     "homotopica_nulo": 2.91545,
+     "otra_interhemisferica_real": 0,
+     "otra_interhemisferica_nulo": 6.731625
+    },
+    "fmri": {
+     "ks": 0.1585177238805971,
+     "q10_real": 13.120388650592465,
+     "q10_nulo": 17.9932806319172,
+     "q25_real": 19.40194615486726,
+     "q25_nulo": 28.79322397165017,
+     "q50_real": 37.748482488571646,
+     "q50_nulo": 41.47792434225514,
+     "q75_real": 71.6708850517463,
+     "q75_nulo": 59.97264115727591,
+     "q90_real": 91.49926349103805,
+     "q90_nulo": 79.25247824317368,
+     "mismo_lobulo_real": 21,
+     "mismo_lobulo_nulo": 19.850262499999996,
+     "distinto_lobulo_real": 8,
+     "distinto_lobulo_nulo": 26.1015375,
+     "homotopica_real": 25,
+     "homotopica_nulo": 2.2955874999999994,
+     "otra_interhemisferica_real": 13,
+     "otra_interhemisferica_nulo": 18.752612499999998
+    }
+   },
+   "segundos": 12.388126850128174
+  },
+  {
+   "sujeto": "sub-PAT29",
+   "reales": 23,
+   "esperadas": 14.91849972703125,
+   "esperadas_cadena_desde_azar": 14.980351647500001,
+   "esperadas_homotopicas_fijas": 14.778641903906248,
+   "esperadas_dmri_nulo_fmri_real": 16.3079375,
+   "esperadas_dmri_real_fmri_nulo": 13.9193,
+   "cruce_real": 0.19566293174162225,
+   "P_real": 0.861380262819757,
+   "cruce_nulo_mediana": 0.289947758537439,
+   "cruce_nulo_homotopicas_mediana": 0.2718233844245751,
+   "P_nulo_mediana": 1.38803946138494,
+   "beta": {
+    "dmri": 0.11615536527432335,
+    "fmri": 0.06762360436958666,
+    "fmri_homotopicas": 0.06287407090729258
+   },
+   "longitud_objetivo": {
+    "dmri": 30.871941829933444,
+    "fmri": 36.80163531161202,
+    "fmri_homotopicas": 39.01848931608675
+   },
+   "longitud_obtenida": {
+    "dmri": 30.755598868958426,
+    "fmri": 37.16671110509929,
+    "fmri_homotopicas": 38.93332694660027
+   },
+   "tasa_aceptacion": {
+    "dmri": 0.01923375,
+    "fmri": 0.06134375,
+    "fmri_homotopicas": 0.06633125
+   },
+   "arboles_validos": true,
+   "longitudes": {
+    "dmri": {
+     "ks": 0.05330522388059755,
+     "q10_real": 14.92990176422981,
+     "q10_nulo": 14.27526677086285,
+     "q25_real": 19.3732070590278,
+     "q25_nulo": 19.08120705503543,
+     "q50_real": 29.72548434088164,
+     "q50_nulo": 28.642830476456748,
+     "q75_real": 41.34613713630114,
+     "q75_nulo": 40.70265578693644,
+     "q90_real": 47.9755617507129,
+     "q90_nulo": 49.618611848344706,
+     "mismo_lobulo_real": 45,
+     "mismo_lobulo_nulo": 35.174225,
+     "distinto_lobulo_real": 21,
+     "distinto_lobulo_nulo": 20.471899999999998,
+     "homotopica_real": 1,
+     "homotopica_nulo": 3.2249125000000003,
+     "otra_interhemisferica_real": 0,
+     "otra_interhemisferica_nulo": 8.1289625
+    },
+    "fmri": {
+     "ks": 0.14714179104477618,
+     "q10_real": 10.994688755481912,
+     "q10_nulo": 14.23621486894715,
+     "q25_real": 17.046620022830545,
+     "q25_nulo": 21.670637149732364,
+     "q50_real": 29.851709657210588,
+     "q50_nulo": 34.49087208697207,
+     "q75_real": 45.97598762578659,
+     "q75_nulo": 48.11610020907207,
+     "q90_real": 71.92887108488824,
+     "q90_nulo": 63.85293967847499,
+     "mismo_lobulo_real": 28,
+     "mismo_lobulo_nulo": 27.0594375,
+     "distinto_lobulo_real": 20,
+     "distinto_lobulo_nulo": 22.612612499999997,
+     "homotopica_real": 11,
+     "homotopica_nulo": 3.6247000000000003,
+     "otra_interhemisferica_real": 8,
+     "otra_interhemisferica_nulo": 13.70325
+    }
+   },
+   "segundos": 9.979275465011597
+  },
+  {
+   "sujeto": "sub-PAT31",
+   "reales": 7,
+   "esperadas": 7.37897466859375,
+   "esperadas_cadena_desde_azar": 7.31563738125,
+   "esperadas_homotopicas_fijas": 6.9871387984375,
+   "esperadas_dmri_nulo_fmri_real": 6.7579125,
+   "esperadas_dmri_real_fmri_nulo": 7.450662500000001,
+   "cruce_real": 0.30427181055623576,
+   "P_real": 1.1657724618563199,
+   "cruce_nulo_mediana": 0.5097716610130216,
+   "cruce_nulo_homotopicas_mediana": 0.4234305589856019,
+   "P_nulo_mediana": 1.4193532681050027,
+   "beta": {
+    "dmri": 0.11166603243878624,
+    "fmri": 0.03635584661074461,
+    "fmri_homotopicas": 0.03985324673965751
+   },
+   "longitud_objetivo": {
+    "dmri": 28.692240462233308,
+    "fmri": 50.19479457786542,
+    "fmri_homotopicas": 51.803792357394045
+   },
+   "longitud_obtenida": {
+    "dmri": 29.992041768802913,
+    "fmri": 49.69931535609738,
+    "fmri_homotopicas": 51.055415724234216
+   },
+   "tasa_aceptacion": {
+    "dmri": 0.02296875,
+    "fmri": 0.183685,
+    "fmri_homotopicas": 0.17085125
+   },
+   "arboles_validos": true,
+   "longitudes": {
+    "dmri": {
+     "ks": 0.09011567164179113,
+     "q10_real": 13.851455814421602,
+     "q10_nulo": 14.497574200606337,
+     "q25_real": 18.76891992299865,
+     "q25_nulo": 20.00012502875479,
+     "q50_real": 26.468506734419304,
+     "q50_nulo": 27.73775609043968,
+     "q75_real": 38.55250109016332,
+     "q75_nulo": 38.4390937731551,
+     "q90_real": 45.24642845865269,
+     "q90_nulo": 47.79931299340438,
+     "mismo_lobulo_real": 44,
+     "mismo_lobulo_nulo": 33.883512499999995,
+     "distinto_lobulo_real": 22,
+     "distinto_lobulo_nulo": 21.2890875,
+     "homotopica_real": 1,
+     "homotopica_nulo": 2.6813375,
+     "otra_interhemisferica_real": 0,
+     "otra_interhemisferica_nulo": 9.1460625
+    },
+    "fmri": {
+     "ks": 0.1471742537313433,
+     "q10_real": 10.929565346183427,
+     "q10_nulo": 19.906868410467904,
+     "q25_real": 23.493489244753057,
+     "q25_nulo": 30.986738484955218,
+     "q50_real": 47.579288134334256,
+     "q50_nulo": 46.00745379940214,
+     "q75_real": 72.72157590767006,
+     "q75_nulo": 66.13889763749621,
+     "q90_real": 89.91912628783831,
+     "q90_nulo": 84.26455556846763,
+     "mismo_lobulo_real": 9,
+     "mismo_lobulo_nulo": 16.8048625,
+     "distinto_lobulo_real": 14,
+     "distinto_lobulo_nulo": 27.0171375,
+     "homotopica_real": 26,
+     "homotopica_nulo": 1.817975,
+     "otra_interhemisferica_real": 18,
+     "otra_interhemisferica_nulo": 21.360025
+    }
+   },
+   "segundos": 15.540401697158813
+  }
+ ]
+}

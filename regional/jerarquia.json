@@ -1,0 +1,856 @@
+{
+ "sujetos": 36,
+ "regiones": 68,
+ "rotaciones": 10000,
+ "sustitutos_variograma": 2000,
+ "esfera": "fsaverage5 de FreeSurfer (misma malla que la superficie pial del ENIGMA Toolbox)",
+ "regiones_sin_valor_por_rotacion": {
+  "media": 1.3021,
+  "maximo": 8
+ },
+ "jerarquia_hcp": {
+  "componente_usado": 1,
+  "autovalores": [
+   0.8418563237913063,
+   0.7046912988220612
+  ],
+  "separacion_dmn_menos_sensoriales_en_de": [
+   -2.2374208857145494,
+   -0.5719428358471061
+  ],
+  "extremo_transmodal": [
+   "ctx-rh-medialorbitofrontal",
+   "ctx-lh-medialorbitofrontal",
+   "ctx-lh-rostralanteriorcingulate",
+   "ctx-rh-rostralanteriorcingulate",
+   "ctx-lh-isthmuscingulate",
+   "ctx-rh-isthmuscingulate"
+  ],
+  "extremo_unimodal": [
+   "ctx-rh-pericalcarine",
+   "ctx-lh-pericalcarine",
+   "ctx-rh-lingual",
+   "ctx-lh-cuneus",
+   "ctx-lh-lingual",
+   "ctx-rh-cuneus"
+  ]
+ },
+ "jerarquia_cohorte": {
+  "componente_mas_separador": 2,
+  "separacion_dmn_menos_sensoriales_en_de": [
+   0.009855392414459695,
+   -0.15186239184168754
+  ],
+  "rho_con_jerarquia_hcp": 0.2722067412299118
+ },
+ "acoplamiento_regional": {
+  "hcp_r2_mediana": 0.2643298823933715,
+  "cohorte_r2_mediana": 0.12590544441024307,
+  "cohorte_r2_p10_p90": [
+   0.07586562476382035,
+   0.27626784275616856
+  ],
+  "rho_hcp_con_cohorte": 0.6006031224949421,
+  "confiabilidad_cohorte": {
+   "mitades": 0.8866395770508072,
+   "spearman_brown": 0.9399141074277697
+  },
+  "cohorte_transformada_como_hcp": {
+   "r2_mediana": 0.1502873765554138,
+   "rho_con_hcp": 0.5953735160514562,
+   "rho_con_cohorte_sin_transformar": 0.9711417337863113
+  },
+  "hcp_mas_acopladas": [
+   "ctx-rh-cuneus",
+   "ctx-lh-cuneus",
+   "ctx-rh-pericalcarine",
+   "ctx-lh-pericalcarine",
+   "ctx-rh-precuneus",
+   "ctx-lh-postcentral"
+  ],
+  "hcp_menos_acopladas": [
+   "ctx-rh-caudalanteriorcingulate",
+   "ctx-lh-caudalanteriorcingulate",
+   "ctx-rh-frontalpole",
+   "ctx-rh-middletemporal",
+   "ctx-lh-superiortemporal",
+   "ctx-lh-frontalpole"
+  ]
+ },
+ "validacion": {
+  "acoplamiento_hcp_vs_jerarquia": {
+   "rho": -0.36111005076917196,
+   "p_permutacion": 0.0024997500249975004,
+   "p_rotacion": 0.06869313068693131,
+   "p_baum": 0.09059094090590941,
+   "p_cornblath": 0.1367863213678632,
+   "p_variograma": 0.09945027486256872,
+   "rho_critico": {
+    "permutacion": 0.23991487574913156,
+    "rotacion": 0.38028018475397934,
+    "baum": 0.40327637174299974,
+    "cornblath": 0.44018995929443694,
+    "variograma": 0.40615337634080234
+   },
+   "p_maximo_espacial": 0.1367863213678632
+  },
+  "acoplamiento_cohorte_vs_jerarquia": {
+   "rho": -0.28648318509753024,
+   "p_permutacion": 0.020397960203979604,
+   "p_rotacion": 0.30686931306869314,
+   "p_baum": 0.3474652534746525,
+   "p_cornblath": 0.40685931406859316,
+   "p_variograma": 0.41579210394802596,
+   "rho_critico": {
+    "permutacion": 0.24067832194526087,
+    "rotacion": 0.4375691873115242,
+    "baum": 0.4342296910055512,
+    "cornblath": 0.45665157362631476,
+    "variograma": 0.4748673512234225
+   },
+   "p_maximo_espacial": 0.41579210394802596
+  }
+ },
+ "contrastes": {
+  "omega_1": {
+   "reordenamiento": {
+    "confiabilidad": {
+     "mitades": 0.6549012398435535,
+     "spearman_brown": 0.7914686678287397
+    },
+    "regiones_mas_altas": [
+     "ctx-lh-caudalanteriorcingulate",
+     "ctx-lh-lateraloccipital",
+     "ctx-rh-rostralanteriorcingulate",
+     "ctx-lh-fusiform",
+     "ctx-rh-medialorbitofrontal"
+    ],
+    "vs_jerarquia": {
+     "rho": 0.06030006911350899,
+     "p_permutacion": 0.615038496150385,
+     "p_rotacion": 0.6738326167383262,
+     "p_baum": 0.7873212678732127,
+     "p_cornblath": 0.837016298370163,
+     "p_variograma": 0.8435782108945528,
+     "rho_critico": {
+      "permutacion": 0.23946705509426808,
+      "rotacion": 0.2813153794124071,
+      "baum": 0.35246474833137315,
+      "cornblath": 0.413217162270489,
+      "variograma": 0.4155436386725337
+     },
+     "p_maximo_espacial": 0.8435782108945528
+    },
+    "vs_acoplamiento_hcp": {
+     "rho": 0.03464533885439025,
+     "p_permutacion": 0.777922207779222,
+     "p_rotacion": 0.8336166383361664,
+     "p_baum": 0.908009199080092,
+     "p_cornblath": 0.9211078892110789,
+     "p_variograma": 0.9130434782608695,
+     "rho_critico": {
+      "permutacion": 0.23534397344548114,
+      "rotacion": 0.30127796639528387,
+      "baum": 0.39524161782893574,
+      "cornblath": 0.46463595295035914,
+      "variograma": 0.46331984727785236
+     },
+     "p_maximo_espacial": 0.9211078892110789
+    },
+    "vs_acoplamiento_cohorte": {
+     "rho": -0.013457280381457373,
+     "p_permutacion": 0.9145085491450855,
+     "p_rotacion": 0.9279072092790721,
+     "p_baum": 0.9675032496750325,
+     "p_cornblath": 0.9749025097490251,
+     "p_variograma": 0.9635182408795602,
+     "rho_critico": {
+      "permutacion": 0.24158490652451306,
+      "rotacion": 0.29677216351011654,
+      "baum": 0.48011599985688863,
+      "cornblath": 0.569572851853265,
+      "variograma": 0.45121879352207234
+     },
+     "p_maximo_espacial": 0.9749025097490251
+    },
+    "vs_acoplamiento_cohorte_como_hcp": {
+     "rho": 0.01899289926177317,
+     "p_permutacion": 0.8845115488451155,
+     "p_rotacion": 0.9066093390660934,
+     "p_baum": 0.9595040495950405,
+     "p_cornblath": 0.9656034396560343,
+     "p_variograma": 0.9475262368815592,
+     "rho_critico": {
+      "permutacion": 0.23570856075794328,
+      "rotacion": 0.2902401332313439,
+      "baum": 0.4991473130586811,
+      "cornblath": 0.5944652286294458,
+      "variograma": 0.44773994338090833
+     },
+     "p_maximo_espacial": 0.9656034396560343
+    },
+    "rho_vs_jerarquia_solo_controles": 0.058748285125049815
+   },
+   "reordenamiento_con_signo": {
+    "confiabilidad": {
+     "mitades": 0.8368355426222174,
+     "spearman_brown": 0.9111708949485737
+    },
+    "regiones_mas_altas": [
+     "ctx-rh-rostralanteriorcingulate",
+     "ctx-lh-frontalpole",
+     "ctx-lh-caudalanteriorcingulate",
+     "ctx-rh-caudalanteriorcingulate",
+     "ctx-rh-frontalpole"
+    ],
+    "vs_jerarquia": {
+     "rho": 0.35714149435353054,
+     "p_permutacion": 0.0015998400159984002,
+     "p_rotacion": 0.1790820917908209,
+     "p_baum": 0.1837816218378162,
+     "p_cornblath": 0.24177582241775822,
+     "p_variograma": 0.18240879560219891,
+     "rho_critico": {
+      "permutacion": 0.2400230959633565,
+      "rotacion": 0.45440056572750365,
+      "baum": 0.4434708898293559,
+      "cornblath": 0.46889788606772176,
+      "variograma": 0.44354183043074125
+     },
+     "p_maximo_espacial": 0.24177582241775822
+    },
+    "vs_acoplamiento_hcp": {
+     "rho": -0.2685957516189878,
+     "p_permutacion": 0.027197280271972803,
+     "p_rotacion": 0.43325667433256676,
+     "p_baum": 0.47195280471952805,
+     "p_cornblath": 0.5145485451454854,
+     "p_variograma": 0.4052973513243378,
+     "rho_critico": {
+      "permutacion": 0.23784046917273444,
+      "rotacion": 0.474419271263177,
+      "baum": 0.4924008550786728,
+      "cornblath": 0.5230623108235047,
+      "variograma": 0.48354583881836594
+     },
+     "p_maximo_espacial": 0.5145485451454854
+    },
+    "vs_acoplamiento_cohorte": {
+     "rho": -0.22429424937995493,
+     "p_permutacion": 0.0633936606339366,
+     "p_rotacion": 0.6422357764223577,
+     "p_baum": 0.6692330766923308,
+     "p_cornblath": 0.6972302769723028,
+     "p_variograma": 0.4782608695652174,
+     "rho_critico": {
+      "permutacion": 0.2369128289276605,
+      "rotacion": 0.6191740958023798,
+      "baum": 0.6593003184400827,
+      "cornblath": 0.707759165291707,
+      "variograma": 0.4941879338521328
+     },
+     "p_maximo_espacial": 0.6972302769723028
+    },
+    "vs_acoplamiento_cohorte_como_hcp": {
+     "rho": -0.12087954057724912,
+     "p_permutacion": 0.33336666333366666,
+     "p_rotacion": 0.8168183181681832,
+     "p_baum": 0.8265173482651735,
+     "p_cornblath": 0.8413158684131586,
+     "p_variograma": 0.7041479260369815,
+     "rho_critico": {
+      "permutacion": 0.24162928786917923,
+      "rotacion": 0.6465337568577134,
+      "baum": 0.6838782879715415,
+      "cornblath": 0.735239469496586,
+      "variograma": 0.5021749927112122
+     },
+     "p_maximo_espacial": 0.8413158684131586
+    },
+    "rho_vs_jerarquia_solo_controles": 0.4317700300257726
+   },
+   "fraccion_estructural": {
+    "confiabilidad": {
+     "mitades": 0.7941930373706912,
+     "spearman_brown": 0.8852927425630245
+    },
+    "regiones_mas_altas": [
+     "ctx-rh-superiorfrontal",
+     "ctx-lh-superiorfrontal",
+     "ctx-lh-rostralmiddlefrontal",
+     "ctx-lh-caudalanteriorcingulate",
+     "ctx-rh-rostralmiddlefrontal"
+    ],
+    "vs_jerarquia": {
+     "rho": 0.07645913654235216,
+     "p_permutacion": 0.5451454854514548,
+     "p_rotacion": 0.7076292370762923,
+     "p_baum": 0.7498250174982501,
+     "p_cornblath": 0.7948205179482052,
+     "p_variograma": 0.7776111944027986,
+     "rho_critico": {
+      "permutacion": 0.24079474749017057,
+      "rotacion": 0.3640512272397603,
+      "baum": 0.41666750283946924,
+      "cornblath": 0.4503847166355139,
+      "variograma": 0.40924724205061647
+     },
+     "p_maximo_espacial": 0.7948205179482052
+    },
+    "vs_acoplamiento_hcp": {
+     "rho": -0.23113333587815393,
+     "p_permutacion": 0.05699430056994301,
+     "p_rotacion": 0.30146985301469853,
+     "p_baum": 0.4002599740025997,
+     "p_cornblath": 0.46635336466353366,
+     "p_variograma": 0.40879560219890054,
+     "rho_critico": {
+      "permutacion": 0.2372160934458142,
+      "rotacion": 0.3879852654884147,
+      "baum": 0.4462507066817678,
+      "cornblath": 0.49726103639195285,
+      "variograma": 0.4556914913921441
+     },
+     "p_maximo_espacial": 0.46635336466353366
+    },
+    "vs_acoplamiento_cohorte": {
+     "rho": 0.11096690460739779,
+     "p_permutacion": 0.35996400359964004,
+     "p_rotacion": 0.7194280571942806,
+     "p_baum": 0.7641235876412359,
+     "p_cornblath": 0.8003199680031997,
+     "p_variograma": 0.671664167916042,
+     "rho_critico": {
+      "permutacion": 0.23751574607779505,
+      "rotacion": 0.44563308775814015,
+      "baum": 0.512086170875545,
+      "cornblath": 0.5817182016424565,
+      "variograma": 0.44775546818337975
+     },
+     "p_maximo_espacial": 0.8003199680031997
+    },
+    "vs_acoplamiento_cohorte_como_hcp": {
+     "rho": 0.1720044279879375,
+     "p_permutacion": 0.1538846115388461,
+     "p_rotacion": 0.5861413858614138,
+     "p_baum": 0.6506349365063494,
+     "p_cornblath": 0.7097290270972902,
+     "p_variograma": 0.512743628185907,
+     "rho_critico": {
+      "permutacion": 0.23977554681833776,
+      "rotacion": 0.4525002862923235,
+      "baum": 0.5304233098395509,
+      "cornblath": 0.5999864313700296,
+      "variograma": 0.453111043249227
+     },
+     "p_maximo_espacial": 0.7097290270972902
+    },
+    "rho_vs_jerarquia_solo_controles": 0.05401381837614993
+   }
+  },
+  "omega_adim_0.1": {
+   "reordenamiento": {
+    "confiabilidad": {
+     "mitades": 0.7574532954296234,
+     "spearman_brown": 0.861989672669461
+    },
+    "regiones_mas_altas": [
+     "ctx-lh-lateraloccipital",
+     "ctx-rh-frontalpole",
+     "ctx-lh-frontalpole",
+     "ctx-rh-lateraloccipital",
+     "ctx-lh-rostralanteriorcingulate"
+    ],
+    "vs_jerarquia": {
+     "rho": 0.16279513683615315,
+     "p_permutacion": 0.1797820217978202,
+     "p_rotacion": 0.24827517248275172,
+     "p_baum": 0.49035096490350966,
+     "p_cornblath": 0.5480451954804519,
+     "p_variograma": 0.5922038980509745,
+     "rho_critico": {
+      "permutacion": 0.23645282625469166,
+      "rotacion": 0.27331221056050653,
+      "baum": 0.38307621814266957,
+      "cornblath": 0.42281177234034406,
+      "variograma": 0.4246425919809445
+     },
+     "p_maximo_espacial": 0.5922038980509745
+    },
+    "vs_acoplamiento_hcp": {
+     "rho": -0.0029394361675187694,
+     "p_permutacion": 0.9795020497950205,
+     "p_rotacion": 0.9864013598640136,
+     "p_baum": 0.9923007699230078,
+     "p_cornblath": 0.9926007399260074,
+     "p_variograma": 0.992503748125937,
+     "rho_critico": {
+      "permutacion": 0.2393569510137045,
+      "rotacion": 0.2761619366631724,
+      "baum": 0.44202873664612374,
+      "cornblath": 0.48503622341938074,
+      "variograma": 0.4789763516852232
+     },
+     "p_maximo_espacial": 0.9926007399260074
+    },
+    "vs_acoplamiento_cohorte": {
+     "rho": -0.10593422551772189,
+     "p_permutacion": 0.3915608439156084,
+     "p_rotacion": 0.45765423457654236,
+     "p_baum": 0.793020697930207,
+     "p_cornblath": 0.8121187881211879,
+     "p_variograma": 0.7251374312843578,
+     "rho_critico": {
+      "permutacion": 0.2366303376596132,
+      "rotacion": 0.25533393181903946,
+      "baum": 0.5369143254594171,
+      "cornblath": 0.5909285187594284,
+      "variograma": 0.4655780580632115
+     },
+     "p_maximo_espacial": 0.8121187881211879
+    },
+    "vs_acoplamiento_cohorte_como_hcp": {
+     "rho": -0.06525930036848489,
+     "p_permutacion": 0.6029397060293971,
+     "p_rotacion": 0.6156384361563844,
+     "p_baum": 0.8761123887611239,
+     "p_cornblath": 0.8899110088991101,
+     "p_variograma": 0.8245877061469266,
+     "rho_critico": {
+      "permutacion": 0.23681739268845534,
+      "rotacion": 0.2417590811544983,
+      "baum": 0.5570992469650065,
+      "cornblath": 0.615301370385922,
+      "variograma": 0.45812162469411283
+     },
+     "p_maximo_espacial": 0.8899110088991101
+    },
+    "rho_vs_jerarquia_solo_controles": 0.17468074296473393
+   },
+   "reordenamiento_con_signo": {
+    "confiabilidad": {
+     "mitades": 0.8990215452145046,
+     "spearman_brown": 0.9468260615368167
+    },
+    "regiones_mas_altas": [
+     "ctx-rh-frontalpole",
+     "ctx-lh-frontalpole",
+     "ctx-rh-rostralanteriorcingulate",
+     "ctx-lh-parsorbitalis",
+     "ctx-lh-parstriangularis"
+    ],
+    "vs_jerarquia": {
+     "rho": 0.3626213175463585,
+     "p_permutacion": 0.001999800019998,
+     "p_rotacion": 0.19838016198380162,
+     "p_baum": 0.17748225177482252,
+     "p_cornblath": 0.24427557244275572,
+     "p_variograma": 0.1714142928535732,
+     "rho_critico": {
+      "permutacion": 0.23756859153457566,
+      "rotacion": 0.4648372412820102,
+      "baum": 0.4591061511053114,
+      "cornblath": 0.47646738292785135,
+      "variograma": 0.43774991174562455
+     },
+     "p_maximo_espacial": 0.24427557244275572
+    },
+    "vs_acoplamiento_hcp": {
+     "rho": -0.292269079192978,
+     "p_permutacion": 0.015398460153984602,
+     "p_rotacion": 0.4206579342065793,
+     "p_baum": 0.4276572342765723,
+     "p_cornblath": 0.47975202479752027,
+     "p_variograma": 0.33933033483258374,
+     "rho_critico": {
+      "permutacion": 0.2359882428271258,
+      "rotacion": 0.4911983356937767,
+      "baum": 0.5038463526681861,
+      "cornblath": 0.5303221485633269,
+      "variograma": 0.49215456117980627
+     },
+     "p_maximo_espacial": 0.47975202479752027
+    },
+    "vs_acoplamiento_cohorte": {
+     "rho": -0.22332922978103806,
+     "p_permutacion": 0.0665933406659334,
+     "p_rotacion": 0.6599340065993401,
+     "p_baum": 0.6743325667433256,
+     "p_cornblath": 0.7017298270172982,
+     "p_variograma": 0.45377311344327836,
+     "rho_critico": {
+      "permutacion": 0.23848950729706894,
+      "rotacion": 0.6419584490734838,
+      "baum": 0.6641270003562368,
+      "cornblath": 0.7160703310346679,
+      "variograma": 0.4960558084721098
+     },
+     "p_maximo_espacial": 0.7017298270172982
+    },
+    "vs_acoplamiento_cohorte_como_hcp": {
+     "rho": -0.12383215475765959,
+     "p_permutacion": 0.3140685931406859,
+     "p_rotacion": 0.8195180481951805,
+     "p_baum": 0.8213178682131786,
+     "p_cornblath": 0.8366163383661633,
+     "p_variograma": 0.671664167916042,
+     "rho_critico": {
+      "permutacion": 0.2392672755317137,
+      "rotacion": 0.6728697262371349,
+      "baum": 0.6907838597084147,
+      "cornblath": 0.7471867007672635,
+      "variograma": 0.49745292834391325
+     },
+     "p_maximo_espacial": 0.8366163383661633
+    },
+    "rho_vs_jerarquia_solo_controles": 0.43101325718193145
+   },
+   "fraccion_estructural": {
+    "confiabilidad": {
+     "mitades": 0.849594075657518,
+     "spearman_brown": 0.9186816576015395
+    },
+    "regiones_mas_altas": [
+     "ctx-rh-superiorfrontal",
+     "ctx-lh-rostralmiddlefrontal",
+     "ctx-lh-superiorfrontal",
+     "ctx-rh-rostralmiddlefrontal",
+     "ctx-rh-caudalanteriorcingulate"
+    ],
+    "vs_jerarquia": {
+     "rho": 0.10703515669733174,
+     "p_permutacion": 0.38936106389361064,
+     "p_rotacion": 0.6936306369363063,
+     "p_baum": 0.7306269373062694,
+     "p_cornblath": 0.7637236276372362,
+     "p_variograma": 0.7551224387806097,
+     "rho_critico": {
+      "permutacion": 0.24095507119135764,
+      "rotacion": 0.4137592090697407,
+      "baum": 0.4551912657569891,
+      "cornblath": 0.4755653682742935,
+      "variograma": 0.4510459212886972
+     },
+     "p_maximo_espacial": 0.7637236276372362
+    },
+    "vs_acoplamiento_hcp": {
+     "rho": -0.17227163415658278,
+     "p_permutacion": 0.1596840315968403,
+     "p_rotacion": 0.5749425057494251,
+     "p_baum": 0.6037396260373963,
+     "p_cornblath": 0.6337366263373663,
+     "p_variograma": 0.6331834082958521,
+     "rho_critico": {
+      "permutacion": 0.2400446616024733,
+      "rotacion": 0.44001603237011866,
+      "baum": 0.4890974494427927,
+      "cornblath": 0.5299941965471568,
+      "variograma": 0.514114211550941
+     },
+     "p_maximo_espacial": 0.6337366263373663
+    },
+    "vs_acoplamiento_cohorte": {
+     "rho": 0.16242317822651448,
+     "p_permutacion": 0.18538146185381463,
+     "p_rotacion": 0.6871312868713129,
+     "p_baum": 0.7332266773322668,
+     "p_cornblath": 0.7604239576042395,
+     "p_variograma": 0.5952023988005997,
+     "rho_critico": {
+      "permutacion": 0.2352960262625491,
+      "rotacion": 0.542550673741268,
+      "baum": 0.5994856292399111,
+      "cornblath": 0.6434327400581082,
+      "variograma": 0.520330572202924
+     },
+     "p_maximo_espacial": 0.7604239576042395
+    },
+    "vs_acoplamiento_cohorte_como_hcp": {
+     "rho": 0.23712638851776918,
+     "p_permutacion": 0.049295070492950704,
+     "p_rotacion": 0.5631436856314369,
+     "p_baum": 0.6155384461553844,
+     "p_cornblath": 0.6611338866113389,
+     "p_variograma": 0.42328835582208896,
+     "rho_critico": {
+      "permutacion": 0.2358762453716073,
+      "rotacion": 0.5601118448677328,
+      "baum": 0.6195760769013716,
+      "cornblath": 0.6595853817723887,
+      "variograma": 0.5375920906974081
+     },
+     "p_maximo_espacial": 0.6611338866113389
+    },
+    "rho_vs_jerarquia_solo_controles": 0.09447646677100431
+   }
+  },
+  "omega_adim_0.28": {
+   "reordenamiento": {
+    "confiabilidad": {
+     "mitades": 0.6884181608680368,
+     "spearman_brown": 0.8154593178672189
+    },
+    "regiones_mas_altas": [
+     "ctx-lh-caudalanteriorcingulate",
+     "ctx-lh-lateraloccipital",
+     "ctx-rh-rostralanteriorcingulate",
+     "ctx-lh-frontalpole",
+     "ctx-rh-medialorbitofrontal"
+    ],
+    "vs_jerarquia": {
+     "rho": 0.09498086483658699,
+     "p_permutacion": 0.4400559944005599,
+     "p_rotacion": 0.49095090490950904,
+     "p_baum": 0.6652334766523348,
+     "p_cornblath": 0.7358264173582642,
+     "p_variograma": 0.7576211894052973,
+     "rho_critico": {
+      "permutacion": 0.24079443488746552,
+      "rotacion": 0.2710858101793509,
+      "baum": 0.3556199140363823,
+      "cornblath": 0.40578747206147286,
+      "variograma": 0.41486557573900396
+     },
+     "p_maximo_espacial": 0.7576211894052973
+    },
+    "vs_acoplamiento_hcp": {
+     "rho": 0.00883764879809883,
+     "p_permutacion": 0.9443055694430557,
+     "p_rotacion": 0.9521047895210479,
+     "p_baum": 0.9755024497550245,
+     "p_cornblath": 0.9822017798220178,
+     "p_variograma": 0.9750124937531235,
+     "rho_critico": {
+      "permutacion": 0.2368346719432632,
+      "rotacion": 0.28269882428035153,
+      "baum": 0.39815025033067686,
+      "cornblath": 0.46325402962400336,
+      "variograma": 0.47886981346545127
+     },
+     "p_maximo_espacial": 0.9822017798220178
+    },
+    "vs_acoplamiento_cohorte": {
+     "rho": -0.04033250952566485,
+     "p_permutacion": 0.7397260273972602,
+     "p_rotacion": 0.7748225177482252,
+     "p_baum": 0.9058094190580942,
+     "p_cornblath": 0.9217078292170783,
+     "p_variograma": 0.8840579710144928,
+     "rho_critico": {
+      "permutacion": 0.23755237301196422,
+      "rotacion": 0.2704568673545186,
+      "baum": 0.4786136606933265,
+      "cornblath": 0.5618327912658678,
+      "variograma": 0.4395079182840268
+     },
+     "p_maximo_espacial": 0.9217078292170783
+    },
+    "vs_acoplamiento_cohorte_como_hcp": {
+     "rho": -0.0006680728033120065,
+     "p_permutacion": 0.9959004099590041,
+     "p_rotacion": 0.9963003699630038,
+     "p_baum": 0.999000099990001,
+     "p_cornblath": 0.9988001199880012,
+     "p_variograma": 0.9985007496251874,
+     "rho_critico": {
+      "permutacion": 0.24077439270336617,
+      "rotacion": 0.2628236583818194,
+      "baum": 0.5008138496857613,
+      "cornblath": 0.5863709369625686,
+      "variograma": 0.4406035576814585
+     },
+     "p_maximo_espacial": 0.999000099990001
+    },
+    "rho_vs_jerarquia_solo_controles": 0.07336770021509728
+   },
+   "reordenamiento_con_signo": {
+    "confiabilidad": {
+     "mitades": 0.8548458344777609,
+     "spearman_brown": 0.9217432722309734
+    },
+    "regiones_mas_altas": [
+     "ctx-rh-rostralanteriorcingulate",
+     "ctx-lh-frontalpole",
+     "ctx-rh-frontalpole",
+     "ctx-rh-caudalanteriorcingulate",
+     "ctx-lh-caudalanteriorcingulate"
+    ],
+    "vs_jerarquia": {
+     "rho": 0.3620938112854907,
+     "p_permutacion": 0.0033996600339966003,
+     "p_rotacion": 0.1825817418258174,
+     "p_baum": 0.17638236176382363,
+     "p_cornblath": 0.23357664233576642,
+     "p_variograma": 0.16891554222888555,
+     "rho_critico": {
+      "permutacion": 0.23734885728103217,
+      "rotacion": 0.458426301662329,
+      "baum": 0.44720307368870654,
+      "cornblath": 0.4700196921874282,
+      "variograma": 0.4462308538356007
+     },
+     "p_maximo_espacial": 0.23357664233576642
+    },
+    "vs_acoplamiento_hcp": {
+     "rho": -0.2835138618330441,
+     "p_permutacion": 0.019098090190980903,
+     "p_rotacion": 0.40815918408159185,
+     "p_baum": 0.43775622437756223,
+     "p_cornblath": 0.48555144485551444,
+     "p_variograma": 0.37681159420289856,
+     "rho_critico": {
+      "permutacion": 0.2374776925151357,
+      "rotacion": 0.47940258644450995,
+      "baum": 0.494312191597996,
+      "cornblath": 0.521630339351834,
+      "variograma": 0.49930906161609834
+     },
+     "p_maximo_espacial": 0.48555144485551444
+    },
+    "vs_acoplamiento_cohorte": {
+     "rho": -0.22148208244988846,
+     "p_permutacion": 0.07029297070292971,
+     "p_rotacion": 0.6495350464953504,
+     "p_baum": 0.6775322467753224,
+     "p_cornblath": 0.7028297170282972,
+     "p_variograma": 0.46976511744127936,
+     "rho_critico": {
+      "permutacion": 0.24204418581280335,
+      "rotacion": 0.6266421723234354,
+      "baum": 0.6581238670554197,
+      "cornblath": 0.7076096499599189,
+      "variograma": 0.49686214650319965
+     },
+     "p_maximo_espacial": 0.7028297170282972
+    },
+    "vs_acoplamiento_cohorte_como_hcp": {
+     "rho": -0.11917736322105339,
+     "p_permutacion": 0.33266673332666735,
+     "p_rotacion": 0.8215178482151785,
+     "p_baum": 0.8256174382561744,
+     "p_cornblath": 0.8428157184281572,
+     "p_variograma": 0.7076461769115442,
+     "rho_critico": {
+      "permutacion": 0.23730591220299774,
+      "rotacion": 0.6536450830564569,
+      "baum": 0.6821449378342572,
+      "cornblath": 0.7372243125046881,
+      "variograma": 0.5016223698195563
+     },
+     "p_maximo_espacial": 0.8428157184281572
+    },
+    "rho_vs_jerarquia_solo_controles": 0.4177674303951433
+   },
+   "fraccion_estructural": {
+    "confiabilidad": {
+     "mitades": 0.8070349658357826,
+     "spearman_brown": 0.8932145543321194
+    },
+    "regiones_mas_altas": [
+     "ctx-rh-superiorfrontal",
+     "ctx-lh-superiorfrontal",
+     "ctx-lh-rostralmiddlefrontal",
+     "ctx-rh-rostralmiddlefrontal",
+     "ctx-rh-caudalanteriorcingulate"
+    ],
+    "vs_jerarquia": {
+     "rho": 0.07077146238118867,
+     "p_permutacion": 0.5638436156384361,
+     "p_rotacion": 0.7389261073892611,
+     "p_baum": 0.7764223577642235,
+     "p_cornblath": 0.8147185281471853,
+     "p_variograma": 0.8135932033983009,
+     "rho_critico": {
+      "permutacion": 0.24067832194526087,
+      "rotacion": 0.37123525594533713,
+      "baum": 0.4238423549416804,
+      "cornblath": 0.45688936566512783,
+      "variograma": 0.4341069588120777
+     },
+     "p_maximo_espacial": 0.8147185281471853
+    },
+    "vs_acoplamiento_hcp": {
+     "rho": -0.21345955643776005,
+     "p_permutacion": 0.0903909609039096,
+     "p_rotacion": 0.3648635136486351,
+     "p_baum": 0.44795520447955206,
+     "p_cornblath": 0.5082491750824918,
+     "p_variograma": 0.4802598700649675,
+     "rho_critico": {
+      "permutacion": 0.24611596747719178,
+      "rotacion": 0.39615223117150816,
+      "baum": 0.45148272807468326,
+      "cornblath": 0.502832617651166,
+      "variograma": 0.47373363362217047
+     },
+     "p_maximo_espacial": 0.5082491750824918
+    },
+    "vs_acoplamiento_cohorte": {
+     "rho": 0.12108256670611138,
+     "p_permutacion": 0.3217678232176782,
+     "p_rotacion": 0.7091290870912909,
+     "p_baum": 0.7514248575142486,
+     "p_cornblath": 0.7907209279072093,
+     "p_variograma": 0.6606696651674163,
+     "rho_critico": {
+      "permutacion": 0.2380119861052791,
+      "rotacion": 0.4610680612283846,
+      "baum": 0.5208776819472759,
+      "cornblath": 0.5930360669417077,
+      "variograma": 0.46418292170859254
+     },
+     "p_maximo_espacial": 0.7907209279072093
+    },
+    "vs_acoplamiento_cohorte_como_hcp": {
+     "rho": 0.1864717334045883,
+     "p_permutacion": 0.12268773122687732,
+     "p_rotacion": 0.5708429157084292,
+     "p_baum": 0.6297370262973703,
+     "p_cornblath": 0.6948305169483052,
+     "p_variograma": 0.49375312343828087,
+     "rho_critico": {
+      "permutacion": 0.23643928694125282,
+      "rotacion": 0.4686051837996717,
+      "baum": 0.5387310680846696,
+      "cornblath": 0.6090693937890183,
+      "variograma": 0.4664350879871741
+     },
+     "p_maximo_espacial": 0.6948305169483052
+    },
+    "rho_vs_jerarquia_solo_controles": 0.070962323930221
+   }
+  }
+ },
+ "familia_principal_omega_1": {
+  "contrastes": [
+   "reordenamiento_vs_jerarquia",
+   "reordenamiento_vs_acoplamiento_hcp",
+   "fraccion_estructural_vs_jerarquia",
+   "fraccion_estructural_vs_acoplamiento_hcp"
+  ],
+  "rho": [
+   0.06030006911350899,
+   0.03464533885439025,
+   0.07645913654235216,
+   -0.23113333587815393
+  ],
+  "p_rotacion": [
+   0.6738326167383262,
+   0.8336166383361664,
+   0.7076292370762923,
+   0.30146985301469853
+  ],
+  "p_holm": [
+   1.0,
+   1.0,
+   1.0,
+   1.0
+  ],
+  "p_maximo_espacial": [
+   0.8435782108945528,
+   0.9211078892110789,
+   0.7948205179482052,
+   0.46635336466353366
+  ]
+ }
+}

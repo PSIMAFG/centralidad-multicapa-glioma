@@ -1,0 +1,24 @@
+{
+ "chequeo_centroides": {
+  "x_izquierda_media": -28.194976806640625,
+  "x_derecha_media": 28.733549118041992,
+  "y_polo_frontal": 64.46087646484375,
+  "y_occipital_lateral": -88.52670288085938,
+  "z_polo_temporal": -38.603084564208984,
+  "z_frontal_superior": 43.25543975830078
+ },
+ "aristas_compartidas_reales_media": 11.25,
+ "aristas_compartidas_nulo_espacial_media": 6.7820833333333335,
+ "razon_real_sobre_nulo_espacial_mediana": 1.6402605028559227,
+ "sujetos_real_mayor": 36,
+ "wilcoxon_p": 2.9103830456733704e-11,
+ "longitud_media_aristas_mm": {
+  "dmri": 31.224446031782364,
+  "fmri": 49.68315548366971
+ },
+ "fraccion_intrahemisferica_fmri": {
+  "real": 0.49585406301824203,
+  "nulo": 0.6828358208955224
+ },
+ "K": 200
+}

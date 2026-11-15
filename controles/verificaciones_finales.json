@@ -1,0 +1,37 @@
+{
+ "aristas_compartidas_por_categoria_media": {
+  "mismo_lobulo": 7.361111111111111,
+  "distinto_lobulo": 3.0833333333333335,
+  "homotopica": 0.8055555555555556,
+  "otra_interhemisferica": 0.0
+ },
+ "aristas_por_categoria_dmri_media": {
+  "mismo_lobulo": 45.22222222222222,
+  "distinto_lobulo": 20.666666666666668,
+  "homotopica": 1.0,
+  "otra_interhemisferica": 0.08333333333333333
+ },
+ "aristas_por_categoria_fmri_media": {
+  "mismo_lobulo": 17.833333333333332,
+  "distinto_lobulo": 15.38888888888889,
+  "homotopica": 20.5,
+  "otra_interhemisferica": 13.277777777777779
+ },
+ "candidatas_por_categoria": {
+  "mismo_lobulo": 226,
+  "distinto_lobulo": 896,
+  "homotopica": 34,
+  "otra_interhemisferica": 1122
+ },
+ "cruce_reales": {
+  "diferencia_relativa_max": 0.0409071409539139,
+  "diferencia_relativa_mediana": 0.0024745534799500146,
+  "sujetos_con_rho_que_vuelve_bajo_0,95": 1
+ },
+ "cruce_nulos_muestra": {
+  "n": 288,
+  "diferencia_relativa_mediana": 0.002507577260310978,
+  "fraccion_con_diferencia_mayor_10_pct": 0.0,
+  "fraccion_que_vuelve_bajo_0,95": 0.003472222222222222
+ }
+}

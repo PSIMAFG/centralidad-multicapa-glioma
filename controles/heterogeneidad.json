@@ -1,0 +1,12 @@
+{
+ "rho_cruce_jaccard": -0.4218885631021818,
+ "p_cruce_jaccard": 0.010380409687624152,
+ "rho_cruce_acoplamiento": -0.5271557271557272,
+ "p_cruce_acoplamiento": 0.0009551104607990406,
+ "cruce_por_grupo_mediana": {
+  "glioma": 0.24906078999726547,
+  "meningioma": 0.3637212439039547,
+  "control": 0.26235384563428515
+ },
+ "kruskal_p": 0.1005448837050006
+}

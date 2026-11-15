@@ -1,0 +1,10 @@
+# Versiones con que se obtuvieron los resultados (Python 3.13).
+numpy==2.5.3
+scipy==1.18.1
+matplotlib==3.11.2
+networkx==3.7
+scikit-image==0.26.0
+scikit-learn==1.9.1
+pytest==9.1.1
+# Opcionales: h5py, si algún .mat viene en formato v7.3; nilearn, que trae la esfera fsaverage5 del
+# análisis de jerarquía (sin nilearn, su ubicación se indica con FSAVERAGE5_DATOS).

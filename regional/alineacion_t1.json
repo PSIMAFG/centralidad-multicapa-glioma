@@ -1,0 +1,50 @@
+{
+ "sub-PAT01": {
+  "forma_t1": [
+   144,
+   256,
+   256
+  ],
+  "forma_mascara": [
+   144,
+   256,
+   256
+  ],
+  "misma_forma": true,
+  "signo_eje_x": {
+   "t1": 1.0,
+   "mascara": -1.0
+  },
+  "max_dif_afin_mm": 142.95750427246094,
+  "intensidad_t1_mediana": {
+   "mascara_por_coordenadas_de_mundo": 159.0,
+   "mascara_voxel_a_voxel_en_espejo": 156.0,
+   "cabeza_sobre_otsu": 216.0
+  },
+  "centroides_dentro_del_volumen": 68
+ },
+ "sub-PAT26": {
+  "forma_t1": [
+   160,
+   256,
+   256
+  ],
+  "forma_mascara": [
+   160,
+   256,
+   256
+  ],
+  "misma_forma": true,
+  "signo_eje_x": {
+   "t1": 1.0,
+   "mascara": -1.0
+  },
+  "max_dif_afin_mm": 158.89089965820312,
+  "intensidad_t1_mediana": {
+   "mascara_por_coordenadas_de_mundo": 199.0,
+   "mascara_voxel_a_voxel_en_espejo": 234.0,
+   "cabeza_sobre_otsu": 211.0
+  },
+  "centroides_dentro_del_volumen": 68
+ }
+}

@@ -1,0 +1,45 @@
+{
+ "pacientes": 25,
+ "glioma": 11,
+ "meningioma": 14,
+ "edad_mediana": {
+  "glioma": 45.0,
+  "meningioma": 61.0,
+  "control": 53.0
+ },
+ "edad_glioma_vs_meningioma_p": 0.01707564465298613,
+ "tipo": {
+  "variacion_total_omega1": {
+   "mediana_glioma": 0.06725834402874711,
+   "mediana_meningioma": 0.10378539901163433,
+   "mannwhitney_p": 0.0056989673818295845,
+   "p_ancova_rangos_edad_sexo": 0.09322912954739551,
+   "p_permutacion_edad_sexo": 0.0791920807919208,
+   "p_edad_en_el_modelo": 0.4347499854322301
+  },
+  "cruce": {
+   "mediana_glioma": 0.24938108552089708,
+   "mediana_meningioma": 0.35728620356113155,
+   "mannwhitney_p": 0.02309176912264611,
+   "p_ancova_rangos_edad_sexo": 0.18380242634963007,
+   "p_permutacion_edad_sexo": 0.15928407159284072,
+   "p_edad_en_el_modelo": 0.6616487455611187
+  }
+ },
+ "volumen": {
+  "variacion_total_omega1": {
+   "rho": -0.2923076923076923,
+   "p": 0.15621944748051084
+  },
+  "cruce": {
+   "rho": -0.31769230769230766,
+   "p": 0.12173191391266266
+  }
+ },
+ "tr_fmri": {
+  "sujetos_2100": 11,
+  "sujetos_2400": 25,
+  "cruce_mannwhitney_p": 0.757263368492406,
+  "variacion_total_mannwhitney_p": 0.7056088073298425
+ }
+}

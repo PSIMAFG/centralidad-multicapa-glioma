@@ -1,0 +1,160 @@
+{
+ "pacientes": 25,
+ "misma_grilla": 25,
+ "coinciden_con_t1_invertido": 25,
+ "tolerancia_mm": 0.15,
+ "max_dif_con_t1_invertido_mm": 0.07899291992185908,
+ "min_dif_con_t1_sin_invertir_mm": 142.92504901123047,
+ "por_paciente": [
+  {
+   "sujeto": "sub-PAT01",
+   "misma_grilla": true,
+   "max_dif_con_t1_invertido_mm": 0.06838464355467977,
+   "max_dif_con_t1_sin_invertir_mm": 142.9575718383789
+  },
+  {
+   "sujeto": "sub-PAT02",
+   "misma_grilla": true,
+   "max_dif_con_t1_invertido_mm": 0.06804901123047102,
+   "max_dif_con_t1_sin_invertir_mm": 142.92504901123047
+  },
+  {
+   "sujeto": "sub-PAT03",
+   "misma_grilla": true,
+   "max_dif_con_t1_invertido_mm": 0.03198181152345114,
+   "max_dif_con_t1_sin_invertir_mm": 158.97116552734374
+  },
+  {
+   "sujeto": "sub-PAT05",
+   "misma_grilla": true,
+   "max_dif_con_t1_invertido_mm": 0.048288574218744884,
+   "max_dif_con_t1_sin_invertir_mm": 158.86435363769533
+  },
+  {
+   "sujeto": "sub-PAT06",
+   "misma_grilla": true,
+   "max_dif_con_t1_invertido_mm": 0.0585260620117225,
+   "max_dif_con_t1_sin_invertir_mm": 158.9501145629883
+  },
+  {
+   "sujeto": "sub-PAT07",
+   "misma_grilla": true,
+   "max_dif_con_t1_invertido_mm": 0.07888275146484602,
+   "max_dif_con_t1_sin_invertir_mm": 158.76211724853516
+  },
+  {
+   "sujeto": "sub-PAT08",
+   "misma_grilla": true,
+   "max_dif_con_t1_invertido_mm": 0.06647717285156318,
+   "max_dif_con_t1_sin_invertir_mm": 158.29752282714844
+  },
+  {
+   "sujeto": "sub-PAT10",
+   "misma_grilla": true,
+   "max_dif_con_t1_invertido_mm": 0.05284057617188864,
+   "max_dif_con_t1_sin_invertir_mm": 158.8422236328125
+  },
+  {
+   "sujeto": "sub-PAT11",
+   "misma_grilla": true,
+   "max_dif_con_t1_invertido_mm": 0.07887890624999727,
+   "max_dif_con_t1_sin_invertir_mm": 157.4538826599121
+  },
+  {
+   "sujeto": "sub-PAT13",
+   "misma_grilla": true,
+   "max_dif_con_t1_invertido_mm": 0.059609985351556816,
+   "max_dif_con_t1_sin_invertir_mm": 158.94039001464844
+  },
+  {
+   "sujeto": "sub-PAT14",
+   "misma_grilla": true,
+   "max_dif_con_t1_invertido_mm": 0.05913940429687159,
+   "max_dif_con_t1_sin_invertir_mm": 158.72086932373048
+  },
+  {
+   "sujeto": "sub-PAT15",
+   "misma_grilla": true,
+   "max_dif_con_t1_invertido_mm": 0.07123205566405488,
+   "max_dif_con_t1_sin_invertir_mm": 158.45176794433593
+  },
+  {
+   "sujeto": "sub-PAT16",
+   "misma_grilla": true,
+   "max_dif_con_t1_invertido_mm": 0.07253845214842158,
+   "max_dif_con_t1_sin_invertir_mm": 158.81231756591797
+  },
+  {
+   "sujeto": "sub-PAT17",
+   "misma_grilla": true,
+   "max_dif_con_t1_invertido_mm": 0.04837292480470978,
+   "max_dif_con_t1_sin_invertir_mm": 158.98073516845704
+  },
+  {
+   "sujeto": "sub-PAT19",
+   "misma_grilla": true,
+   "max_dif_con_t1_invertido_mm": 0.062459838867198414,
+   "max_dif_con_t1_sin_invertir_mm": 158.87484631347655
+  },
+  {
+   "sujeto": "sub-PAT20",
+   "misma_grilla": true,
+   "max_dif_con_t1_invertido_mm": 0.05924731445311693,
+   "max_dif_con_t1_sin_invertir_mm": 158.9462594604492
+  },
+  {
+   "sujeto": "sub-PAT22",
+   "misma_grilla": true,
+   "max_dif_con_t1_invertido_mm": 0.06551916503906341,
+   "max_dif_con_t1_sin_invertir_mm": 158.87348162841795
+  },
+  {
+   "sujeto": "sub-PAT23",
+   "misma_grilla": true,
+   "max_dif_con_t1_invertido_mm": 0.06030798339844523,
+   "max_dif_con_t1_sin_invertir_mm": 158.84546936035156
+  },
+  {
+   "sujeto": "sub-PAT24",
+   "misma_grilla": true,
+   "max_dif_con_t1_invertido_mm": 0.06662145996095603,
+   "max_dif_con_t1_sin_invertir_mm": 158.74862145996093
+  },
+  {
+   "sujeto": "sub-PAT25",
+   "misma_grilla": true,
+   "max_dif_con_t1_invertido_mm": 0.05945172119140807,
+   "max_dif_con_t1_sin_invertir_mm": 158.94195220947267
+  },
+  {
+   "sujeto": "sub-PAT26",
+   "misma_grilla": true,
+   "max_dif_con_t1_invertido_mm": 0.05884484863281614,
+   "max_dif_con_t1_sin_invertir_mm": 158.89103875732422
+  },
+  {
+   "sujeto": "sub-PAT27",
+   "misma_grilla": true,
+   "max_dif_con_t1_invertido_mm": 0.06337432861327841,
+   "max_dif_con_t1_sin_invertir_mm": 158.9366256713867
+  },
+  {
+   "sujeto": "sub-PAT28",
+   "misma_grilla": true,
+   "max_dif_con_t1_invertido_mm": 0.07899291992185908,
+   "max_dif_con_t1_sin_invertir_mm": 158.96413482666014
+  },
+  {
+   "sujeto": "sub-PAT29",
+   "misma_grilla": true,
+   "max_dif_con_t1_invertido_mm": 0.05904425048828443,
+   "max_dif_con_t1_sin_invertir_mm": 157.86666229248047
+  },
+  {
+   "sujeto": "sub-PAT31",
+   "misma_grilla": true,
+   "max_dif_con_t1_invertido_mm": 0.07437445068359239,
+   "max_dif_con_t1_sin_invertir_mm": 158.49873480224608
+  }
+ ]
+}

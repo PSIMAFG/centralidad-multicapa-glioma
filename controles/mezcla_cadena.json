@@ -1,0 +1,394 @@
+{
+ "muestras_por_cadena": 80000,
+ "pasos_entre_muestras": 10,
+ "ess_dmri": {
+  "mediana": 175.12386239923734,
+  "minimo": 62.046541887922565
+ },
+ "ess_fmri": {
+  "mediana": 998.8654339195244,
+  "minimo": 412.2545162879859
+ },
+ "tau_pasos_dmri_mediana": 4568.6306134694905,
+ "tau_pasos_fmri_mediana": 801.1793192460447,
+ "propuesta_simetrica": true,
+ "beta_fijo_durante_el_muestreo": true,
+ "ess_entre_pares_nulos": {
+  "cruce": {
+   "pares_por_sujeto": 100,
+   "ess_mediana": 100.0,
+   "ess_minimo": 21.214849160260556,
+   "autocorrelacion_lag1_mediana": 0.007947339493344242,
+   "autocorrelacion_lag1_maxima": 0.1511084861223716
+  },
+  "P": {
+   "pares_por_sujeto": 100,
+   "ess_mediana": 100.0,
+   "ess_minimo": 38.34594591476821,
+   "autocorrelacion_lag1_mediana": -0.014154391498175021,
+   "autocorrelacion_lag1_maxima": 0.19942071923061566
+  }
+ },
+ "por_sujeto": [
+  {
+   "sujeto": "sub-CON01",
+   "muestras": 80000,
+   "tau_dmri": 334.79348082157276,
+   "ess_dmri": 238.95327890997905,
+   "tau_fmri": 91.48579887327514,
+   "ess_fmri": 874.4526580657058,
+   "media_dmri_vs_fmri_real": 10.958475,
+   "media_fmri_vs_dmri_real": 8.841525
+  },
+  {
+   "sujeto": "sub-CON02",
+   "muestras": 80000,
+   "tau_dmri": 427.74630937514087,
+   "ess_dmri": 187.02674516786684,
+   "tau_fmri": 101.03653735719422,
+   "ess_fmri": 791.7927721253569,
+   "media_dmri_vs_fmri_real": 12.34925,
+   "media_fmri_vs_dmri_real": 9.761075
+  },
+  {
+   "sujeto": "sub-CON03",
+   "muestras": 80000,
+   "tau_dmri": 776.6092611517591,
+   "ess_dmri": 103.01190573153235,
+   "tau_fmri": 83.17983502385012,
+   "ess_fmri": 961.7715637096616,
+   "media_dmri_vs_fmri_real": 11.48195,
+   "media_fmri_vs_dmri_real": 9.3152875
+  },
+  {
+   "sujeto": "sub-CON04",
+   "muestras": 80000,
+   "tau_dmri": 598.0590088974669,
+   "ess_dmri": 133.7660645685808,
+   "tau_fmri": 59.476788496391634,
+   "ess_fmri": 1345.0625365364756,
+   "media_dmri_vs_fmri_real": 10.693275,
+   "media_fmri_vs_dmri_real": 7.5056
+  },
+  {
+   "sujeto": "sub-CON05",
+   "muestras": 80000,
+   "tau_dmri": 655.3025104021177,
+   "ess_dmri": 122.08102171149788,
+   "tau_fmri": 73.50412951909166,
+   "ess_fmri": 1088.374225004884,
+   "media_dmri_vs_fmri_real": 12.2439375,
+   "media_fmri_vs_dmri_real": 7.9526
+  },
+  {
+   "sujeto": "sub-CON06",
+   "muestras": 80000,
+   "tau_dmri": 408.549266847579,
+   "ess_dmri": 195.81481718787734,
+   "tau_fmri": 68.27708413428061,
+   "ess_fmri": 1171.696199601376,
+   "media_dmri_vs_fmri_real": 12.9344625,
+   "media_fmri_vs_dmri_real": 8.8641625
+  },
+  {
+   "sujeto": "sub-CON07",
+   "muestras": 80000,
+   "tau_dmri": 327.10450007725626,
+   "ess_dmri": 244.57016024269132,
+   "tau_fmri": 83.94484700771672,
+   "ess_fmri": 953.0066805964387,
+   "media_dmri_vs_fmri_real": 11.2292125,
+   "media_fmri_vs_dmri_real": 9.804425
+  },
+  {
+   "sujeto": "sub-CON08",
+   "muestras": 80000,
+   "tau_dmri": 775.3355850792333,
+   "ess_dmri": 103.18112768140858,
+   "tau_fmri": 58.3849144836593,
+   "ess_fmri": 1370.2169594234879,
+   "media_dmri_vs_fmri_real": 10.165925,
+   "media_fmri_vs_dmri_real": 8.2514
+  },
+  {
+   "sujeto": "sub-CON09",
+   "muestras": 80000,
+   "tau_dmri": 446.48536913316417,
+   "ess_dmri": 179.17720384727772,
+   "tau_fmri": 74.37665833760829,
+   "ess_fmri": 1075.6062693334031,
+   "media_dmri_vs_fmri_real": 13.7889375,
+   "media_fmri_vs_dmri_real": 10.4913375
+  },
+  {
+   "sujeto": "sub-CON10",
+   "muestras": 80000,
+   "tau_dmri": 904.7554912842875,
+   "ess_dmri": 88.42167941577358,
+   "tau_fmri": 131.4021122574438,
+   "ess_fmri": 608.8182193240815,
+   "media_dmri_vs_fmri_real": 13.5949125,
+   "media_fmri_vs_dmri_real": 12.32775
+  },
+  {
+   "sujeto": "sub-CON11",
+   "muestras": 80000,
+   "tau_dmri": 1289.3546935219624,
+   "ess_dmri": 62.046541887922565,
+   "tau_fmri": 44.66516048664015,
+   "ess_fmri": 1791.105172988887,
+   "media_dmri_vs_fmri_real": 7.8296875,
+   "media_fmri_vs_dmri_real": 5.7792
+  },
+  {
+   "sujeto": "sub-PAT01",
+   "muestras": 80000,
+   "tau_dmri": 516.1123491222606,
+   "ess_dmri": 155.00501031617245,
+   "tau_fmri": 77.15491000038494,
+   "ess_fmri": 1036.8750349083534,
+   "media_dmri_vs_fmri_real": 11.1185875,
+   "media_fmri_vs_dmri_real": 9.248575
+  },
+  {
+   "sujeto": "sub-PAT02",
+   "muestras": 80000,
+   "tau_dmri": 945.1619953032339,
+   "ess_dmri": 84.64157509246212,
+   "tau_fmri": 109.06953696532602,
+   "ess_fmri": 733.4770296625773,
+   "media_dmri_vs_fmri_real": 10.1408,
+   "media_fmri_vs_dmri_real": 10.5313875
+  },
+  {
+   "sujeto": "sub-PAT03",
+   "muestras": 80000,
+   "tau_dmri": 568.875470667253,
+   "ess_dmri": 140.62831696041548,
+   "tau_fmri": 81.59043829611156,
+   "ess_fmri": 980.5070504666311,
+   "media_dmri_vs_fmri_real": 15.4191125,
+   "media_fmri_vs_dmri_real": 10.29095
+  },
+  {
+   "sujeto": "sub-PAT05",
+   "muestras": 80000,
+   "tau_dmri": 362.5735717204025,
+   "ess_dmri": 220.64487386767325,
+   "tau_fmri": 102.12485482083284,
+   "ess_fmri": 783.354846774093,
+   "media_dmri_vs_fmri_real": 12.4464875,
+   "media_fmri_vs_dmri_real": 9.864125
+  },
+  {
+   "sujeto": "sub-PAT06",
+   "muestras": 80000,
+   "tau_dmri": 290.8502715980836,
+   "ess_dmri": 275.0556138745827,
+   "tau_fmri": 96.16228200009888,
+   "ess_fmri": 831.9270127129236,
+   "media_dmri_vs_fmri_real": 14.400475,
+   "media_fmri_vs_dmri_real": 11.6555375
+  },
+  {
+   "sujeto": "sub-PAT07",
+   "muestras": 80000,
+   "tau_dmri": 358.3855650862955,
+   "ess_dmri": 223.22327625203553,
+   "tau_fmri": 76.85417131141621,
+   "ess_fmri": 1040.9324391233986,
+   "media_dmri_vs_fmri_real": 9.957275,
+   "media_fmri_vs_dmri_real": 9.0362625
+  },
+  {
+   "sujeto": "sub-PAT08",
+   "muestras": 80000,
+   "tau_dmri": 1013.7024214147183,
+   "ess_dmri": 78.91862375977398,
+   "tau_fmri": 194.0548783317996,
+   "ess_fmri": 412.2545162879859,
+   "media_dmri_vs_fmri_real": 13.3158,
+   "media_fmri_vs_dmri_real": 11.531625
+  },
+  {
+   "sujeto": "sub-PAT10",
+   "muestras": 80000,
+   "tau_dmri": 699.1688167158425,
+   "ess_dmri": 114.42157900545178,
+   "tau_fmri": 66.04109785835442,
+   "ess_fmri": 1211.3669002230213,
+   "media_dmri_vs_fmri_real": 8.1835,
+   "media_fmri_vs_dmri_real": 7.473
+  },
+  {
+   "sujeto": "sub-PAT11",
+   "muestras": 80000,
+   "tau_dmri": 512.2329785479669,
+   "ess_dmri": 156.1789329277021,
+   "tau_fmri": 56.006088610267525,
+   "ess_fmri": 1428.416123766474,
+   "media_dmri_vs_fmri_real": 10.9511625,
+   "media_fmri_vs_dmri_real": 6.615525
+  },
+  {
+   "sujeto": "sub-PAT13",
+   "muestras": 80000,
+   "tau_dmri": 381.9940143172926,
+   "ess_dmri": 209.42736535539072,
+   "tau_fmri": 57.51385046220424,
+   "ess_fmri": 1390.9692944758192,
+   "media_dmri_vs_fmri_real": 8.264525,
+   "media_fmri_vs_dmri_real": 7.795475
+  },
+  {
+   "sujeto": "sub-PAT14",
+   "muestras": 80000,
+   "tau_dmri": 461.3227925896389,
+   "ess_dmri": 173.4143668707965,
+   "tau_fmri": 127.78444343330816,
+   "ess_fmri": 626.0542977733649,
+   "media_dmri_vs_fmri_real": 12.7549375,
+   "media_fmri_vs_dmri_real": 10.254275
+  },
+  {
+   "sujeto": "sub-PAT15",
+   "muestras": 80000,
+   "tau_dmri": 452.4033301042592,
+   "ess_dmri": 176.83335792767815,
+   "tau_fmri": 52.379103013364414,
+   "ess_fmri": 1527.3266512331868,
+   "media_dmri_vs_fmri_real": 11.9719625,
+   "media_fmri_vs_dmri_real": 8.8045
+  },
+  {
+   "sujeto": "sub-PAT16",
+   "muestras": 80000,
+   "tau_dmri": 859.9231060186389,
+   "ess_dmri": 93.03157391640781,
+   "tau_fmri": 124.7084973586271,
+   "ess_fmri": 641.4959821858984,
+   "media_dmri_vs_fmri_real": 14.338475,
+   "media_fmri_vs_dmri_real": 11.6629125
+  },
+  {
+   "sujeto": "sub-PAT17",
+   "muestras": 80000,
+   "tau_dmri": 399.30761519860806,
+   "ess_dmri": 200.34679268565793,
+   "tau_fmri": 118.07243397236965,
+   "ess_fmri": 677.550189392394,
+   "media_dmri_vs_fmri_real": 12.2685875,
+   "media_fmri_vs_dmri_real": 11.5071
+  },
+  {
+   "sujeto": "sub-PAT19",
+   "muestras": 80000,
+   "tau_dmri": 518.163139199528,
+   "ess_dmri": 154.39153028829125,
+   "tau_fmri": 73.96802770528244,
+   "ess_fmri": 1081.5483727476324,
+   "media_dmri_vs_fmri_real": 11.7397625,
+   "media_fmri_vs_dmri_real": 7.7996375
+  },
+  {
+   "sujeto": "sub-PAT20",
+   "muestras": 80000,
+   "tau_dmri": 379.88051683418365,
+   "ess_dmri": 210.59253226961278,
+   "tau_fmri": 91.49170731390949,
+   "ess_fmri": 874.3961868097919,
+   "media_dmri_vs_fmri_real": 11.4017625,
+   "media_fmri_vs_dmri_real": 8.462475
+  },
+  {
+   "sujeto": "sub-PAT22",
+   "muestras": 80000,
+   "tau_dmri": 449.41154607605085,
+   "ess_dmri": 178.01055780276315,
+   "tau_fmri": 60.30175058831615,
+   "ess_fmri": 1326.6613194393815,
+   "media_dmri_vs_fmri_real": 10.6764375,
+   "media_fmri_vs_dmri_real": 8.248925
+  },
+  {
+   "sujeto": "sub-PAT23",
+   "muestras": 80000,
+   "tau_dmri": 350.3286860194153,
+   "ess_dmri": 228.3569778683964,
+   "tau_fmri": 59.91864992089151,
+   "ess_fmri": 1335.1435672469454,
+   "media_dmri_vs_fmri_real": 12.2721625,
+   "media_fmri_vs_dmri_real": 7.9599875
+  },
+  {
+   "sujeto": "sub-PAT24",
+   "muestras": 80000,
+   "tau_dmri": 354.497364397406,
+   "ess_dmri": 225.67163548871054,
+   "tau_fmri": 158.31347254935767,
+   "ess_fmri": 505.32654430315944,
+   "media_dmri_vs_fmri_real": 13.80075,
+   "media_fmri_vs_dmri_real": 13.4700375
+  },
+  {
+   "sujeto": "sub-PAT25",
+   "muestras": 80000,
+   "tau_dmri": 417.9073217583789,
+   "ess_dmri": 191.4300033399595,
+   "tau_fmri": 70.75866686616058,
+   "ess_fmri": 1130.603550676263,
+   "media_dmri_vs_fmri_real": 9.08675,
+   "media_fmri_vs_dmri_real": 8.185975
+  },
+  {
+   "sujeto": "sub-PAT26",
+   "muestras": 80000,
+   "tau_dmri": 461.45046340926564,
+   "ess_dmri": 173.36638782188652,
+   "tau_fmri": 83.75265687849733,
+   "ess_fmri": 955.1935781101078,
+   "media_dmri_vs_fmri_real": 8.74975,
+   "media_fmri_vs_dmri_real": 8.2740625
+  },
+  {
+   "sujeto": "sub-PAT27",
+   "muestras": 80000,
+   "tau_dmri": 666.364450464735,
+   "ess_dmri": 120.05442358788274,
+   "tau_fmri": 104.81337265934958,
+   "ess_fmri": 763.2613851669988,
+   "media_dmri_vs_fmri_real": 10.8291,
+   "media_fmri_vs_dmri_real": 11.380775
+  },
+  {
+   "sujeto": "sub-PAT28",
+   "muestras": 80000,
+   "tau_dmri": 461.8813204862657,
+   "ess_dmri": 173.20466633241742,
+   "tau_fmri": 78.64542555309737,
+   "ess_fmri": 1017.2238173724178,
+   "media_dmri_vs_fmri_real": 14.250675,
+   "media_fmri_vs_dmri_real": 9.695525
+  },
+  {
+   "sujeto": "sub-PAT29",
+   "muestras": 80000,
+   "tau_dmri": 286.2344332176898,
+   "ess_dmri": 279.49118175854693,
+   "tau_fmri": 154.13912284959412,
+   "ess_fmri": 519.0116468877432,
+   "media_dmri_vs_fmri_real": 16.117825,
+   "media_fmri_vs_dmri_real": 13.9760625
+  },
+  {
+   "sujeto": "sub-PAT31",
+   "muestras": 80000,
+   "tau_dmri": 327.7775293635427,
+   "ess_dmri": 244.0679815829317,
+   "tau_fmri": 57.55834925072968,
+   "ess_fmri": 1389.8939257537138,
+   "media_dmri_vs_fmri_real": 6.794,
+   "media_fmri_vs_dmri_real": 7.4746125
+  }
+ ]
+}

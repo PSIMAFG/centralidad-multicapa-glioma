@@ -1,0 +1,59 @@
+{
+ "aristas_compartidas": {
+  "reales_media": 11.25,
+  "nulos_media": {
+   "mismo_grado": 2.3313888888888887,
+   "uniforme": 1.966,
+   "barajada": 1.9805555555555556
+  },
+  "arboles_uniformes_teorico": 1.9705882352941178,
+  "nulo_estratificado_lobulo_hemisferio_media": 4.525385796176766,
+  "reales_sobre_estratificado_mediana": 2.487557627454434,
+  "sujetos_reales_mayor_que_estratificado": 36,
+  "wilcoxon_reales_vs_estratificado_p": 2.9103830456733704e-11,
+  "aristas_homotopicas_media": {
+   "dmri": 1.0,
+   "fmri": 20.5
+  },
+  "fc_homotopica_vs_otra_interhemisferica": [
+   0.6849780126956928,
+   0.3404211416245547
+  ]
+ },
+ "residuo_real_bootstrap_agrupado": {
+  "mediana": -0.11019528484080043,
+  "ic95": [
+   -0.16917474512128866,
+   0.015606481992748267
+  ]
+ },
+ "calibracion_dejando_un_sujeto_fuera": {
+  "residuo_real_mediana": -0.11326089667507033,
+  "wilcoxon_p": 0.0914525584958028,
+  "residuo_nulos_en_cola_P_baja_mediana": 0.038775967308728676,
+  "nulos_en_cola": 2700,
+  "corte_log_P": 0.22662264552218592
+ },
+ "emparejados_por_P": {
+  "sujetos": 26,
+  "razon_mediana": 0.8747551439654231,
+  "wilcoxon_p": 0.046331167221069336
+ },
+ "reales_dentro_del_soporte": {
+  "sujetos": 23,
+  "residuo_mediana": -0.02163655299251288,
+  "wilcoxon_p": 0.6010458469390869
+ },
+ "primer_orden_en_el_cruce": {
+  "rho_aproximacion_vs_suma_mediana": 0.8684009619422071,
+  "rho_aproximacion_vs_suma_p10_p90": [
+   0.7159407565751803,
+   0.926995457495133
+  ],
+  "error_relativo_de_la_desviacion_mediana": 0.7400004259894448,
+  "error_relativo_p10_p90": [
+   0.36642519564554255,
+   1.8298616845619247
+  ]
+ }
+}

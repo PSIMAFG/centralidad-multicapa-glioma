@@ -1,0 +1,52 @@
+{
+ "rho con la fMRI sola, tal como vienen": {
+  "independiente": 0.9999172933287525,
+  "informado": 0.9999172933287525,
+  "tolerancia": 0.0001
+ },
+ "masa del autovector en la capa fMRI": {
+  "independiente": 0.9589238258753537,
+  "informado": 0.9589238258753537,
+  "tolerancia": 0.0001
+ },
+ "rho con la suma, reescaladas": {
+  "independiente": 0.996195493122622,
+  "informado": 0.996195493122622,
+  "tolerancia": 0.0001
+ },
+ "omega = 1 en unidades adimensionales (arbol)": {
+  "independiente": 0.34859219484940895,
+  "informado": 0.34859219484940895,
+  "tolerancia": 1e-06
+ },
+ "rho con la suma en omega = 1 (arbol)": {
+  "independiente": 0.9499359399253436,
+  "informado": 0.9499359399253436,
+  "tolerancia": 0.0001
+ },
+ "sujetos con rho >= 0,90": {
+  "independiente": 32.0,
+  "informado": 32.0,
+  "tolerancia": 0
+ },
+ "sujetos con rho >= 0,95": {
+  "independiente": 24.0,
+  "informado": 24.0,
+  "tolerancia": 0
+ },
+ "sujetos con rho >= 0,99": {
+  "independiente": 0.0,
+  "informado": 0.0,
+  "tolerancia": 0
+ },
+ "cruce mediano del arbol (grilla 4 veces mas fina)": {
+  "independiente": 0.2856239051789577,
+  "informado": 0.2830651474452782,
+  "tolerancia": 0.01
+ },
+ "aristas compartidas por los dos arboles (Jaccard)": {
+  "independiente": 0.09259107952169267,
+  "informado": 0.09259107952169267,
+  "tolerancia": 1e-09
+ }
+}

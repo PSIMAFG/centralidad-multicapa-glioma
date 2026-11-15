@@ -1,0 +1,567 @@
+{
+ "n_glioma": 11,
+ "n_meningioma": 14,
+ "semilla": 20261114,
+ "repeticiones": 30,
+ "repeticiones_con_shap": 10,
+ "repeticiones_por_permutacion": 3,
+ "permutaciones": {
+  "logistica": 300,
+  "bosque_aleatorio": 100
+ },
+ "demografia": {
+  "glioma": {
+   "edad_mediana": 45.0,
+   "mujeres": 4,
+   "n": 11
+  },
+  "meningioma": {
+   "edad_mediana": 61.0,
+   "mujeres": 11,
+   "n": 14
+  }
+ },
+ "correlacion_con_edad_en_pacientes": {
+  "log_cruce": {
+   "rho": 0.29006197760944274,
+   "p": 0.1595723113887607
+  },
+  "variacion_total": {
+   "rho": 0.38174159337444585,
+   "p": 0.059698271870756804
+  },
+  "log_P": {
+   "rho": 0.3751930493912313,
+   "p": 0.06458823587837224
+  }
+ },
+ "correlacion_con_edad_por_tipo": {
+  "glioma": {
+   "log_cruce": {
+    "rho": 0.22727272727272727,
+    "p": 0.501535667604937
+   },
+   "variacion_total": {
+    "rho": 0.3181818181818182,
+    "p": 0.34029761418190335
+   },
+   "log_P": {
+    "rho": 0.21818181818181823,
+    "p": 0.5192482475549817
+   }
+  },
+  "meningioma": {
+   "log_cruce": {
+    "rho": -0.05531095280576402,
+    "p": 0.8510321666171062
+   },
+   "variacion_total": {
+    "rho": 0.090709962601453,
+    "p": 0.7577797360287207
+   },
+   "log_P": {
+    "rho": 0.2942542689266646,
+    "p": 0.30716536353569396
+   }
+  }
+ },
+ "bootstrap": 2000,
+ "pliegue_prueba": {
+  "gliomas": [
+   2,
+   3
+  ],
+  "meningiomas": [
+   2,
+   3
+  ]
+ },
+ "particiones_comunes": {
+  "semilla": 20261116,
+  "repeticiones": 30
+ },
+ "resultados": {
+  "logistica/A_multicapa": {
+   "auc_media": 0.787012987012987,
+   "auc_p2_5": 0.7224025974025974,
+   "auc_p97_5": 0.8412337662337662,
+   "shap_abs_medio": [
+    0.04566402933022571,
+    0.21762015243735494,
+    0.06164949660599584,
+    0.08131783887023822
+   ],
+   "direccion": [
+    0.6882542454634786,
+    -0.9804225691764884,
+    -0.8864355581704196,
+    0.944574072338714
+   ],
+   "error_aditividad_maximo": 1.1102230246251565e-16,
+   "estabilidad_shap": {
+    "rho_media_entre_repeticiones": 0.9288888888888885,
+    "variable_primera": 1,
+    "fraccion_repeticiones_misma_primera": 1.0
+   },
+   "importancia_permutacion": {
+    "caida_auc_media": [
+     -0.024675324675324666,
+     0.27359307359307367,
+     0.026623376623376625,
+     0.019047619047619046
+    ],
+    "caida_auc_p2_5": [
+     -0.0832792207792207,
+     0.12451298701298694,
+     -0.05616883116883121,
+     -0.06022727272727268
+    ],
+    "caida_auc_p97_5": [
+     0.036688311688311534,
+     0.4766233766233765,
+     0.08977272727272727,
+     0.09983766233766228
+    ]
+   },
+   "variables": [
+    "log_cruce",
+    "variacion_total",
+    "log_P",
+    "ruido"
+   ],
+   "p_permutacion": 0.006644518272425249,
+   "auc_ic95_bootstrap": [
+    0.5934794372294372,
+    0.9377110389610389
+   ]
+  },
+  "logistica/B_multicapa_mas_edad_sexo": {
+   "auc_media": 0.8203463203463205,
+   "auc_p2_5": 0.7496753246753247,
+   "auc_p97_5": 0.8784090909090908,
+   "shap_abs_medio": [
+    0.04375165633828077,
+    0.1600499372103651,
+    0.05327170875070112,
+    0.08740978534692243,
+    0.11909433476373932,
+    0.08261267700758226
+   ],
+   "direccion": [
+    0.6298851449090064,
+    -0.9748346924181134,
+    -0.8894485536164762,
+    -0.9530281666017614,
+    0.8485349257304162,
+    0.9618219340248131
+   ],
+   "error_aditividad_maximo": 2.220446049250313e-16,
+   "estabilidad_shap": {
+    "rho_media_entre_repeticiones": 0.9530158730158732,
+    "variable_primera": 1,
+    "fraccion_repeticiones_misma_primera": 1.0
+   },
+   "importancia_permutacion": {
+    "caida_auc_media": [
+     -0.015800865800865815,
+     0.1974025974025974,
+     0.03138528138528136,
+     0.05519480519480518,
+     0.061038961038961045,
+     0.03701298701298699
+    ],
+    "caida_auc_p2_5": [
+     -0.06737012987012989,
+     0.03944805194805198,
+     -0.025487012987012975,
+     -0.021266233766233753,
+     -0.027759740259740283,
+     -0.028409090909090877
+    ],
+    "caida_auc_p97_5": [
+     0.014772727272727253,
+     0.3749999999999999,
+     0.11574675324675322,
+     0.1381493506493506,
+     0.17191558441558435,
+     0.10746753246753242
+    ]
+   },
+   "variables": [
+    "log_cruce",
+    "variacion_total",
+    "log_P",
+    "edad",
+    "sexo_m",
+    "ruido"
+   ],
+   "p_permutacion": 0.009966777408637873,
+   "auc_ic95_bootstrap": [
+    0.655151515151515,
+    0.9500054112554109
+   ]
+  },
+  "logistica/C_edad_sexo": {
+   "auc_media": 0.7456709956709956,
+   "auc_p2_5": 0.6587662337662338,
+   "auc_p97_5": 0.7892857142857143,
+   "shap_abs_medio": [
+    0.14398673799873524,
+    0.16796444357354492,
+    0.05237776702851016
+   ],
+   "direccion": [
+    -0.9579241360524018,
+    0.8485349257304162,
+    0.873507348118718
+   ],
+   "error_aditividad_maximo": 1.1102230246251565e-16,
+   "estabilidad_shap": {
+    "rho_media_entre_repeticiones": 1.0,
+    "variable_primera": 1,
+    "fraccion_repeticiones_misma_primera": 1.0
+   },
+   "importancia_permutacion": {
+    "caida_auc_media": [
+     0.11796536796536795,
+     0.10649350649350645,
+     -0.027489177489177497
+    ],
+    "caida_auc_p2_5": [
+     -0.029545454545454555,
+     -0.013636363636363613,
+     -0.0962662337662337
+    ],
+    "caida_auc_p97_5": [
+     0.2568181818181818,
+     0.22256493506493502,
+     0.03961038961038945
+    ]
+   },
+   "variables": [
+    "edad",
+    "sexo_m",
+    "ruido"
+   ],
+   "p_permutacion": 0.023255813953488372,
+   "auc_ic95_bootstrap": [
+    0.5339718614718614,
+    0.915806277056277
+   ]
+  },
+  "logistica/D_multicapa_residualizada": {
+   "auc_media": 0.5424242424242424,
+   "auc_p2_5": 0.4314935064935065,
+   "auc_p97_5": 0.637012987012987,
+   "shap_abs_medio": [
+    0.05787973982062976,
+    0.15674900093044752,
+    0.04294533407476903,
+    0.06526379887606996
+   ],
+   "direccion": [
+    0.8146594345509527,
+    -0.9712817165074641,
+    -0.6691863869821918,
+    0.9116463363925251
+   ],
+   "error_aditividad_maximo": 1.1102230246251565e-16,
+   "estabilidad_shap": {
+    "rho_media_entre_repeticiones": 0.8355555555555553,
+    "variable_primera": 1,
+    "fraccion_repeticiones_misma_primera": 1.0
+   },
+   "importancia_permutacion": {
+    "caida_auc_media": [
+     -0.060606060606060594,
+     0.10584415584415587,
+     -0.015151515151515159,
+     -0.021212121212121206
+    ],
+    "caida_auc_p2_5": [
+     -0.17240259740259742,
+     -0.09918831168831173,
+     -0.12516233766233767,
+     -0.15113636363636362
+    ],
+    "caida_auc_p97_5": [
+     0.05795454545454542,
+     0.27045454545454545,
+     0.08214285714285711,
+     0.13587662337662326
+    ]
+   },
+   "variables": [
+    "log_cruce_sin_edad_sexo",
+    "variacion_total_sin_edad_sexo",
+    "log_P_sin_edad_sexo",
+    "ruido"
+   ],
+   "p_permutacion": 0.3787375415282392,
+   "auc_ic95_bootstrap": [
+    0.32941017316017307,
+    0.7374675324675324
+   ]
+  },
+  "bosque_aleatorio/A_multicapa": {
+   "auc_media": 0.8333333333333334,
+   "auc_p2_5": 0.775,
+   "auc_p97_5": 0.8819805194805195,
+   "shap_abs_medio": [
+    0.116336946043771,
+    0.0888385506493506,
+    0.10584070520683024,
+    0.05094483148148149
+   ],
+   "direccion": [
+    -0.7607198604262865,
+    -0.8726543460421916,
+    -0.8172673285299541,
+    0.5482037607119593
+   ],
+   "error_aditividad_maximo": 1.1102230246251565e-16,
+   "estabilidad_shap": {
+    "rho_media_entre_repeticiones": 0.8533333333333332,
+    "variable_primera": 0,
+    "fraccion_repeticiones_misma_primera": 0.7
+   },
+   "importancia_permutacion": {
+    "caida_auc_media": [
+     0.10692640692640687,
+     0.02554112554112554,
+     0.06515151515151513,
+     0.022294372294372294
+    ],
+    "caida_auc_p2_5": [
+     0.01120129870129872,
+     -0.038961038961039,
+     -0.004220779220779243,
+     -0.018344155844155833
+    ],
+    "caida_auc_p97_5": [
+     0.2357142857142856,
+     0.09090909090909094,
+     0.17240259740259736,
+     0.0685064935064934
+    ]
+   },
+   "variables": [
+    "log_cruce",
+    "variacion_total",
+    "log_P",
+    "ruido"
+   ],
+   "p_permutacion": 0.019801980198019802,
+   "auc_ic95_bootstrap": [
+    0.6698755411255409,
+    0.9604004329004329
+   ]
+  },
+  "bosque_aleatorio/B_multicapa_mas_edad_sexo": {
+   "auc_media": 0.841991341991342,
+   "auc_p2_5": 0.775,
+   "auc_p97_5": 0.9079545454545455,
+   "shap_abs_medio": [
+    0.09052456260221259,
+    0.07621957799422792,
+    0.0787738484126984,
+    0.0572467373136123,
+    0.03703659523809521,
+    0.03837412447089946
+   ],
+   "direccion": [
+    -0.7627182757731608,
+    -0.886919789581393,
+    -0.8406641605141276,
+    -0.8622910723962625,
+    0.8485350886517755,
+    0.47090351785229023
+   ],
+   "error_aditividad_maximo": 1.1796119636642288e-16,
+   "estabilidad_shap": {
+    "rho_media_entre_repeticiones": 0.9365079365079367,
+    "variable_primera": 0,
+    "fraccion_repeticiones_misma_primera": 1.0
+   },
+   "importancia_permutacion": {
+    "caida_auc_media": [
+     0.06937229437229435,
+     0.02813852813852813,
+     0.04826839826839826,
+     0.016883116883116864,
+     0.008658008658008658,
+     0.009740259740259738
+    ],
+    "caida_auc_p2_5": [
+     -0.018750000000000006,
+     -0.055519480519480566,
+     -0.02126623376623373,
+     -0.05032467532467528,
+     -0.03246753246753245,
+     -0.02126623376623381
+    ],
+    "caida_auc_p97_5": [
+     0.1641233766233765,
+     0.10097402597402597,
+     0.11931818181818182,
+     0.09918831168831165,
+     0.05373376623376626,
+     0.047240259740259784
+    ]
+   },
+   "variables": [
+    "log_cruce",
+    "variacion_total",
+    "log_P",
+    "edad",
+    "sexo_m",
+    "ruido"
+   ],
+   "p_permutacion": 0.009900990099009901,
+   "auc_ic95_bootstrap": [
+    0.6733712121212121,
+    0.9651569264069264
+   ]
+  },
+  "bosque_aleatorio/C_edad_sexo": {
+   "auc_media": 0.796969696969697,
+   "auc_p2_5": 0.7396103896103896,
+   "auc_p97_5": 0.9043831168831168,
+   "shap_abs_medio": [
+    0.13283481909038675,
+    0.10633295764790758,
+    0.09070893566433576
+   ],
+   "direccion": [
+    -0.8902698612055948,
+    0.8485355774164169,
+    0.2747245163466159
+   ],
+   "error_aditividad_maximo": 1.1102230246251565e-16,
+   "estabilidad_shap": {
+    "rho_media_entre_repeticiones": 1.0,
+    "variable_primera": 0,
+    "fraccion_repeticiones_misma_primera": 1.0
+   },
+   "importancia_permutacion": {
+    "caida_auc_media": [
+     0.09242424242424244,
+     0.11190476190476188,
+     0.08582251082251081
+    ],
+    "caida_auc_p2_5": [
+     -0.03896103896103889,
+     0.01120129870129864,
+     -0.003571428571428652
+    ],
+    "caida_auc_p97_5": [
+     0.21785714285714275,
+     0.26801948051948055,
+     0.1943181818181818
+    ]
+   },
+   "variables": [
+    "edad",
+    "sexo_m",
+    "ruido"
+   ],
+   "p_permutacion": 0.0297029702970297,
+   "auc_ic95_bootstrap": [
+    0.62120670995671,
+    0.941991341991342
+   ]
+  },
+  "bosque_aleatorio/D_multicapa_residualizada": {
+   "auc_media": 0.6794372294372295,
+   "auc_p2_5": 0.5400974025974026,
+   "auc_p97_5": 0.8112012987012986,
+   "shap_abs_medio": [
+    0.07800673673918669,
+    0.06972961339123838,
+    0.07807281939726939,
+    0.0780479333453583
+   ],
+   "direccion": [
+    -0.6746958526752589,
+    -0.3697860125762012,
+    -0.7397813085009359,
+    0.3945409929630776
+   ],
+   "error_aditividad_maximo": 1.1102230246251565e-16,
+   "estabilidad_shap": {
+    "rho_media_entre_repeticiones": 0.21333333333333332,
+    "variable_primera": 2,
+    "fraccion_repeticiones_misma_primera": 0.3
+   },
+   "importancia_permutacion": {
+    "caida_auc_media": [
+     0.048701298701298704,
+     0.03138528138528138,
+     0.01450216450216449,
+     0.03896103896103897
+    ],
+    "caida_auc_p2_5": [
+     -0.05795454545454551,
+     -0.07321428571428577,
+     -0.09691558441558448,
+     -0.06623376623376634
+    ],
+    "caida_auc_p97_5": [
+     0.1381493506493506,
+     0.21428571428571422,
+     0.1298701298701299,
+     0.13636363636363635
+    ]
+   },
+   "variables": [
+    "log_cruce_sin_edad_sexo",
+    "variacion_total_sin_edad_sexo",
+    "log_P_sin_edad_sexo",
+    "ruido"
+   ],
+   "p_permutacion": 0.0594059405940594,
+   "auc_ic95_bootstrap": [
+    0.49068722943722937,
+    0.8359469696969696
+   ]
+  }
+ },
+ "comparaciones": {
+  "logistica/A_menos_C": {
+   "diferencia": 0.042207792207792215,
+   "ic95_bootstrap": [
+    -0.22211038961038962,
+    0.29849025974025956
+   ],
+   "fraccion_menor_o_igual_a_0": 0.3805,
+   "repeticiones_con_diferencia_positiva": 28
+  },
+  "logistica/B_menos_C": {
+   "diferencia": 0.0761904761904762,
+   "ic95_bootstrap": [
+    -0.07320887445887428,
+    0.2203463203463203
+   ],
+   "fraccion_menor_o_igual_a_0": 0.1385,
+   "repeticiones_con_diferencia_positiva": 29
+  },
+  "bosque_aleatorio/A_menos_C": {
+   "diferencia": 0.04772727272727272,
+   "ic95_bootstrap": [
+    -0.14978896103896105,
+    0.25139339826839757
+   ],
+   "fraccion_menor_o_igual_a_0": 0.328,
+   "repeticiones_con_diferencia_positiva": 23
+  },
+  "bosque_aleatorio/B_menos_C": {
+   "diferencia": 0.05119047619047619,
+   "ic95_bootstrap": [
+    -0.12080086580086567,
+    0.23248376623376607
+   ],
+   "fraccion_menor_o_igual_a_0": 0.2815,
+   "repeticiones_con_diferencia_positiva": 25
+  }
+ }
+}
